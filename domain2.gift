@@ -1,0 +1,799 @@
+::Soal 1 - C2:: Manakah pernyataan berikut yang paling tepat menggambarkan perbedaan antara Tata Kelola TI dan Manajemen TI? {
+    ~A. Tata kelola berfokus pada eksekusi teknis, sedangkan manajemen pada pengawasan.
+    =B. Tata kelola berfokus pada arahan dan kendali (Direct & Control), sedangkan manajemen berfokus pada perencanaan dan operasional.
+    ~C. Tata kelola dilakukan oleh staf TI, sedangkan manajemen dilakukan oleh Dewan Direksi.
+    ~D. Tidak ada perbedaan nyata karena keduanya memiliki tujuan yang sama.
+    #### Feedback: Tata kelola memberikan arahan strategis (governance), sedangkan manajemen menjalankan operasional untuk mencapai arahan tersebut. [Bloom: C2]
+}
+
+::Soal 2 - C4:: Seorang auditor SI menemukan bahwa strategi TI tidak selaras dengan strategi bisnis organisasi (T5). Risiko terbesar yang mungkin terjadi adalah: {
+    ~A. Penurunan kecepatan jaringan internet secara global.
+    ~B. Karyawan TI akan sering melakukan kerja lembur.
+    =C. Investasi TI gagal memberikan nilai bisnis dan terjadi pemborosan sumber daya.
+    ~D. Audit Charter tidak akan disetujui oleh Komite Audit.
+    #### Feedback: Ketidakselarasan strategis menyebabkan investasi teknologi tidak mendukung tujuan utama organisasi. [Bloom: C4]
+}
+
+::Soal 3 - C1:: Manakah dari berikut ini yang merupakan kerangka kerja (framework) yang paling umum digunakan untuk Tata Kelola TI secara global? {
+    =A. COBIT
+    ~B. PMBOK
+    ~C. ISO 9001
+    ~D. PRINCE2
+    #### Feedback: COBIT adalah framework standar global yang dikhususkan untuk tata kelola dan manajemen TI perusahaan. [Bloom: C1]
+}
+
+::Soal 4 - C3:: Saat mengevaluasi struktur organisasi TI (T6), indikator utama dari pemisahan tugas (SoD) yang efektif adalah: {
+    ~A. Manajer TI melapor langsung kepada manajer operasional bisnis.
+    ~B. Programmer memiliki akses penuh ke lingkungan data produksi.
+    =C. Fungsi pengembangan sistem terpisah secara organisasi dari fungsi operasi sistem.
+    ~D. Semua staf TI memiliki akses administratif ke server utama.
+    #### Feedback: Pemisahan antara pengembang dan operator mencegah perubahan kode yang tidak sah di lingkungan produksi. [Bloom: C3]
+}
+
+::Soal 5 - C2:: Apa tujuan utama dari Arsitektur Perusahaan (Enterprise Architecture - T21)? {
+    ~A. Menghitung jumlah perangkat keras yang dibeli setiap tahun fiskal.
+    =B. Memberikan cetak biru (blueprint) yang menyelaraskan proses bisnis, data, dan teknologi.
+    ~C. Mengganti semua sistem lama dengan sistem berbasis cloud.
+    ~D. Memastikan semua karyawan menggunakan versi sistem operasi yang sama.
+    #### Feedback: EA berfungsi menyelaraskan seluruh komponen infrastruktur dengan kebutuhan proses bisnis. [Bloom: C2]
+}
+
+::Soal 6 - C4:: Organisasi telah mengadopsi teknologi baru tanpa melakukan penilaian risiko (T39). Apa tindakan pertama auditor SI? {
+    ~A. Meminta organisasi segera mematikan teknologi tersebut demi keamanan.
+    =B. Mengevaluasi potensi ancaman dan peluang terkait teknologi tersebut bagi organisasi.
+    ~C. Mencatatnya sebagai temuan kritis tanpa melakukan analisis lebih lanjut.
+    ~D. Menginstruksikan manajemen untuk membeli asuransi siber.
+    #### Feedback: Auditor harus memahami profil risiko (ancaman dan peluang) teknologi baru sebelum memberikan saran. [Bloom: C4]
+}
+
+::Soal 7 - C1:: Tingkat kematangan (Maturity Models) dalam Tata Kelola TI digunakan untuk: {
+    ~A. Menentukan kenaikan gaji tahunan staf TI.
+    ~B. Memastikan semua server yang digunakan adalah model terbaru.
+    =C. Menilai sejauh mana proses TI didefinisikan, dikelola, dan dioptimalkan.
+    ~D. Menghitung jumlah bug dalam perangkat lunak aplikasi.
+    #### Feedback: Maturity models (seperti CMMI) membantu mengukur tingkat kedewasaan proses di organisasi. [Bloom: C1]
+}
+
+::Soal 8 - C3:: Auditor SI meninjau kontrak dengan vendor pihak ketiga (T15). Manakah klausul yang paling penting untuk perlindungan data? {
+    ~A. Biaya berlangganan bulanan yang kompetitif.
+    ~B. Daftar nama seluruh karyawan vendor yang bertugas.
+    =C. Hak untuk melakukan audit (Right to Audit) dan kerahasiaan data.
+    ~D. Kecepatan pengiriman perangkat keras jika terjadi kerusakan.
+    #### Feedback: Right to Audit memungkinkan organisasi memverifikasi kepatuhan vendor terhadap standar keamanan. [Bloom: C3]
+}
+
+::Soal 9 - C2:: Apa peran utama dari IT Steering Committee? {
+    ~A. Memperbaiki gangguan komputer di departemen operasional.
+    =B. Memastikan proyek TI selaras dengan tujuan bisnis dan menyetujui prioritas investasi.
+    ~C. Menulis kode program untuk aplikasi inti perusahaan.
+    ~D. Mengawasi absensi harian staf departemen TI.
+    #### Feedback: Komite pengarah TI bertanggung jawab atas keselarasan strategis dan prioritas investasi TI. [Bloom: C2]
+}
+
+::Soal 10 - C1:: Manakah dari berikut ini yang merupakan contoh "IT Key Performance Indicator" (KPI - T12)? {
+    ~A. Nama vendor penyedia perangkat lunak.
+    ~B. Alamat fisik kantor pusat organisasi.
+    =C. Persentase ketersediaan sistem (uptime) selama jam bisnis utama.
+    ~D. Jumlah meja kerja di ruangan departemen TI.
+    #### Feedback: KPI harus berupa ukuran kinerja kuantitatif yang mencerminkan efektivitas layanan TI. [Bloom: C1]
+}
+
+::Soal 11 - C4:: Selama audit manajemen risiko TI (T10), ditemukan bahwa register risiko tidak mencakup risiko regulasi baru (T8). Apa risiko utamanya? {
+    ~A. Organisasi akan kehabisan anggaran operasional TI.
+    =B. Potensi sanksi hukum dan denda finansial yang tidak terantisipasi manajemen.
+    ~C. Kecepatan akses server pusat akan melambat secara signifikan.
+    ~D. Auditor eksternal tidak akan memberikan opini wajar.
+    #### Feedback: Risiko hukum dan regulasi adalah bagian kritis dari ERM yang dapat berdampak finansial besar. [Bloom: C4]
+}
+
+::Soal 12 - C3:: Organisasi ingin memindahkan datanya ke cloud provider di luar negeri. Apa yang harus dievaluasi auditor terkait regulasi? {
+    ~A. Keindahan desain visual website cloud provider tersebut.
+    =B. Hukum perlindungan data dan privasi (GDPR/lokal) di kedua negara.
+    ~C. Jumlah pengikut media sosial vendor tersebut.
+    ~D. Jenis bahasa pemrograman yang digunakan untuk membangun cloud.
+    #### Feedback: Kedaulatan data dan regulasi privasi lintas negara adalah hal krusial dalam adopsi cloud. [Bloom: C3]
+}
+
+::Soal 13 - C1:: Apa yang dimaksud dengan "IT Portfolio Management" (T9)? {
+    ~A. Daftar riwayat hidup (CV) semua staf senior TI.
+    =B. Pengelolaan koleksi investasi TI untuk memaksimalkan nilai bisnis secara keseluruhan.
+    ~C. Folder penyimpanan manual teknis perangkat keras.
+    ~D. Kumpulan foto dokumentasi infrastruktur data center.
+    #### Feedback: Manajemen portofolio memastikan seluruh investasi TI secara kolektif memberikan nilai optimal. [Bloom: C1]
+}
+
+::Soal 14 - C2:: Dalam Arsitektur Perusahaan, "Data Governance" (T25) berfokus pada: {
+    ~A. Kecepatan transmisi data melalui kabel serat optik.
+    =B. Akurasi, ketersediaan, integritas, dan keamanan aset data organisasi.
+    ~C. Penjualan data pelanggan kepada pihak ketiga secara bebas.
+    ~D. Pengurangan kapasitas penyimpanan disk agar hemat biaya.
+    #### Feedback: Tata kelola data memastikan data dikelola sebagai aset berharga yang terpercaya dan aman. [Bloom: C2]
+}
+
+::Soal 15 - C4:: Auditor SI menemukan tingkat turnover staf TI sangat tinggi. Apa risiko tata kelola yang paling signifikan? {
+    ~A. Biaya konsumsi kantor akan meningkat drastis.
+    =B. Hilangnya pengetahuan kritis organisasi dan gangguan pada kontinuitas layanan.
+    ~C. Banyaknya meja kantor yang tidak terisi.
+    ~D. Penggunaan energi listrik di kantor akan menurun.
+    #### Feedback: Turnover tinggi mengancam stabilitas operasional dan hilangnya "institutional knowledge". [Bloom: C4]
+}
+
+::Soal 16 - C3:: Manakah dari berikut ini yang merupakan kontrol terbaik untuk memantau kinerja layanan vendor (T20)? {
+    ~A. Melakukan pertemuan evaluasi setahun sekali saja.
+    =B. Menetapkan Service Level Agreement (SLA) dan meninjau laporan performa secara rutin.
+    ~C. Mempercayai laporan lisan dari manajer akun vendor.
+    ~D. Membayar invoice vendor lebih awal dari jatuh tempo.
+    #### Feedback: SLA memberikan standar kinerja yang terukur untuk mengevaluasi kualitas layanan pihak ketiga. [Bloom: C3]
+}
+
+::Soal 17 - C1:: Framework ITIL (Information Technology Infrastructure Library) paling tepat digunakan untuk: {
+    ~A. Manajemen inventaris perangkat keras fisik.
+    =B. Manajemen Layanan TI (IT Service Management).
+    ~C. Pengembangan kode program aplikasi mobile.
+    ~D. Audit laporan keuangan tahunan perusahaan.
+    #### Feedback: ITIL adalah framework standar industri untuk pengelolaan siklus hidup layanan TI. [Bloom: C1]
+}
+
+::Soal 18 - C2:: Apa tujuan utama dari program keamanan informasi (T34)? {
+    ~A. Memasang antivirus di seluruh komputer karyawan.
+    =B. Melindungi kerahasiaan, integritas, dan ketersediaan informasi sesuai strategi organisasi.
+    ~C. Melarang penggunaan internet bagi seluruh karyawan.
+    ~D. Melakukan penangkapan terhadap peretas sistem.
+    #### Feedback: Program keamanan informasi harus melindungi aset data organisasi berdasarkan profil risiko bisnis. [Bloom: C2]
+}
+
+::Soal 19 - C3:: Saat mengevaluasi "IT Policies" (T7), auditor menemukan kebijakan tidak pernah diperbarui selama 5 tahun. Saran terbaik adalah: {
+    ~A. Menghapus seluruh kebijakan karena sudah tidak valid.
+    =B. Melakukan peninjauan dan pemutakhiran berkala agar relevan dengan ancaman terbaru.
+    ~C. Meminta staf menghafal isi kebijakan lama tersebut.
+    ~D. Mengganti nama kebijakan tersebut tanpa mengubah isinya.
+    #### Feedback: Kebijakan harus dinamis untuk menghadapi perubahan teknologi dan lanskap ancaman keamanan. [Bloom: C3]
+}
+
+::Soal 20 - C4:: Manajemen memutuskan untuk meng-outsource fungsi pengembangan aplikasi. Apa peran auditor SI dalam proses akuisisi (T15)? {
+    ~A. Memilih vendor berdasarkan harga terendah tanpa kriteria lain.
+    =B. Mengevaluasi apakah proses pemilihan vendor dan kontrak selaras dengan kebutuhan bisnis.
+    ~C. Membantu vendor menulis kode program aplikasi.
+    ~D. Menjadi saksi dalam penandatanganan kontrak vendor.
+    #### Feedback: Auditor memastikan proses pengadaan pihak ketiga dilakukan secara transparan dan memitigasi risiko. [Bloom: C4]
+}
+
+::Soal 21 - C1:: Apa fungsi utama dari Quality Assurance (QA) dalam Manajemen TI? {
+    =A. Memastikan standar dan prosedur diikuti dalam setiap tahap operasional TI.
+    ~B. Memperbaiki komputer yang mengalami kerusakan fisik.
+    ~C. Memberikan asuransi perlindungan bagi staf departemen TI.
+    ~D. Memilih perangkat lunak dengan harga termahal.
+    #### Feedback: QA berfokus pada proses untuk mencegah terjadinya kesalahan atau cacat pada output TI. [Bloom: C1]
+}
+
+::Soal 22 - C2:: Dalam Enterprise Risk Management (ERM), risiko TI harus dikelola sebagai: {
+    ~A. Masalah teknis yang hanya boleh dipahami staf ahli TI.
+    =B. Bagian integral dari risiko bisnis secara keseluruhan.
+    ~C. Rahasia departemen yang tidak perlu diketahui manajemen senior.
+    ~D. Risiko yang akan hilang secara otomatis jika ada firewall.
+    #### Feedback: Risiko TI adalah risiko bisnis karena kegagalan teknologi berdampak langsung pada bisnis. [Bloom: C2]
+}
+
+::Soal 23 - C3:: Kontrol manakah yang paling efektif untuk memantau efektivitas kontrol TI secara terus-menerus (T11)? {
+    ~A. Melakukan audit internal secara komprehensif setiap tiga tahun.
+    =B. Implementasi Continuous Control Monitoring (CCM) berbasis otomatisasi.
+    ~C. Mewajibkan staf TI membuat laporan kerja harian secara manual.
+    ~D. Memasang kamera CCTV di seluruh koridor ruang server.
+    #### Feedback: CCM memungkinkan deteksi kegagalan pengendalian secara real-time untuk mitigasi cepat. [Bloom: C3]
+}
+
+::Soal 24 - C1:: Siapa yang memegang tanggung jawab akhir atas Tata Kelola TI di organisasi? {
+    ~A. Auditor Sistem Informasi Senior.
+    ~B. Kepala Administrator Jaringan dan Server.
+    =C. Dewan Direksi dan Manajemen Eksekutif.
+    ~D. Konsultan Teknologi dari pihak eksternal.
+    #### Feedback: Tata kelola (Governance) adalah tanggung jawab pimpinan tertinggi organisasi (Board level). [Bloom: C1]
+}
+
+::Soal 25 - C4:: Organisasi menggunakan struktur organisasi TI yang tersentralisasi. Kelemahan potensial yang harus diaudit adalah: {
+    ~A. Biaya pengadaan perangkat yang menjadi terlalu murah.
+    =B. Kurangnya responsivitas terhadap kebutuhan unit bisnis yang spesifik dan beragam.
+    ~C. Terlalu banyaknya standar teknologi yang berbeda antar departemen.
+    ~D. Tidak adanya kontrol pusat yang mengatur keamanan data.
+    #### Feedback: Struktur sentralisasi kuat dalam kontrol namun sering kali lambat merespons kebutuhan lokal bisnis. [Bloom: C4]
+}
+
+::Soal 26 - C3:: Dalam evaluasi manajemen sumber daya TI (T9), ditemukan banyak lisensi software yang mubazir. Saran terbaik auditor adalah: {
+    ~A. Menyimpan lisensi tersebut untuk digunakan 10 tahun lagi.
+    =B. Melakukan inventarisasi rutin dan optimasi penggunaan aset lisensi.
+    ~C. Memberikan lisensi tersebut kepada perusahaan lain.
+    ~D. Menghapus seluruh software dari semua komputer kantor.
+    #### Feedback: Manajemen aset yang efisien membantu organisasi mengoptimalkan biaya dan sumber daya. [Bloom: C3]
+}
+
+::Soal 27 - C2:: Apa fungsi dari Quality Management System (QMS) dalam operasional TI? {
+    ~A. Meningkatkan kecepatan mengetik seluruh staf perusahaan.
+    =B. Memastikan layanan TI secara konsisten memenuhi ekspektasi dan kebutuhan pelanggan.
+    ~C. Membeli perangkat keras hanya dari satu merk terkenal saja.
+    ~D. Memberikan denda kepada staf yang melakukan kesalahan teknis.
+    #### Feedback: QMS memastikan hasil kerja TI memiliki kualitas yang konsisten dan memuaskan pengguna. [Bloom: C2]
+}
+
+::Soal 28 - C1:: Manakah dari berikut ini yang merupakan kontrol organisasi TI (T6)? {
+    ~A. Enkripsi data pada perangkat mobile.
+    =B. Deskripsi pekerjaan (Job Description) dan akuntabilitas yang jelas.
+    ~C. Pembaruan definisi virus pada perangkat antivirus.
+    ~D. Pemasangan kunci fisik pada pintu data center.
+    #### Feedback: Deskripsi kerja mendefinisikan peran dan tanggung jawab yang merupakan bagian dari tata kelola organisasi. [Bloom: C1]
+}
+
+::Soal 29 - C4:: Laporan KPI menunjukkan uptime server 99.9%, namun user mengeluh aplikasi sering "hang". Apa tindakan auditor? {
+    ~A. Mengabaikan keluhan user karena data statistik sudah sempurna.
+    =B. Mengevaluasi apakah KPI yang diukur sudah relevan dengan pengalaman user bisnis.
+    ~C. Menambah kapasitas memori server tanpa analisis masalah.
+    ~D. Menyalahkan user karena tidak mengerti cara pakai aplikasi.
+    #### Feedback: KPI yang tidak relevan dapat memberikan rasa aman palsu kepada manajemen. [Bloom: C4]
+}
+
+::Soal 30 - C3:: Organisasi akan mengadopsi regulasi privasi data baru (T8). Langkah awal yang paling tepat adalah: {
+    ~A. Membeli software privasi tercanggih di pasaran.
+    =B. Melakukan analisis kesenjangan (Gap Analysis) terhadap praktik saat ini.
+    ~C. Menunggu hingga organisasi mendapatkan audit eksternal.
+    ~D. Menutup seluruh akses publik ke database pelanggan.
+    #### Feedback: Gap analysis membantu menentukan langkah konkret untuk mencapai kepatuhan terhadap regulasi baru. [Bloom: C3]
+}
+
+::Soal 31 - C1:: Konsep "Balanced Scorecard" dalam TI bertujuan untuk: {
+    ~A. Menyeimbangkan beban listrik antar rak server.
+    =B. Mengukur kinerja TI dari berbagai perspektif melampaui sekadar aspek teknis.
+    ~C. Menghitung jumlah total karyawan di departemen TI.
+    ~D. Mencatat daftar hadir rapat mingguan manajemen TI.
+    #### Feedback: Balanced Scorecard mengukur kinerja dari perspektif finansial, pelanggan, proses, dan pembelajaran. [Bloom: C1]
+}
+
+::Soal 32 - C2:: Risiko terbesar jika Enterprise Architecture (EA) tidak terdokumentasi dengan baik adalah: {
+    ~A. Meja kerja staf TI akan terlihat berantakan.
+    =B. Terjadinya duplikasi sistem dan kesulitan dalam integrasi teknologi di masa depan.
+    ~C. Biaya parkir di kantor pusat akan meningkat drastis.
+    ~D. Auditor akan kesulitan menemukan lokasi ruang server.
+    #### Feedback: Tanpa dokumentasi EA yang baik, organisasi akan terjebak dalam kompleksitas sistem yang tidak efisien. [Bloom: C2]
+}
+
+::Soal 33 - C3:: Auditor SI menemukan bahwa Manajer Keamanan melapor kepada Manajer Operasional TI. Mengapa ini berisiko (T6)? {
+    ~A. Karena Manajer Operasional tidak memiliki sertifikasi keamanan.
+    =B. Adanya potensi konflik kepentingan antara target operasional dan standar keamanan.
+    ~C. Karena jabatan mereka harusnya memiliki level yang berbeda.
+    ~D. Hal ini tidak berisiko sama sekali bagi organisasi.
+    #### Feedback: Fungsi keamanan membutuhkan independensi agar tidak dikompromikan demi target kecepatan operasional. [Bloom: C3]
+}
+
+::Soal 34 - C4:: Dalam audit vendor (T15), ditemukan bahwa vendor kritis tidak memiliki rencana pemulihan (DRP). Apa tindakan terbaik? {
+    ~A. Membatalkan semua kontrak dengan vendor tersebut saat itu juga.
+    =B. Mewajibkan klausul DRP dalam kontrak dan memverifikasi bukti pengujiannya secara berkala.
+    ~C. Menganggap risiko tersebut adalah tanggung jawab penuh pihak vendor.
+    ~D. Meminta staf internal untuk melakukan backup data vendor setiap hari.
+    #### Feedback: Risiko vendor adalah risiko organisasi; kontrak harus menjamin ketersediaan layanan melalui DRP. [Bloom: C4]
+}
+
+::Soal 35 - C1:: Apa karakteristik utama dari "IT Standards" (T7)? {
+    =A. Merupakan aturan wajib untuk memastikan konsistensi di seluruh organisasi.
+    ~B. Merupakan saran yang boleh diabaikan jika staf sedang sibuk.
+    ~C. Merupakan dokumen visi jangka panjang tanpa petunjuk teknis.
+    ~D. Merupakan daftar harga perangkat keras dari berbagai vendor.
+    #### Feedback: Standar bersifat mandat (mandatory) untuk menciptakan uniformitas dan efisiensi teknis. [Bloom: C1]
+}
+
+::Soal 36 - C2:: Manajemen sumber daya TI (T9) yang sukses ditandai dengan: {
+    ~A. Pembelian teknologi tercanggih setiap bulan tanpa henti.
+    =B. Alokasi sumber daya yang mendukung prioritas bisnis secara efisien.
+    ~C. Pengurangan staf TI sebanyak-banyaknya untuk menghemat biaya.
+    ~D. Larangan penggunaan aset TI untuk kepentingan operasional bisnis.
+    #### Feedback: Optimasi sumber daya adalah inti dari penyampaian nilai (value delivery) TI kepada bisnis. [Bloom: C2]
+}
+
+::Soal 37 - C3:: Organisasi ingin berpindah ke Maturity Level 3 (Defined). Fokus utamanya haruslah pada: {
+    ~A. Rekrutmen staf baru sebanyak mungkin dalam satu bulan.
+    =B. Standarisasi dan dokumentasi seluruh proses TI secara formal.
+    ~C. Penggunaan kecerdasan buatan (AI) untuk seluruh pekerjaan admin.
+    ~D. Melakukan rapat koordinasi setiap dua jam sekali.
+    #### Feedback: Level 3 (Defined) memerlukan proses yang sudah terstandardisasi dan terdokumentasi dengan baik. [Bloom: C3]
+}
+
+::Soal 38 - C4:: Selama audit tata kelola data (T25), ditemukan data pelanggan ganda dengan info berbeda. Masalah utamanya adalah: {
+    ~A. Ukuran database yang menjadi terlalu besar.
+    =B. Integritas dan kualitas data yang rendah (Data Inconsistency).
+    ~C. Kurangnya jumlah database administrator di organisasi.
+    ~D. Tampilan antarmuka database yang membingungkan user.
+    #### Feedback: Inkonsistensi data dapat menyebabkan kesalahan fatal dalam pengambilan keputusan bisnis. [Bloom: C4]
+}
+
+::Soal 39 - C1:: Manakah dari berikut ini yang merupakan praktik manajemen monitoring (T11)? {
+    ~A. Membuat poster visi misi perusahaan yang baru.
+    =B. Peninjauan harian terhadap log keamanan dan performa sistem.
+    ~C. Melakukan pembelian lisensi software akuntansi.
+    ~D. Menyusun jadwal libur tahunan bagi seluruh staf TI.
+    #### Feedback: Peninjauan log adalah aktivitas monitoring rutin untuk memastikan sistem berjalan aman dan normal. [Bloom: C1]
+}
+
+::Soal 40 - C2:: Dampak utama jika auditor mengabaikan evaluasi kepatuhan hukum (T8) adalah: {
+    ~A. Auditor akan merasa kurang percaya diri saat presentasi.
+    =B. Risiko sanksi pidana, denda berat, dan rusaknya reputasi organisasi.
+    ~C. Seluruh printer di kantor akan berhenti berfungsi secara otomatis.
+    ~D. Gaji seluruh karyawan organisasi akan mengalami penurunan.
+    #### Feedback: Kepatuhan terhadap regulasi adalah aspek hukum yang dapat mengancam kelangsungan bisnis. [Bloom: C2]
+}
+
+::Soal 41 - C3:: Seorang IS Auditor mengevaluasi program keamanan informasi (T34). Langkah pertama yang paling tepat adalah: {
+    ~A. Melakukan penetration testing tanpa izin manajemen.
+    =B. Meninjau kebijakan keamanan dan keselarasan strateginya dengan tujuan bisnis.
+    ~C. Memeriksa merek firewall yang digunakan organisasi.
+    ~D. Mewawancarai seluruh staf administrasi perusahaan.
+    #### Feedback: Evaluasi program keamanan dimulai dari kebijakan dan keselarasan strategisnya. [Bloom: C3]
+}
+
+::Soal 42 - C2:: Apa yang dimaksud dengan "IT Organizational Structure" yang efektif (T6)? {
+    ~A. Struktur yang memiliki jumlah manajer paling banyak.
+    =B. Struktur yang mendukung akuntabilitas dan alur komunikasi yang jelas.
+    ~C. Struktur di mana semua orang melapor langsung kepada CEO.
+    ~D. Struktur yang tidak memiliki departemen keamanan informasi.
+    #### Feedback: Struktur yang baik harus mendefinisikan akuntabilitas dan mendukung efektivitas operasional. [Bloom: C2]
+}
+
+::Soal 43 - C4:: Perusahaan menggunakan "Bring Your Own Device" (BYOD) tanpa kebijakan formal (T7). Risiko tertinggi yang dihadapi adalah: {
+    ~A. Karyawan akan sering bermain game di perangkat mereka.
+    =B. Kebocoran data sensitif perusahaan melalui perangkat pribadi yang tidak aman.
+    ~C. Biaya pengadaan perangkat keras perusahaan akan menurun.
+    ~D. Perangkat pribadi karyawan akan cepat mengalami kerusakan.
+    #### Feedback: BYOD tanpa kontrol kebijakan meningkatkan risiko kehilangan atau kebocoran data (data leakage). [Bloom: C4]
+}
+
+::Soal 44 - C1:: Siapa yang bertanggung jawab memantau pencapaian KPI TI (T12)? {
+    ~A. Staf keamanan fisik gedung.
+    =B. Manajemen TI dan pemilik proses terkait.
+    ~C. Pelanggan eksternal organisasi.
+    ~D. Vendor penyedia koneksi internet.
+    #### Feedback: Monitoring KPI adalah tanggung jawab manajemen untuk memastikan target kinerja tercapai. [Bloom: C1]
+}
+
+::Soal 45 - C3:: Saat mengevaluasi manajemen portfolio TI (T9), auditor menemukan banyak proyek yang tumpang tindih. Rekomendasi terbaik adalah: {
+    ~A. Membatalkan seluruh proyek TI yang sedang berjalan.
+    =B. Memperkuat proses seleksi dan monitoring portofolio agar selaras dengan strategi.
+    ~C. Memberikan anggaran lebih banyak agar proyek selesai cepat.
+    ~D. Meminta vendor lain untuk menjalankan proyek tersebut.
+    #### Feedback: Manajemen portofolio harus mampu memilah proyek yang memberikan nilai terbaik bagi organisasi. [Bloom: C3]
+}
+
+::Soal 46 - C2:: Apa fungsi utama dari "IT Policy Management" (T7)? {
+    ~A. Mengurangi jumlah kertas yang digunakan untuk mencetak aturan.
+    =B. Memastikan kebijakan dibuat, dikomunikasikan, dan dipatuhi secara konsisten.
+    ~C. Membuat kebijakan sesulit mungkin agar tidak ada yang melanggar.
+    ~D. Menulis kebijakan hanya saat akan ada audit eksternal.
+    #### Feedback: Manajemen kebijakan memastikan aturan organisasi efektif dan menjadi budaya kerja. [Bloom: C2]
+}
+
+::Soal 47 - C4:: Auditor menemukan bahwa IT Strategic Plan tidak pernah ditinjau selama 3 tahun (T5). Dampak utamanya adalah: {
+    ~A. Kecepatan akses database akan menurun drastis.
+    =B. Strategi TI mungkin tidak lagi relevan dengan dinamika pasar dan kebutuhan bisnis saat ini.
+    ~C. Staf TI akan kehilangan semangat dalam bekerja.
+    ~D. Biaya sewa kantor pusat akan mengalami kenaikan.
+    #### Feedback: Rencana strategis harus dinamis dan ditinjau berkala agar tetap selaras dengan arah bisnis. [Bloom: C4]
+}
+
+::Soal 48 - C1:: "Enterprise Risk Management" (ERM) mencakup risiko TI sebagai: {
+    =A. Salah satu kategori risiko utama tingkat korporasi.
+    ~B. Risiko minor yang bisa diabaikan oleh direksi.
+    ~C. Tanggung jawab eksklusif vendor luar.
+    ~D. Masalah yang hanya diselesaikan oleh asuransi.
+    #### Feedback: ERM melihat risiko secara holistik, di mana risiko TI adalah komponen risiko bisnis yang krusial. [Bloom: C1]
+}
+
+::Soal 49 - C3:: Organisasi mengadopsi metodologi Agile. Auditor SI harus memastikan (T20): {
+    ~A. Auditor harus melarang penggunaan Agile karena sulit diaudit.
+    =B. Adanya kontrol yang memadai dalam siklus rilis yang cepat dan dokumentasi yang tepat.
+    ~C. Agile hanya digunakan oleh staf senior saja.
+    ~D. Seluruh proyek harus kembali menggunakan model Waterfall.
+    #### Feedback: Metodologi Agile membutuhkan pendekatan audit yang fokus pada kontrol dalam iterasi yang cepat. [Bloom: C3]
+}
+
+::Soal 50 - C2:: Apa manfaat dari implementasi Maturity Model (T27)? {
+    ~A. Memberikan sertifikat penghargaan kepada staf TI.
+    =B. Memberikan peta jalan (roadmap) untuk peningkatan proses TI secara bertahap.
+    ~C. Menghilangkan seluruh kesalahan manusia dalam operasional.
+    ~D. Menurunkan biaya pajak perusahaan secara langsung.
+    #### Feedback: Maturity model membantu organisasi mengidentifikasi kelemahan proses dan merencanakan perbaikan. [Bloom: C2]
+}
+
+::Soal 51 - C4:: Laporan kinerja TI menunjukkan semua "hijau" (baik), namun bisnis merugi karena kegagalan sistem transaksi (T12). Masalahnya adalah: {
+    ~A. Bisnis tidak menghargai usaha departemen TI.
+    =B. KPI yang ditetapkan tidak selaras dengan hasil bisnis yang diharapkan (misalignment).
+    ~C. Laporan tersebut sengaja dipalsukan oleh staf TI.
+    ~D. Bisnis harus ditutup karena sistem TI gagal.
+    #### Feedback: KPI harus mencerminkan metrik yang benar-benar berpengaruh pada keberhasilan bisnis. [Bloom: C4]
+}
+
+::Soal 52 - C1:: Apa yang dimaksud dengan "IT Service Management" (ITSM - T20)? {
+    =A. Kumpulan kebijakan dan proses untuk mengelola siklus hidup layanan TI bagi pelanggan.
+    ~B. Proses memperbaiki printer dan laptop karyawan.
+    ~C. Penjualan lisensi software kepada perusahaan mitra.
+    ~D. Pengaturan jadwal piket satpam di data center.
+    #### Feedback: ITSM berfokus pada penyampaian layanan TI yang bernilai bagi pengguna bisnis. [Bloom: C1]
+}
+
+::Soal 53 - C3:: Dalam audit data governance (T25), auditor harus memverifikasi: {
+    ~A. Ukuran layar monitor seluruh administrator database.
+    =B. Adanya pemilik data (Data Owner) yang bertanggung jawab atas kualitas dan keamanan data.
+    ~C. Jumlah total file gambar yang disimpan di server.
+    ~D. Jenis kabel yang digunakan di jaringan database.
+    #### Feedback: Penunjukan pemilik data (Data Owner) adalah pilar utama dalam tata kelola data. [Bloom: C3]
+}
+
+::Soal 54 - C2:: Apa tujuan dari "Information Security Steering Committee"? {
+    ~A. Mengganti password user yang lupa.
+    =B. Memberikan arahan strategis dan dukungan sumber daya bagi keamanan informasi.
+    ~C. Memasang kabel jaringan di gedung baru.
+    ~D. Melakukan patroli malam di area kantor.
+    #### Feedback: Komite ini memastikan keamanan informasi mendapatkan perhatian dan anggaran di tingkat pimpinan. [Bloom: C2]
+}
+
+::Soal 55 - C4:: Auditor menemukan TI tidak memiliki rencana pengembangan SDM (T9). Risiko jangka panjangnya adalah: {
+    ~A. Staf TI akan memiliki banyak waktu luang.
+    =B. Kesenjangan keterampilan (skill gap) yang menghambat inovasi dan operasional TI.
+    ~C. Biaya pelatihan karyawan akan menjadi nol rupiah.
+    ~D. Kantor TI akan menjadi terlalu sepi.
+    #### Feedback: Pengembangan SDM TI sangat penting untuk menjaga kompetensi di tengah perubahan teknologi yang cepat. [Bloom: C4]
+}
+
+::Soal 56 - C1:: Komponen utama dalam IT Strategy (T5) harus mencakup: {
+    =A. Rencana investasi TI yang mendukung tujuan bisnis jangka panjang.
+    ~B. Daftar seluruh password administrator sistem.
+    ~C. Nama-nama seluruh keluarga karyawan TI.
+    ~D. Jadwal makan siang mingguan departemen TI.
+    #### Feedback: Strategi TI harus mendefinisikan bagaimana teknologi akan membantu mencapai visi bisnis. [Bloom: C1]
+}
+
+::Soal 57 - C3:: Saat mengevaluasi "IT service provider acquisition" (T15), kriteria terpenting adalah: {
+    ~A. Kedekatan lokasi kantor vendor dengan rumah CEO.
+    =B. Kemampuan vendor dalam memenuhi persyaratan fungsional dan keamanan bisnis.
+    ~C. Jumlah iklan vendor yang muncul di media massa.
+    ~D. Kesamaan merk laptop antara vendor dan klien.
+    #### Feedback: Seleksi vendor harus didasarkan pada kebutuhan bisnis dan profil risiko. [Bloom: C3]
+}
+
+::Soal 58 - C2:: Apa risiko utama dari penggunaan teknologi cloud tanpa tata kelola (T39)? {
+    ~A. Kecepatan internet perusahaan akan menjadi sangat lambat.
+    =B. Kehilangan kontrol atas lokasi data dan ketidakpatuhan terhadap regulasi privasi.
+    ~C. Staf TI tidak akan memiliki pekerjaan lagi.
+    ~D. Komputer karyawan akan sering mengalami panas berlebih.
+    #### Feedback: Tata kelola cloud sangat penting untuk memastikan keamanan dan kepatuhan data di pihak ketiga. [Bloom: C2]
+}
+
+::Soal 59 - C4:: Organisasi mendeteksi banyak ancaman siber baru (T39). Apa respons tata kelola yang paling tepat? {
+    ~A. Memarahi tim keamanan karena ancaman terus muncul.
+    =B. Melakukan penilaian risiko keamanan informasi secara berkala dan memperbarui kontrol.
+    ~C. Melarang penggunaan komputer di seluruh kantor.
+    ~D. Membayar hacker agar tidak menyerang perusahaan.
+    #### Feedback: Respons yang tepat adalah manajemen risiko yang proaktif dan penyesuaian kontrol keamanan. [Bloom: C4]
+}
+
+::Soal 60 - C1:: Apa yang dimaksud dengan "IT Organizational Maturity" (T27)? {
+    =A. Tingkat efektivitas dan prediktabilitas proses TI di dalam organisasi.
+    ~B. Usia rata-rata seluruh karyawan di departemen TI.
+    ~C. Berapa lama perusahaan telah berdiri di pasar.
+    ~D. Jumlah total gelar akademik yang dimiliki staf TI.
+    #### Feedback: Maturity mencerminkan seberapa matang proses internal dikelola dan dioptimalkan. [Bloom: C1]
+}
+
+::Soal 61 - C3:: Manakah praktik terbaik dalam kontrak manajemen vendor (T15)? {
+    ~A. Menandatangani kontrak tanpa membaca isinya secara detail.
+    =B. Mencantumkan Key Performance Indicators (KPI) dan pinalti atas kegagalan layanan.
+    ~C. Tidak perlu mencantumkan batas waktu kontrak.
+    ~D. Menggunakan kontrak lisan saja agar lebih akrab.
+    #### Feedback: Kontrol kontrak yang kuat melindungi kepentingan organisasi melalui metrik kinerja yang jelas. [Bloom: C3]
+}
+
+::Soal 62 - C2:: Apa tujuan dari monitoring Key Performance Indicators (KPI - T12)? {
+    ~A. Mencari kesalahan staf agar bisa diberikan sanksi.
+    =B. Memberikan dasar bagi manajemen untuk melakukan perbaikan dan pengambilan keputusan.
+    ~C. Memenuhi formalitas administrasi audit tahunan.
+    ~D. Menunjukkan bahwa TI adalah departemen yang paling sibuk.
+    #### Feedback: KPI memberikan data objektif untuk mengevaluasi kinerja dan mengarahkan perbaikan. [Bloom: C2]
+}
+
+::Soal 63 - C4:: Auditor menemukan bahwa Enterprise Architecture (EA) hanya fokus pada hardware (T21). Kelemahannya adalah: {
+    ~A. Biaya pembelian hardware akan menjadi sangat mahal.
+    =B. Gagal menyelaraskan proses bisnis dan aplikasi, sehingga terjadi silo informasi.
+    ~C. Ruang data center akan menjadi terlalu penuh.
+    ~D. Hardware akan cepat rusak karena tidak ada software.
+    #### Feedback: EA yang baik harus mencakup domain bisnis, data, aplikasi, dan teknologi. [Bloom: C4]
+}
+
+::Soal 64 - C1:: Apa yang dimaksud dengan "Data Privacy Regulation" (T8)? {
+    =A. Aturan hukum yang mengatur bagaimana data pribadi dikumpulkan dan dilindungi.
+    ~B. Aturan kantor tentang jam kerja staf administrasi.
+    ~C. Kebijakan mengenai penggunaan seragam kantor.
+    ~D. Aturan mengenai harga jual produk perusahaan.
+    #### Feedback: Regulasi privasi data (seperti UU PDP atau GDPR) adalah hukum wajib yang harus dipatuhi. [Bloom: C1]
+}
+
+::Soal 65 - C3:: Saat mengevaluasi "IT Resource Management" (T9), auditor melihat kelebihan beban kerja staf. Saran terbaik: {
+    ~A. Menyuruh staf bekerja 24 jam sehari tanpa libur.
+    =B. Melakukan penilaian beban kerja dan penyesuaian strategi sumber daya manusia.
+    ~C. Memecat staf yang mengeluh karena beban kerja.
+    ~D. Mengabaikan hal tersebut karena TI adalah pekerjaan yang sulit.
+    #### Feedback: Manajemen SDM yang buruk dapat menyebabkan kelelahan (burnout) dan kesalahan operasional. [Bloom: C3]
+}
+
+::Soal 66 - C2:: Apa peran Tata Kelola TI dalam mendukung "Digital Transformation"? {
+    ~A. Melarang penggunaan teknologi digital yang baru.
+    =B. Memberikan kerangka kerja untuk pengambilan keputusan investasi teknologi yang bernilai.
+    ~C. Melakukan coding aplikasi secara langsung oleh direksi.
+    ~D. Membeli seluruh gadget terbaru untuk semua staf.
+    #### Feedback: Tata kelola memberikan arah agar transformasi digital memberikan hasil yang diharapkan organisasi. [Bloom: C2]
+}
+
+::Soal 67 - C4:: Auditor menemukan kebijakan keamanan informasi organisasi bertentangan dengan hukum lokal (T8). Tindakan manajemen: {
+    ~A. Mengabaikan hukum lokal karena kebijakan perusahaan lebih penting.
+    =B. Segera merevisi kebijakan agar selaras dengan persyaratan hukum yang berlaku.
+    ~C. Berhenti beroperasi di wilayah hukum tersebut.
+    ~D. Membayar denda saja tanpa mengubah kebijakan.
+    #### Feedback: Kebijakan organisasi tidak boleh melanggar hukum dan regulasi yang berlaku di wilayah operasionalnya. [Bloom: C4]
+}
+
+::Soal 68 - C1:: Apa fungsi utama dari "Quality Management" dalam operasional TI? {
+    =A. Memastikan proses dan hasil kerja TI memenuhi standar kualitas yang ditetapkan.
+    ~B. Mencari staf TI yang paling pintar untuk dipromosikan.
+    ~C. Membeli hardware dengan garansi paling lama.
+    ~D. Menghitung jumlah klik yang dilakukan user setiap hari.
+    #### Feedback: Manajemen kualitas berfokus pada pemenuhan standar dan kepuasan pelanggan/user. [Bloom: C1]
+}
+
+::Soal 69 - C3:: Auditor SI meninjau "IT Incident Management" (T20). Indikator efektivitasnya adalah: {
+    ~A. Jumlah total komputer yang dimiliki organisasi.
+    =B. Kecepatan waktu resolusi insiden sesuai target SLA.
+    ~C. Berapa kali staf TI melakukan rapat koordinasi.
+    ~D. Merk sistem operasi yang digunakan oleh tim support.
+    #### Feedback: Waktu resolusi insiden mencerminkan efektivitas tim support dalam menjaga kontinuitas bisnis. [Bloom: C3]
+}
+
+::Soal 70 - C2:: Apa risiko utama jika "Data Governance" diabaikan (T25)? {
+    ~A. Printer akan sering mengalami kemacetan kertas.
+    =B. Pengambilan keputusan bisnis yang salah karena data tidak akurat.
+    ~C. Mouse komputer akan cepat mengalami kerusakan.
+    ~D. Meja administrator database akan terlihat berantakan.
+    #### Feedback: Tanpa tata kelola data, organisasi tidak dapat mempercayai informasi yang dihasilkannya sendiri. [Bloom: C2]
+}
+
+::Soal 71 - C4:: Strategi TI organisasi hanya berfokus pada pemotongan biaya (cost cutting) (T5). Risiko strategisnya adalah: {
+    ~A. Kas perusahaan akan menjadi terlalu banyak.
+    =B. Kegagalan dalam mendukung pertumbuhan bisnis dan hilangnya keunggulan kompetitif.
+    ~C. Karyawan akan menjadi terlalu hemat dalam bekerja.
+    ~D. Harga saham perusahaan akan naik drastis.
+    #### Feedback: Strategi TI yang terlalu fokus pada biaya dapat menghambat inovasi yang diperlukan bisnis. [Bloom: C4]
+}
+
+::Soal 72 - C1:: Manakah yang merupakan contoh "IT-related Framework"? {
+    =A. COBIT, ITIL, dan ISO 27001.
+    ~B. Windows 11, Linux, dan MacOS.
+    ~C. Java, Python, dan C++.
+    ~D. Dell, HP, dan Lenovo.
+    #### Feedback: Framework memberikan struktur dan panduan praktik terbaik untuk tata kelola dan manajemen TI. [Bloom: C1]
+}
+
+::Soal 73 - C3:: Saat mengaudit "Service Level Management" (T20), auditor harus memverifikasi: {
+    ~A. Nama manajer vendor secara lengkap.
+    =B. Keselarasan antara target SLA dengan kebutuhan operasional bisnis.
+    ~C. Warna kabel yang digunakan di rak server vendor.
+    ~D. Berapa banyak kopi yang dikonsumsi tim support vendor.
+    #### Feedback: SLA harus mendukung kebutuhan nyata bisnis agar layanan TI benar-benar bermanfaat. [Bloom: C3]
+}
+
+::Soal 74 - C2:: Apa tujuan utama dari evaluasi Enterprise Architecture secara berkala (T21)? {
+    ~A. Menambah jumlah server fisik setiap tahun.
+    =B. Memastikan EA tetap relevan dengan perubahan strategi bisnis dan teknologi.
+    ~C. Memberikan pekerjaan rutin bagi auditor sistem informasi.
+    ~D. Menghitung total berat seluruh infrastruktur TI.
+    #### Feedback: Review berkala memastikan EA tidak usang dan terus mendukung fleksibilitas bisnis. [Bloom: C2]
+}
+
+::Soal 75 - C4:: Auditor menemukan TI tidak memiliki indikator kinerja (KPI) yang terdokumentasi (T12). Konsekuensinya adalah: {
+    ~A. Staf TI akan bekerja lebih santai.
+    =B. Manajemen tidak dapat mengukur efektivitas dan kontribusi TI terhadap bisnis secara objektif.
+    ~C. Biaya operasional TI akan menurun secara otomatis.
+    ~D. Auditor tidak bisa menulis laporan audit sama sekali.
+    #### Feedback: Tanpa KPI, performa TI menjadi subyektif dan sulit untuk ditingkatkan. [Bloom: C4]
+}
+
+::Soal 76 - C1:: Apa yang dimaksud dengan "Regulatory Compliance" dalam TI (T8)? {
+    =A. Kepatuhan terhadap undang-undang dan aturan pemerintah terkait teknologi.
+    ~B. Kepatuhan terhadap jam istirahat kantor.
+    ~C. Kepatuhan terhadap tata tertib penggunaan lift gedung.
+    ~D. Kepatuhan terhadap instruksi lisan dari rekan kerja.
+    #### Feedback: Kepatuhan regulasi adalah kewajiban hukum organisasi untuk menghindari sanksi otoritas. [Bloom: C1]
+}
+
+::Soal 77 - C3:: Seorang auditor mengevaluasi manajemen risiko TI (T10). Bukti terbaik efektivitasnya adalah: {
+    ~A. Adanya poster motivasi tentang risiko di koridor.
+    =B. Adanya Risk Register yang diperbarui secara rutin dengan mitigasi yang jelas.
+    ~C. Jumlah staf keamanan yang sangat banyak.
+    ~D. Penggunaan hardware paling mahal untuk seluruh sistem.
+    #### Feedback: Risk register mencerminkan proses identifikasi dan penanganan risiko yang terstruktur. [Bloom: C3]
+}
+
+::Soal 78 - C2:: Apa fungsi utama dari kebijakan (Policies) dalam organisasi (T7)? {
+    ~A. Menjadi hiasan di dinding ruang rapat utama.
+    =B. Memberikan arahan manajemen yang jelas dan standar perilaku bagi seluruh staf.
+    ~C. Mengurangi jumlah pertanyaan yang diajukan staf kepada manajer.
+    ~D. Mengisi folder dokumen agar terlihat penuh saat audit.
+    #### Feedback: Kebijakan adalah instrumen tata kelola untuk mengomunikasikan ekspektasi manajemen. [Bloom: C2]
+}
+
+::Soal 79 - C4:: Struktur organisasi TI memiliki terlalu banyak lapisan manajemen (T6). Dampak negatifnya adalah: {
+    ~A. Gaji manajer akan menjadi sangat rendah.
+    =B. Pengambilan keputusan yang lambat dan birokrasi yang menghambat inovasi.
+    ~C. Kantor akan menjadi terlalu ramai oleh staf administrasi.
+    ~D. Kecepatan printer kantor akan menurun secara signifikan.
+    #### Feedback: Struktur yang terlalu hierarkis menghambat kelincahan (agility) yang dibutuhkan di dunia TI. [Bloom: C4]
+}
+
+::Soal 80 - C1:: Apa yang dimaksud dengan "IT Quality Management of IT"? {
+    =A. Pengelolaan seluruh aktivitas untuk memastikan layanan TI berkualitas tinggi.
+    ~B. Membeli monitor dengan kualitas gambar terbaik.
+    ~C. Menggunakan kursi kerja dengan kualitas kulit terbaik.
+    ~D. Memastikan seluruh staf TI memiliki suara yang merdu.
+    #### Feedback: Manajemen kualitas mencakup standar, QA, dan kontrol kualitas secara menyeluruh. [Bloom: C1]
+}
+
+::Soal 81 - C3:: Saat mengevaluasi "IT service management" (T20), auditor menemukan proses manajemen perubahan tidak berjalan. Risiko utamanya: {
+    ~A. Perusahaan akan kehabisan kertas untuk mencatat perubahan.
+    =B. Gangguan sistem yang tidak terencana akibat perubahan yang tidak diuji.
+    ~C. Staf pengembangan akan memiliki terlalu banyak waktu istirahat.
+    ~D. Vendor hardware akan menolak memberikan diskon.
+    #### Feedback: Manajemen perubahan (Change Management) mencegah kegagalan sistem akibat modifikasi yang tidak terkontrol. [Bloom: C3]
+}
+
+::Soal 82 - C2:: Apa tujuan dari "IT Maturity Model assessment"? {
+    ~A. Memberikan medali emas kepada departemen TI yang paling matang.
+    =B. Memberikan dasar objektif untuk membandingkan performa dengan standar industri.
+    ~C. Menghitung jumlah tahun pengalaman setiap karyawan.
+    ~D. Memastikan tidak ada karyawan yang berusia di bawah 40 tahun.
+    #### Feedback: Penilaian maturitas membantu benchmarking dan penentuan target perbaikan proses. [Bloom: C2]
+}
+
+::Soal 83 - C4:: Auditor menemukan data governance tidak mencakup klasifikasi data (T25). Dampak keamanannya adalah: {
+    ~A. Ukuran file data akan menjadi sangat besar.
+    =B. Kontrol keamanan mungkin tidak memadai untuk data yang sangat sensitif (mis-protected).
+    ~C. Data akan terhapus secara otomatis oleh sistem.
+    ~D. User akan kesulitan membaca jenis huruf di layar.
+    #### Feedback: Klasifikasi data sangat penting agar kontrol keamanan yang diterapkan tepat sasaran dan efisien. [Bloom: C4]
+}
+
+::Soal 84 - C1:: "Emerging Technologies" (T39) merujuk pada: {
+    =A. Teknologi baru yang sedang berkembang seperti AI, Blockchain, atau Quantum Computing.
+    ~B. Teknologi lama yang sudah tidak didukung oleh vendor (end of life).
+    ~C. Penggunaan kertas dan pulpen untuk mencatat transaksi harian.
+    ~D. Penggunaan telepon kabel model lama di kantor cabang.
+    #### Feedback: Teknologi baru membawa peluang besar namun juga risiko baru yang harus dikelola tata kelola TI. [Bloom: C1]
+}
+
+::Soal 85 - C3:: Manakah kontrol terbaik untuk memastikan "Software Licensing Compliance" (T8)? {
+    ~A. Membeli software hanya saat diingatkan oleh vendor melalui email.
+    =B. Menggunakan alat Software Asset Management (SAM) dan audit lisensi berkala.
+    ~C. Meminta karyawan berjanji tidak menginstal software bajakan.
+    ~D. Menghapus semua software setiap akhir bulan.
+    #### Feedback: SAM membantu organisasi memantau penggunaan lisensi dan menghindari risiko hukum/penalti. [Bloom: C3]
+}
+
+::Soal 86 - C2:: Apa fungsi utama dari "Quality Assurance" (QA) dalam pengembangan software? {
+    ~A. Menambah jumlah baris kode program agar aplikasi terlihat canggih.
+    =B. Memastikan proses pengembangan mengikuti standar untuk mencegah cacat produk.
+    ~C. Melakukan promosi marketing software kepada pelanggan potensial.
+    ~D. Mengurangi biaya gaji programmer secara signifikan.
+    #### Feedback: QA berfokus pada kualitas proses pengembangan untuk menjamin kualitas hasil akhir. [Bloom: C2]
+}
+
+::Soal 87 - C4:: Auditor menemukan TI tidak memiliki rencana sukses (succession plan) untuk posisi kunci (T9). Risiko utamanya: {
+    ~A. Kantor akan menjadi berantakan jika manajer cuti satu hari.
+    =B. Gangguan operasional strategis jika personil kunci meninggalkan organisasi secara mendadak.
+    ~C. Biaya rekrutmen akan menjadi sangat murah.
+    ~D. Perusahaan akan terpaksa menutup seluruh operasional TI.
+    #### Feedback: Rencana suksesi menjamin keberlangsungan kepemimpinan dan pengetahuan teknis di posisi vital. [Bloom: C4]
+}
+
+::Soal 88 - C1:: Apa yang dimaksud dengan "IT Service Provider Management"? {
+    =A. Pengelolaan hubungan dan performa vendor pihak ketiga penyedia layanan TI.
+    ~B. Proses memberikan layanan antar karyawan di dalam departemen TI.
+    ~C. Proses menjual jasa konsultasi TI kepada perusahaan lain.
+    ~D. Pengaturan antrean di kafetaria kantor departemen TI.
+    #### Feedback: Manajemen vendor memastikan pihak ketiga memberikan layanan sesuai kontrak dan kebutuhan bisnis. [Bloom: C1]
+}
+
+::Soal 89 - C3:: Saat mengaudit program keamanan informasi (T34), auditor menemukan kurangnya "Security Awareness". Saran terbaik: {
+    ~A. Memasang poster keamanan di dalam toilet kantor.
+    =B. Melakukan program pelatihan dan kampanye kesadaran keamanan secara rutin bagi seluruh staf.
+    ~C. Memberikan hukuman berat bagi siapa saja yang tidak tahu kebijakan keamanan.
+    ~D. Membeli firewall tambahan yang lebih mahal.
+    #### Feedback: Kesadaran keamanan staf adalah pertahanan pertama yang paling efektif terhadap ancaman siber. [Bloom: C3]
+}
+
+::Soal 90 - C2:: Apa peran Tata Kelola TI dalam manajemen krisis? {
+    ~A. Melarikan diri dari kantor saat terjadi bencana besar.
+    =B. Menyediakan struktur pengambilan keputusan dan rencana kesinambungan bisnis yang jelas.
+    ~C. Mematikan seluruh sistem TI secara permanen demi keamanan.
+    ~D. Menunggu instruksi dari departemen pemadam kebakaran setempat.
+    #### Feedback: Tata kelola memastikan organisasi siap menghadapi krisis melalui rencana BCP dan DRP yang matang. [Bloom: C2]
+}
+
+::Soal 91 - C4:: Organisasi mengabaikan monitoring KPI layanan TI selama setahun (T12). Dampaknya: {
+    ~A. Staf TI akan memiliki banyak waktu luang untuk bersantai.
+    =B. Penurunan kualitas layanan yang tidak terdeteksi hingga terjadi komplain besar dari bisnis.
+    ~C. Kecepatan printer akan meningkat karena tidak ada beban monitoring.
+    ~D. Auditor akan memberikan penghargaan atas efisiensi waktu audit.
+    #### Feedback: Tanpa monitoring, penurunan kinerja layanan tidak dapat dideteksi dan diperbaiki secara dini. [Bloom: C4]
+}
+
+::Soal 92 - C1:: Manakah dari berikut ini yang merupakan standar untuk manajemen layanan TI? {
+    =A. ISO/IEC 20000.
+    ~B. ISO 14001.
+    ~C. ISO 45001.
+    ~D. ISO 50001.
+    #### Feedback: ISO 20000 adalah standar internasional yang berfokus pada manajemen layanan teknologi informasi. [Bloom: C1]
+}
+
+::Soal 93 - C3:: Saat mengevaluasi "IT organizational structure" (T6), auditor menemukan tumpang tindih peran. Dampaknya: {
+    ~A. Pekerjaan akan selesai lebih cepat karena dikerjakan banyak orang.
+    =B. Kebingungan dalam akuntabilitas dan potensi pemborosan sumber daya manusia.
+    ~C. Kantor akan menjadi tempat yang sangat akrab bagi seluruh staf.
+    ~D. Biaya gaji akan menurun secara otomatis.
+    #### Feedback: Peran yang tumpang tindih merusak akuntabilitas dan efisiensi organisasi. [Bloom: C3]
+}
+
+::Soal 94 - C2:: Apa risiko utama dari "Data Governance" yang buruk terhadap pelaporan keuangan (T25)? {
+    ~A. Laporan keuangan akan tercetak dengan warna yang pudar.
+    =B. Ketidakakuratan data keuangan yang berujung pada opini audit yang buruk.
+    ~C. Jumlah halaman laporan keuangan akan menjadi terlalu banyak.
+    ~D. Akuntan akan kesulitan menggunakan kalkulator mereka.
+    #### Feedback: Tata kelola data menjamin integritas informasi yang menjadi dasar laporan keuangan. [Bloom: C2]
+}
+
+::Soal 95 - C4:: Manajemen TI memutuskan untuk menggunakan jasa "Shadow IT" (T39). Risiko tata kelola utamanya: {
+    ~A. Karyawan akan menjadi terlalu ahli dalam bidang teknologi.
+    =B. Ketidakmampuan untuk mengontrol keamanan, kepatuhan, dan integrasi data organisasi.
+    ~C. Biaya langganan internet perusahaan akan menjadi sangat murah.
+    ~D. Meja kerja karyawan akan terlihat sangat futuristik.
+    #### Feedback: Shadow IT berada di luar pengawasan resmi, sehingga sangat berisiko bagi keamanan korporat. [Bloom: C4]
+}
+
+::Soal 96 - C1:: Apa yang dimaksud dengan "IT Standards, Policies, and Procedures" (T7)? {
+    =A. Hirarki dokumen tata kelola yang mengatur operasional dan perilaku TI.
+    ~B. Nama-nama folder penyimpanan file di dalam komputer server.
+    ~C. Daftar merk hardware yang dilarang dibeli oleh perusahaan.
+    ~D. Jadwal pembersihan rutin gedung departemen TI.
+    #### Feedback: Hirarki ini memastikan adanya dasar aturan yang jelas bagi seluruh operasional TI. [Bloom: C1]
+}
+
+::Soal 97 - C3:: Auditor SI menemukan TI tidak memiliki Enterprise Architecture (T21). Saran terbaik adalah: {
+    ~A. Menggunakan arsitektur perusahaan lain yang tersedia di internet.
+    =B. Mengadopsi framework EA (seperti TOGAF) untuk menyelaraskan TI dengan bisnis.
+    ~C. Menghapus seluruh sistem yang ada dan menggunakan kertas saja.
+    ~D. Mengabaikan hal tersebut selama sistem saat ini masih menyala.
+    #### Feedback: Framework EA membantu organisasi merancang infrastruktur yang terintegrasi dan selaras dengan bisnis. [Bloom: C3]
+}
+
+::Soal 98 - C2:: Apa fungsi utama dari "Quality Control" (QC) dalam TI? {
+    ~A. Memberikan pelatihan public speaking kepada seluruh staf TI.
+    =B. Memeriksa hasil kerja (output) untuk memastikan pemenuhan standar kualitas.
+    ~C. Membayar vendor audit untuk memberikan laporan yang bagus saja.
+    ~D. Menjual produk gagal kepada kompetitor agar mereka rugi.
+    #### Feedback: QC berfokus pada pemeriksaan produk akhir untuk mendeteksi cacat atau kesalahan. [Bloom: C2]
+}
+
+::Soal 99 - C4:: Struktur tata kelola TI tidak melibatkan manajemen unit bisnis (T6). Akibatnya: {
+    ~A. Unit bisnis akan memiliki lebih banyak waktu untuk bekerja.
+    =B. TI gagal memahami kebutuhan nyata bisnis dan solusi TI tidak akan diadopsi user.
+    ~C. Penggunaan listrik di unit bisnis akan menjadi lebih hemat.
+    ~D. Direksi akan memberikan bonus kepada manajer TI.
+    #### Feedback: Keterlibatan bisnis sangat penting untuk memastikan TI memberikan solusi yang relevan dan bernilai. [Bloom: C4]
+}
+
+::Soal 100 - C3:: Manakah tindakan terbaik untuk memastikan strategi TI tetap relevan (T5)? {
+    ~A. Membiarkan strategi tetap sama selama 20 tahun agar stabil.
+    =B. Melakukan peninjauan tahunan dan penyesuaian strategi bersama stakeholder bisnis.
+    ~C. Meminta staf junior untuk menulis ulang strategi setiap minggu.
+    ~D. Menggunakan strategi perusahaan lain tanpa modifikasi sedikitpun.
+    #### Feedback: Peninjauan rutin memastikan strategi TI selalu selaras dengan dinamika perubahan bisnis. [Bloom: C3]
+}
