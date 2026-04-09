@@ -1,0 +1,799 @@
+::Soal 1 - C1:: Dokumen manakah yang memberikan wewenang, tanggung jawab, dan delegasi kekuasaan kepada fungsi audit SI? {
+    ~A. Rencana Audit Tahunan
+    =B. Piagam Audit (Audit Charter)
+    ~C. Kebijakan Keamanan TI
+    ~D. Kode Etik ISACA
+    #### Feedback: Piagam Audit menetapkan peran, wewenang, dan ruang lingkup fungsi audit dalam organisasi secara formal. [Bloom: C1]
+}
+
+::Soal 2 - C1:: Manakah dari berikut ini yang merupakan otoritas tertinggi dalam menyetujui Piagam Audit? {
+    ~A. Chief Information Officer (CIO)
+    ~B. Manajer Audit Internal
+    =C. Komite Audit atau Dewan Direksi
+    ~D. Vendor Audit Eksternal
+    #### Feedback: Persetujuan dari tingkat dewan atau komite audit memastikan independensi fungsi audit dari manajemen operasional. [Bloom: C1]
+}
+
+::Soal 3 - C2:: Apa perbedaan utama antara Standar Audit ISACA dan Panduan (Guidelines) Audit? {
+    ~A. Panduan wajib dipatuhi, sedangkan Standar bersifat opsional
+    =B. Standar wajib dipatuhi, sedangkan Panduan memberikan arahan implementasi
+    ~C. Standar hanya untuk auditor eksternal, Panduan untuk auditor internal
+    ~D. Keduanya memiliki tingkat otoritas yang sama dan bersifat wajib
+    #### Feedback: Standar adalah persyaratan wajib; Panduan membantu auditor dalam menerapkan standar tersebut dalam praktik. [Bloom: C2]
+}
+
+::Soal 4 - C3:: Seorang auditor SI menemukan bahwa ia memiliki hubungan keluarga dengan manajer departemen yang sedang diaudit. Apa tindakan terbaik sesuai Kode Etik ISACA? {
+    =A. Mengungkapkan konflik kepentingan tersebut kepada manajemen audit
+    ~B. Melanjutkan audit tetapi tetap objektif
+    ~C. Meminta auditee untuk tidak memberitahu siapapun
+    ~D. Segera mengundurkan diri dari perusahaan
+    #### Feedback: Auditor harus mengungkapkan segala potensi konflik kepentingan untuk menjaga integritas dan transparansi. [Bloom: C3]
+}
+
+::Soal 5 - C2:: Apa tujuan utama dari pendekatan audit berbasis risiko (Risk-based Audit)? {
+    ~A. Melakukan audit pada setiap departemen secara merata
+    ~B. Menghilangkan semua risiko yang ada di dalam organisasi
+    =C. Memfokuskan sumber daya audit pada area dengan profil risiko tertinggi
+    ~D. Mengurangi biaya operasional departemen audit
+    #### Feedback: Pendekatan ini memastikan efektivitas dengan memprioritaskan area yang paling mungkin berdampak signifikan terhadap organisasi. [Bloom: C2]
+}
+
+::Soal 6 - C1:: Risiko yang melekat pada suatu aktivitas bisnis sebelum mempertimbangkan kontrol apa pun disebut sebagai: {
+    =A. Inherent Risk (Risiko Bawaan)
+    ~B. Control Risk (Risiko Kontrol)
+    ~C. Detection Risk (Risiko Deteksi)
+    ~D. Residual Risk (Risiko Sisa)
+    #### Feedback: Inherent risk adalah risiko alami dari suatu proses tanpa adanya pengendalian. [Bloom: C1]
+}
+
+::Soal 7 - C2:: Risiko bahwa auditor tidak akan menemukan kesalahan material meskipun kesalahan tersebut ada disebut: {
+    ~A. Business Risk
+    ~B. Inherent Risk
+    ~C. Control Risk
+    =D. Detection Risk
+    #### Feedback: Detection risk berkaitan dengan kegagalan prosedur audit dalam menemukan salah saji atau kelemahan. [Bloom: C2]
+}
+
+::Soal 8 - C4:: Jika auditor menilai bahwa Control Risk (risiko kontrol) sangat rendah, apa dampak yang paling mungkin terhadap rencana pengujian substantif? {
+    ~A. Auditor harus meningkatkan pengujian substantif secara signifikan
+    =B. Auditor dapat mengurangi jumlah pengujian substantif
+    ~C. Auditor tidak perlu melakukan audit sama sekali
+    ~D. Auditor harus mengganti semua pengujian dengan wawancara
+    #### Feedback: Jika kontrol internal dinilai efektif, auditor dapat lebih mengandalkan kontrol tersebut dan mengurangi beban pengujian data rinci. [Bloom: C4]
+}
+
+::Soal 9 - C1:: Manakah dari berikut ini yang merupakan contoh kontrol preventif? {
+    ~A. Peninjauan log akses harian
+    ~B. Rekonsiliasi bank bulanan
+    ~C. Prosedur pemulihan bencana (DRP)
+    =D. Pemisahan tugas (Segregation of Duties)
+    #### Feedback: Pemisahan tugas mencegah terjadinya kesalahan atau kecurangan sejak awal proses. [Bloom: C1]
+}
+
+::Soal 10 - C2:: Apa fungsi utama dari kontrol detektif? {
+    =A. Mengidentifikasi masalah atau anomali setelah kejadian terjadi
+    ~B. Menghentikan ancaman sebelum masuk ke jaringan
+    ~C. Memulihkan sistem setelah terjadi kegagalan
+    ~D. Memberikan hukuman kepada pelaku pelanggaran
+    #### Feedback: Kontrol detektif dirancang untuk menemukan kesalahan yang tidak berhasil dicegah oleh kontrol preventif. [Bloom: C2]
+}
+
+::Soal 11 - C3:: Selama audit, ditemukan bahwa log perubahan sistem tidak ditinjau secara berkala. Jenis kontrol apa yang sedang diuji? {
+    ~A. Preventive Control
+    =B. Detective Control
+    ~C. Corrective Control
+    ~D. Deterrent Control
+    #### Feedback: Peninjauan log adalah aktivitas detektif untuk menemukan perubahan yang tidak sah atau tidak tepat. [Bloom: C3]
+}
+
+::Soal 12 - C4:: Manakah yang paling efektif untuk memitigasi risiko modifikasi data oleh administrator database yang tidak sah? {
+    ~A. Meminta administrator untuk menandatangani pakta integritas
+    ~B. Melakukan backup database setiap malam
+    =C. Mengaktifkan log audit pada database dan meninjau log tersebut secara independen
+    ~D. Menggunakan password yang sangat kompleks
+    #### Feedback: Log audit independen adalah kontrol detektif terbaik untuk memantau aktivitas pengguna yang memiliki hak akses tinggi. [Bloom: C4]
+}
+
+::Soal 13 - C1:: Apa yang dimaksud dengan "Materialitas" dalam konteks audit? {
+    =A. Signifikansi suatu kesalahan terhadap keputusan pengguna laporan
+    ~B. Total nilai aset fisik yang dimiliki perusahaan
+    ~C. Jumlah jam kerja yang dibutuhkan untuk menyelesaikan audit
+    ~D. Berat fisik dari server yang sedang diperiksa
+    #### Feedback: Materialitas mengacu pada ambang batas di mana kesalahan atau kelalaian dianggap cukup besar untuk memengaruhi penilaian pemangku kepentingan. [Bloom: C1]
+}
+
+::Soal 14 - C2:: Dalam sampling statistik, apa yang dimaksud dengan tingkat kepercayaan (Confidence Level)? {
+    ~A. Keyakinan auditor terhadap kejujuran auditee
+    =B. Tingkat kepastian bahwa sampel mewakili populasi secara akurat
+    ~C. Probabilitas bahwa auditor akan menemukan kecurangan
+    ~D. Persentase data yang dihapus oleh sistem
+    #### Feedback: Confidence level menunjukkan seberapa yakin auditor bahwa hasil sampel mencerminkan kondisi populasi sebenarnya. [Bloom: C2]
+}
+
+::Soal 15 - C3:: Auditor ingin menguji apakah semua faktur di atas Rp 500 juta memiliki tanda tangan persetujuan. Teknik sampling mana yang paling tepat? {
+    ~A. Variable Sampling
+    ~B. Stop-or-go Sampling
+    ~C. Discovery Sampling
+    =D. Attribute Sampling
+    #### Feedback: Attribute sampling digunakan untuk menguji karakteristik tertentu (ada/tidaknya persetujuan) dalam bentuk tingkat kepatuhan. [Bloom: C3]
+}
+
+::Soal 16 - C4:: Jika hasil pengujian sampel menunjukkan tingkat kesalahan 8%, sementara tingkat kesalahan yang dapat ditoleransi adalah 5%, apa tindakan auditor? {
+    =A. Menilai bahwa kontrol tersebut tidak efektif dan memperluas pengujian substantif
+    ~B. Mengabaikan hasil tersebut dan menganggap kontrol tetap baik
+    ~C. Mengurangi ukuran sampel untuk mendapatkan hasil yang lebih baik
+    ~D. Segera mengeluarkan laporan audit tanpa pengujian tambahan
+    #### Feedback: Jika tingkat kesalahan sampel melebihi batas toleransi, auditor tidak dapat mengandalkan kontrol tersebut. [Bloom: C4]
+}
+
+::Soal 17 - C1:: Apa tujuan utama dari penggunaan CAATs (Computer-Assisted Audit Techniques)? {
+    ~A. Menggantikan peran auditor manusia sepenuhnya
+    =B. Meningkatkan efisiensi dan cakupan audit melalui otomatisasi pengujian
+    ~C. Menghapus data yang tidak diperlukan dari server auditee
+    ~D. Mengurangi keamanan sistem yang sedang diaudit
+    #### Feedback: CAATs memungkinkan auditor untuk menganalisis data dalam jumlah besar dengan lebih cepat dan akurat. [Bloom: C1]
+}
+
+::Soal 18 - C2:: Manakah keunggulan utama dari Generalized Audit Software (GAS)? {
+    =A. Dapat mengakses berbagai jenis format data dan database tanpa mengubah integritasnya
+    ~B. Dapat memperbaiki bug pada aplikasi auditee secara otomatis
+    ~C. Tidak memerlukan pelatihan teknis untuk mengoperasikannya
+    ~D. Dapat digunakan untuk meretas password user
+    #### Feedback: GAS dirancang untuk fleksibilitas dalam ekstraksi dan analisis data dari berbagai platform. [Bloom: C2]
+}
+
+::Soal 19 - C1:: Apa yang dimaksud dengan pengujian substantif (Substantive Testing)? {
+    ~A. Pengujian untuk melihat apakah prosedur kebijakan diikuti
+    ~B. Pengujian untuk menilai kekuatan password user
+    =C. Pengujian untuk memverifikasi kebenaran saldo atau detail transaksi
+    ~D. Pengujian untuk mengukur suhu ruangan server
+    #### Feedback: Uji substantif berfokus pada kebenaran angka dan data, bukan hanya pada prosesnya. [Bloom: C1]
+}
+
+::Soal 20 - C3:: Manakah dari berikut ini yang merupakan contoh teknik audit Continuous Auditing? {
+    ~A. Melakukan audit setahun sekali secara manual
+    =B. Menggunakan modul audit yang tertanam untuk memantau transaksi secara real-time
+    ~C. Mengirim kuesioner ke staf TI setiap bulan
+    ~D. Membaca laporan tahunan perusahaan
+    #### Feedback: Continuous auditing melibatkan pemantauan otomatis yang memberikan hasil secara terus-menerus atau mendekati real-time. [Bloom: C3]
+}
+
+::Soal 21 - C2:: Apa peran utama auditor dalam Audit Project Management? {
+    =A. Memastikan audit diselesaikan tepat waktu dan sesuai anggaran serta kualitas
+    ~B. Mengambil alih manajemen departemen TI selama audit berlangsung
+    ~C. Menjual layanan tambahan kepada klien saat audit berjalan
+    ~D. Menghindari area yang sulit diaudit agar proyek cepat selesai
+    #### Feedback: Manajemen proyek audit bertujuan untuk memastikan tujuan audit tercapai secara efisien dan efektif. [Bloom: C2]
+}
+
+::Soal 22 - C1:: Apa yang dimaksud dengan "Audit Universe"? {
+    ~A. Jaringan komputer global yang digunakan oleh auditor
+    ~B. Seluruh peraturan hukum yang berlaku di suatu negara
+    ~C. Daftar semua auditor profesional yang terdaftar di ISACA
+    =D. Daftar semua area potensial yang dapat diaudit dalam suatu organisasi
+    #### Feedback: Audit universe menjadi dasar bagi penyusunan rencana audit jangka panjang dan tahunan. [Bloom: C1]
+}
+
+::Soal 23 - C3:: Seorang auditor menemukan kelemahan keamanan kritis saat audit baru berjalan 20%. Apa tindakan terbaik? {
+    ~A. Menunggu sampai audit selesai 100% agar data lengkap
+    =B. Segera memberitahu manajemen tanpa menunggu laporan final
+    ~C. Menyimpan informasi tersebut untuk audit tahun depan
+    ~D. Mengabaikan temuan tersebut jika tidak ada dalam ruang lingkup asli
+    #### Feedback: Masalah kritis yang mengancam organisasi harus segera dikomunikasikan agar tindakan mitigasi bisa dilakukan secepatnya. [Bloom: C3]
+}
+
+::Soal 24 - C2:: Apa tujuan dari "Exit Interview" (Rapat Penutupan)? {
+    ~A. Memberikan hukuman kepada auditee yang kinerjanya buruk
+    ~B. Menandatangani kontrak audit untuk tahun depan
+    =C. Memastikan fakta-fakta dalam temuan disetujui dan mendiskusikan rencana perbaikan
+    ~D. Mengumumkan pemecatan administrator sistem
+    #### Feedback: Exit interview bertujuan untuk sinkronisasi persepsi fakta dan mendapatkan komitmen manajemen atas perbaikan. [Bloom: C2]
+}
+
+::Soal 25 - C4:: Dalam laporan audit, manakah komponen yang paling penting untuk meyakinkan manajemen agar melakukan tindakan perbaikan? {
+    ~A. Tanggal kapan temuan ditemukan
+    =B. Dampak atau risiko (Impact/Risk) dari temuan tersebut
+    ~C. Nama staf yang melakukan kesalahan
+    ~D. Jenis komputer yang digunakan saat audit
+    #### Feedback: Manajemen lebih termotivasi untuk bertindak jika mereka memahami dampak negatif atau risiko bisnis dari suatu kelemahan. [Bloom: C4]
+}
+
+::Soal 26 - C1:: Apa fungsi utama dari "Audit Working Papers" (Kertas Kerja Audit)? {
+    =A. Mendokumentasikan bukti pendukung kesimpulan dan laporan audit
+    ~B. Sebagai bahan presentasi pemasaran untuk departemen audit
+    ~C. Untuk mencatat daftar belanja kantor
+    ~D. Sebagai surat kontrak kerja auditor
+    #### Feedback: Kertas kerja harus cukup jelas sehingga auditor lain yang kompeten dapat mencapai kesimpulan yang sama. [Bloom: C1]
+}
+
+::Soal 27 - C2:: Manakah dari berikut ini yang merupakan contoh dari "Indirect Evidence"? {
+    =A. Hasil analisis perbandingan data dari dua sistem yang berbeda
+    ~B. Observasi langsung auditor terhadap pemrosesan data
+    ~C. Pemeriksaan fisik server fisik
+    ~D. Konfirmasi saldo langsung dari bank
+    #### Feedback: Bukti tidak langsung memerlukan interpretasi atau analisis tambahan dibandingkan bukti fisik atau observasi langsung. [Bloom: C2]
+}
+
+::Soal 28 - C3:: Auditor SI diminta memberikan saran tentang kontrol pada sistem ERP yang baru akan dibeli. Apakah ini melanggar independensi? {
+    ~A. Ya, auditor tidak boleh memberikan saran apa pun
+    ~B. Ya, kecuali auditor tersebut mengundurkan diri setelah memberikan saran
+    =C. Tidak, selama auditor tidak mengambil keputusan manajerial atau mengoperasikan sistem tersebut
+    ~D. Tidak, karena auditor berhak melakukan apa saja
+    #### Feedback: Memberikan saran atau konsultasi diperbolehkan selama peran auditor tetap objektif dan tidak menjadi pengambil keputusan. [Bloom: C3]
+}
+
+::Soal 29 - C4:: Apa cara terbaik bagi auditor SI untuk memastikan bahwa tindak lanjut (follow-up) audit benar-benar dilakukan? {
+    ~A. Bertanya kepada manajer melalui telepon apakah sudah diperbaiki
+    =B. Melakukan pengujian ulang (re-testing) atas kontrol yang sebelumnya dilaporkan lemah
+    ~C. Menganggap sudah diperbaiki jika tidak ada keluhan dari user
+    ~D. Membaca email dari tim TI yang menyatakan masalah sudah selesai
+    #### Feedback: Pengujian ulang adalah bukti paling andal untuk memverifikasi bahwa tindakan perbaikan telah diimplementasikan secara efektif. [Bloom: C4]
+}
+
+::Soal 30 - C1:: Penggunaan "Data Analytics" dalam audit SI paling membantu auditor dalam: {
+    =A. Mengidentifikasi tren, anomali, dan outlier dalam populasi data yang besar
+    ~B. Menulis kode program untuk aplikasi bisnis
+    ~C. Mengurangi jumlah staf audit agar biaya lebih murah
+    ~D. Menghapus virus dari komputer manajemen
+    #### Feedback: Analisis data memungkinkan auditor melihat gambaran besar dan menemukan masalah yang tersembunyi dalam ribuan transaksi. [Bloom: C1]
+}
+
+::Soal 31 - C2:: Apa yang dimaksud dengan "Control Self-Assessment" (CSA)? {
+    =A. Proses di mana unit bisnis menilai sendiri efektivitas kontrol mereka dengan bimbingan auditor
+    ~B. Auditor melakukan audit terhadap dirinya sendiri
+    ~C. Manajemen memecat tim audit internal
+    ~D. Sistem otomatis yang memperbaiki dirinya sendiri
+    #### Feedback: CSA meningkatkan kepemilikan kontrol oleh manajemen operasional dan membantu auditor mengidentifikasi area berisiko. [Bloom: C2]
+}
+
+::Soal 32 - C1:: Manakah dari berikut ini yang bukan merupakan bagian dari pengumpulan bukti audit? {
+    ~A. Melakukan wawancara dengan pemilik proses
+    ~B. Melakukan observasi terhadap prosedur operasional
+    =C. Melakukan konfigurasi ulang pada firewall auditee
+    ~D. Melakukan inspeksi terhadap dokumentasi sistem
+    #### Feedback: Auditor tidak boleh mengubah konfigurasi sistem auditee karena itu tanggung jawab operasional. [Bloom: C1]
+}
+
+::Soal 33 - C3:: Seorang auditor menemukan bahwa banyak user memiliki hak akses administrator yang tidak perlu. Langkah pertama yang harus dilakukan adalah: {
+    ~A. Langsung menghapus akses semua user tersebut
+    =B. Menganalisis risiko terkait akses berlebih tersebut
+    ~C. Melaporkan user tersebut ke pihak keamanan
+    ~D. Membeli software keamanan baru
+    #### Feedback: Sebelum merekomendasikan tindakan, auditor harus memahami eksposur risiko yang ditimbulkan oleh kelemahan tersebut. [Bloom: C3]
+}
+
+::Soal 34 - C2:: Apa manfaat utama dari audit terintegrasi (Integrated Audit)? {
+    =A. Menggabungkan audit operasional, finansial, dan SI untuk pemahaman risiko yang komprehensif
+    ~B. Mempercepat waktu audit menjadi hanya satu hari
+    ~C. Mengurangi gaji auditor eksternal
+    ~D. Memastikan tidak ada temuan yang dilaporkan
+    #### Feedback: Audit terintegrasi memungkinkan auditor melihat hubungan antara kontrol TI dan tujuan bisnis atau finansial. [Bloom: C2]
+}
+
+::Soal 35 - C1:: Dalam metodologi pengembangan sistem (SDLC), keterlibatan auditor SI paling penting dalam tahap: {
+    ~A. Setelah sistem sudah berjalan 2 tahun
+    ~B. Hanya saat sistem akan dihapus
+    =C. Analisis kebutuhan dan spesifikasi kontrol (Design)
+    ~D. Penjualan lisensi perangkat lunak
+    #### Feedback: Memasukkan kontrol sejak tahap desain jauh lebih efektif dan murah daripada memperbaiki sistem yang sudah jadi. [Bloom: C1]
+}
+
+::Soal 36 - C4:: Auditor ditemukan bahwa prosedur pemulihan bencana (DRP) sudah ada tetapi tidak pernah diuji dalam 3 tahun terakhir. Apa kesimpulan yang paling tepat? {
+    =A. Efektivitas DRP tidak dapat dipastikan dan risiko kegagalan pemulihan tinggi
+    ~B. DRP pasti berhasil karena dokumennya lengkap
+    ~C. Organisasi tidak membutuhkan DRP karena tidak pernah ada bencana
+    ~D. Auditor harus menulis sendiri prosedur pengujian untuk manajemen
+    #### Feedback: Rencana yang tidak diuji memiliki risiko tinggi kegagalan saat benar-benar dibutuhkan oleh organisasi. [Bloom: C4]
+}
+
+::Soal 37 - C2:: Apa tujuan dari Standar Audit "Due Professional Care"? {
+    ~A. Menjamin bahwa auditor tidak akan pernah melakukan kesalahan
+    ~B. Memastikan auditor dibayar dengan gaji tertinggi
+    ~C. Membolehkan auditor untuk mengabaikan bukti yang sulit ditemukan
+    =D. Memastikan auditor bekerja dengan kompetensi, ketelitian, dan integritas yang diharapkan
+    #### Feedback: Due professional care menuntut auditor untuk bertindak secara profesional dan seksama dalam setiap penugasan. [Bloom: C2]
+}
+
+::Soal 38 - C3:: Manakah dari berikut ini yang merupakan teknik audit untuk memeriksa efektivitas kontrol input pada aplikasi web? {
+    =A. Memasukkan data yang tidak valid ke dalam form (Fuzzing/Input Validation testing)
+    ~B. Membaca manual penggunaan printer
+    ~C. Menghitung jumlah keyboard di kantor
+    ~D. Mewawancarai petugas kebersihan
+    #### Feedback: Memasukkan data salah secara sengaja membantu memverifikasi apakah kontrol validasi aplikasi bekerja. [Bloom: C3]
+}
+
+::Soal 39 - C1:: Apa yang dimaksud dengan "Residual Risk"? {
+    ~A. Risiko yang hilang setelah audit selesai
+    ~B. Risiko yang hanya terjadi pada akhir tahun
+    =C. Risiko yang tetap ada setelah kontrol diterapkan
+    ~D. Risiko yang tidak sengaja diciptakan oleh auditor
+    #### Feedback: Sisa risiko setelah mitigasi harus berada dalam batas selera risiko (Risk Appetite) organisasi. [Bloom: C1]
+}
+
+::Soal 40 - C2:: Mengapa auditor SI perlu memahami "Business Process" auditee? {
+    =A. Agar dapat menghubungkan kontrol TI dengan dampak bisnis yang nyata
+    ~B. Agar bisa menggantikan manajer bisnis jika mereka cuti
+    ~C. Untuk mengetahui rahasia dagang perusahaan lain
+    ~D. Untuk memastikan karyawan bekerja tepat waktu
+    #### Feedback: Tanpa pemahaman konteks bisnis, audit SI hanya akan menjadi latihan teknis tanpa memberikan nilai tambah strategis. [Bloom: C2]
+}
+
+::Soal 41 - C1:: Teknik "Observation" (Observasi) paling cocok digunakan untuk: {
+    ~A. Menganalisis kode program yang sangat kompleks
+    =B. Memverifikasi apakah prosedur fisik atau manual dilakukan sesuai aturan
+    ~C. Menghitung saldo kas di bank secara akurat
+    ~D. Menentukan visi strategis perusahaan 10 tahun ke depan
+    #### Feedback: Observasi memberikan bukti nyata tentang perilaku atau proses yang sedang berlangsung secara fisik. [Bloom: C1]
+}
+
+::Soal 42 - C3:: Manakah dari berikut ini yang merupakan contoh pemanfaatan data analytics untuk "streamline audit process"? {
+    =A. Mengotomatisasi identifikasi transaksi duplikat dari seluruh database populasi
+    ~B. Mengetik laporan audit menggunakan mesin tik manual
+    ~C. Meminta auditee mengirimkan print-out kertas dari semua transaksi
+    ~D. Melakukan wawancara via telepon saja
+    #### Feedback: Otomatisasi analisis populasi 100% data meningkatkan efisiensi dan akurasi dibandingkan sampling manual. [Bloom: C3]
+}
+
+::Soal 43 - C2:: Apa yang dimaksud dengan "Audit Risk"? {
+    ~A. Risiko bahwa auditor akan dituntut oleh auditee
+    =B. Risiko bahwa auditor mengeluarkan opini yang salah atas hasil auditnya
+    ~C. Risiko bahwa komputer auditor akan rusak saat bekerja
+    ~D. Risiko bahwa anggaran audit akan habis sebelum selesai
+    #### Feedback: Audit risk adalah kemungkinan auditor memberikan kesimpulan yang tidak tepat berdasarkan bukti yang tidak memadai atau salah saji. [Bloom: C2]
+}
+
+::Soal 44 - C4:: Seorang auditor menemukan bahwa kontrol login hanya menggunakan password tanpa MFA. Saran perbaikan yang paling tepat adalah: {
+    ~A. Meminta manajemen memecat tim keamanan TI
+    ~B. Menyuruh user mengganti password setiap jam
+    ~C. Mengabaikan hal tersebut karena password sudah cukup panjang
+    =D. Mengusulkan implementasi MFA berdasarkan penilaian risiko dan sensitivitas data
+    #### Feedback: Memberikan rekomendasi berbasis risiko membantu organisasi meningkatkan postur keamanan secara efektif. [Bloom: C4]
+}
+
+::Soal 45 - C1:: Apa tujuan utama dari Quality Assurance (QA) dalam proses audit? {
+    ~A. Memastikan semua auditee senang dengan hasil audit
+    =B. Memastikan aktivitas audit mematuhi standar dan memberikan nilai kepada organisasi
+    ~C. Menghilangkan semua temuan negatif dari laporan
+    ~D. Menjamin bahwa perusahaan tidak akan pernah diretas
+    #### Feedback: Program peningkatan kualitas memastikan fungsi audit internal bekerja sesuai standar kualitas profesional yang berlaku. [Bloom: C1]
+}
+
+::Soal 46 - C2:: Manakah dari berikut ini yang merupakan kontrol administratif (Management Control)? {
+    =A. Kebijakan keamanan informasi yang ditandatangani manajemen
+    ~B. Sistem deteksi intrusi (IDS) pada jaringan
+    ~C. Pemadam kebakaran di ruang data center
+    ~D. Enkripsi hard drive laptop
+    #### Feedback: Kebijakan, prosedur, dan standar adalah bentuk pengendalian tingkat manajemen atau administratif. [Bloom: C2]
+}
+
+::Soal 47 - C3:: Auditor sedang melakukan audit kepatuhan (Compliance Audit). Fokus utamanya adalah: {
+    ~A. Mencari cara agar organisasi mendapatkan keuntungan lebih besar
+    =B. Memastikan organisasi mematuhi hukum, regulasi, dan kebijakan internal
+    ~C. Menilai apakah performa server sudah sangat cepat
+    ~D. Mengurangi jumlah karyawan di departemen TI
+    #### Feedback: Audit kepatuhan berfokus pada ketaatan terhadap aturan eksternal (hukum) maupun internal yang berlaku. [Bloom: C3]
+}
+
+::Soal 48 - C1:: Teknik "Inquiry" (Wawancara) dalam audit harus selalu: {
+    ~A. Dianggap sebagai kebenaran mutlak tanpa perlu verifikasi
+    ~B. Dilakukan di depan polisi
+    =C. Didukung dengan bukti audit lainnya (corroborative evidence)
+    ~D. Direkam menggunakan video rahasia
+    #### Feedback: Bukti lisan dari wawancara memiliki tingkat keandalan rendah dan harus diverifikasi dengan observasi atau dokumen. [Bloom: C1]
+}
+
+::Soal 49 - C4:: Dalam pengujian kontrol, auditor menemukan bahwa "Exception Report" tidak pernah ditindaklanjuti. Risiko terbesar yang muncul adalah: {
+    ~A. Kertas printer terbuang sia-sia
+    =B. Aktivitas tidak sah atau kesalahan pemrosesan tidak terdeteksi dan tidak diperbaiki
+    ~C. Komputer akan menjadi lambat
+    ~D. Auditor akan kesulitan menulis laporan
+    #### Feedback: Laporan pengecualian tidak berguna jika tidak ada proses tindak lanjut untuk menangani anomali yang ditemukan. [Bloom: C4]
+}
+
+::Soal 50 - C2:: Apa yang dimaksud dengan "Variable Sampling" dalam audit? {
+    ~A. Digunakan untuk menghitung berapa banyak orang yang datang ke kantor
+    ~B. Digunakan untuk memilih warna kabel jaringan secara acak
+    =C. Digunakan untuk memperkirakan nilai numerik (misal: nilai moneter) dari suatu populasi
+    ~D. Digunakan untuk menentukan durasi rapat audit
+    #### Feedback: Variable sampling berfokus pada kuantitas atau nilai moneter, berbeda dengan attribute sampling yang berfokus pada kepatuhan. [Bloom: C2]
+}
+
+::Soal 51 - C1:: Apa tujuan dari "Audit Risk Assessment"? {
+    ~A. Membantu manajemen menyembunyikan kesalahan
+    =B. Membantu auditor memutuskan area mana yang membutuhkan perhatian paling besar
+    ~C. Menentukan berapa banyak kopi yang dibutuhkan selama audit
+    ~D. Mencari tahu siapa karyawan yang paling malas
+    #### Feedback: Penilaian risiko memandu auditor untuk mengalokasikan sumber daya secara efisien pada area yang dianggap kritis. [Bloom: C1]
+}
+
+::Soal 52 - C3:: Manakah dari berikut ini yang merupakan contoh layanan konsultasi yang dapat diberikan auditor tanpa merusak independensi? {
+    ~A. Merancang dan mengimplementasikan sistem keamanan untuk auditee
+    ~B. Menentukan siapa yang harus dipecat dari tim TI
+    =C. Memberikan rekomendasi praktik terbaik (best practices) untuk manajemen risiko TI
+    ~D. Menyetujui anggaran tahunan departemen TI
+    #### Feedback: Memberikan saran atau panduan adalah layanan konsultasi; namun mengambil keputusan manajemen melanggar independensi. [Bloom: C3]
+}
+
+::Soal 53 - C2:: Apa perbedaan antara "Vulnerability Assessment" dan "Audit"? {
+    =A. Vulnerability assessment mencari celah teknis; Audit menilai efektivitas kontrol secara keseluruhan terhadap tujuan bisnis
+    ~B. Tidak ada perbedaan, keduanya sama saja
+    ~C. Audit hanya untuk software; Vulnerability assessment untuk hardware
+    ~D. Audit dilakukan oleh polisi; Vulnerability assessment dilakukan oleh hacker
+    #### Feedback: Audit memiliki ruang lingkup lebih luas yang mencakup kebijakan, proses, dan kepatuhan, bukan hanya kelemahan teknis. [Bloom: C2]
+}
+
+::Soal 54 - C4:: Auditor menemukan bahwa backup disimpan di ruangan yang sama dengan server utama. Mengapa hal ini menjadi temuan audit? {
+    ~A. Karena ruangan tersebut terlalu sempit
+    =B. Karena bencana fisik di ruangan tersebut akan menghancurkan baik data utama maupun backupnya
+    ~C. Karena backup harus disimpan di rumah direktur
+    ~D. Karena warna rak backup harus berbeda dengan rak server
+    #### Feedback: Penyimpanan di lokasi berbeda (off-site) adalah kontrol penting untuk memastikan pemulihan bencana dapat dilakukan. [Bloom: C4]
+}
+
+::Soal 55 - C1:: Siapa yang bertanggung jawab untuk menentukan tingkat "Risk Appetite" organisasi? {
+    ~A. Auditor SI
+    =B. Manajemen Senior dan Dewan Direksi
+    ~C. Administrator Jaringan
+    ~D. Pelanggan perusahaan
+    #### Feedback: Penentuan selera risiko adalah fungsi tata kelola yang dilakukan oleh pimpinan tertinggi organisasi bukan auditor. [Bloom: C1]
+}
+
+::Soal 56 - C2:: Apa fungsi dari "Audit Trail"? {
+    ~A. Mengurangi kecepatan internet
+    =B. Memberikan catatan kronologis aktivitas sistem untuk mendukung akuntabilitas
+    ~C. Menghapus log secara otomatis setiap jam
+    ~D. Menghubungkan server ke printer
+    #### Feedback: Jejak audit memungkinkan auditor untuk menelusuri transaksi dari awal hingga akhir guna memastikan akuntabilitas. [Bloom: C2]
+}
+
+::Soal 57 - C3:: Manakah yang merupakan bukti paling andal untuk memverifikasi saldo bank perusahaan? {
+    ~A. Foto layar (screenshot) saldo dari HP manajer keuangan
+    =B. Surat konfirmasi yang dikirim langsung oleh bank kepada auditor
+    ~C. Pernyataan lisan dari kasir perusahaan
+    ~D. Catatan di buku tulis akuntan
+    #### Feedback: Bukti dari pihak eksternal independen yang dikirim langsung ke auditor adalah bukti yang memiliki tingkat keandalan tinggi. [Bloom: C3]
+}
+
+::Soal 58 - C4:: Auditor ditemukan bahwa semua karyawan menggunakan satu akun "admin" yang sama untuk mengelola server. Masalah utama dari praktik ini adalah: {
+    ~A. Biaya lisensi menjadi terlalu murah
+    ~B. Server akan kehabisan memori
+    =C. Hilangnya akuntabilitas individu (Individual Accountability)
+    ~D. Password akan sulit diingat oleh semua orang
+    #### Feedback: Tanpa akun unik bagi setiap individu, tidak mungkin mengetahui siapa yang bertanggung jawab atas perubahan tertentu. [Bloom: C4]
+}
+
+::Soal 59 - C1:: Manakah dari berikut ini yang merupakan standar internasional untuk manajemen keamanan informasi? {
+    =A. ISO/IEC 27001
+    ~B. ISO 9001
+    ~C. HTTP 404
+    ~D. GDPR
+    #### Feedback: ISO 27001 adalah standar global yang sering digunakan sebagai kriteria dalam audit keamanan informasi. [Bloom: C1]
+}
+
+::Soal 60 - C2:: Apa yang dimaksud dengan "Statistical Sampling"? {
+    =A. Metode pemilihan sampel di mana setiap item memiliki probabilitas yang diketahui untuk dipilih
+    ~B. Memilih sampel berdasarkan warna dokumen
+    ~C. Memilih hanya dokumen yang terlihat bersih
+    ~D. Menggunakan perasaan auditor untuk menentukan sampel
+    #### Feedback: Sampling statistik memungkinkan auditor menarik kesimpulan tentang populasi secara matematis dengan risiko terukur. [Bloom: C2]
+}
+
+::Soal 61 - C3:: Seorang auditor ingin memeriksa apakah ada user fiktif di sistem penggajian. Teknik mana yang paling efektif? {
+    ~A. Meminta user untuk tersenyum saat bekerja
+    =B. Membandingkan data karyawan aktif dari HR dengan data user di sistem penggajian (Data Matching)
+    ~C. Menghitung jumlah komputer di departemen HR
+    ~D. Membaca manual kebijakan penggajian
+    #### Feedback: Pencocokan data antara dua sumber independen (HR dan Penggajian) efektif untuk menemukan akun fiktif. [Bloom: C3]
+}
+
+::Soal 62 - C1:: Apa tujuan dari "Work Program" dalam audit? {
+    ~A. Memberikan jadwal cuti untuk tim audit
+    ~B. Memberikan resep makanan untuk makan siang tim
+    =C. Memberikan daftar langkah-langkah pengujian yang harus dilakukan selama audit
+    ~D. Memberikan daftar harga perangkat lunak audit
+    #### Feedback: Audit work program memastikan semua area yang direncanakan diuji secara konsisten oleh tim audit. [Bloom: C1]
+}
+
+::Soal 63 - C2:: Mengapa auditor harus melakukan "Walkthrough" di awal audit? {
+    ~A. Untuk berolahraga pagi di kantor auditee
+    =B. Untuk memahami alur proses secara nyata dan mengonfirmasi desain kontrol
+    ~C. Untuk mencari ruangan mana yang memiliki AC paling dingin
+    ~D. Untuk memperkenalkan diri kepada semua karyawan satu per satu
+    #### Feedback: Walkthrough membantu auditor memverifikasi pemahaman mereka tentang alur proses bisnis sebelum memulai pengujian mendalam. [Bloom: C2]
+}
+
+::Soal 64 - C4:: Jika seorang auditor menemukan bahwa kebijakan keamanan TI organisasi tidak selaras dengan tujuan bisnis, apa risiko utamanya? {
+    ~A. Karyawan akan berhenti bekerja
+    ~B. Harga saham akan langsung jatuh ke nol
+    =C. Kontrol TI mungkin menghambat produktivitas atau gagal melindungi aset yang paling berharga
+    ~D. Organisasi harus mengganti semua komputer dengan laptop
+    #### Feedback: Keselarasan strategis memastikan investasi TI dan kontrol benar-benar mendukung pencapaian tujuan bisnis organisasi. [Bloom: C4]
+}
+
+::Soal 65 - C1:: Apa yang dimaksud dengan "Professional Skepticism"? {
+    ~A. Sikap tidak percaya pada siapapun dan selalu marah
+    =A. Sikap yang selalu mempertanyakan dan menilai bukti secara kritis
+    ~C. Sikap yang mengabaikan semua penjelasan auditee
+    ~D. Sikap yang menganggap semua orang adalah penipu
+    #### Feedback: Auditor harus mencari bukti pendukung dan tidak langsung menerima pernyataan manajemen begitu saja tanpa verifikasi. [Bloom: C1]
+}
+
+::Soal 66 - C3:: Manakah dari berikut ini yang merupakan contoh "Corrective Control"? {
+    ~A. Alarm kebakaran yang berbunyi
+    ~B. Password yang terdiri dari 12 karakter
+    =C. Prosedur pemulihan data dari sistem cadangan (Backup Restore)
+    ~D. Pagar besi di sekeliling gedung data center
+    #### Feedback: Kontrol korektif bertujuan untuk memperbaiki dampak masalah dan mengembalikan operasi ke kondisi normal. [Bloom: C3]
+}
+
+::Soal 67 - C2:: Dalam audit SI, apa peran dari "Control Objective"? {
+    ~A. Memberikan daftar nama-nama orang yang harus diawasi
+    ~B. Menentukan berapa lama komputer harus menyala
+    =C. Memberikan pernyataan tentang hasil yang diinginkan atau tujuan yang ingin dicapai melalui kontrol
+    ~D. Mengurangi jumlah data yang disimpan di cloud
+    #### Feedback: Tujuan kontrol mendefinisikan apa yang ingin dicapai organisasi untuk memitigasi risiko tertentu. [Bloom: C2]
+}
+
+::Soal 68 - C4:: Selama audit, auditor menyadari bahwa waktu yang tersedia tidak cukup untuk menguji semua sampel. Apa tindakan yang paling profesional? {
+    ~A. Mengisi kertas kerja dengan hasil "oke" tanpa pengujian
+    ~B. Meminta auditee untuk melakukan pengujian sendiri untuk auditor
+    =C. Menggunakan pendekatan berbasis risiko untuk memprioritaskan sampel yang paling kritis
+    ~D. Meninggalkan audit begitu saja dan pulang
+    #### Feedback: Auditor harus mengelola sumber daya terbatas dengan memprioritaskan area yang memiliki risiko kegagalan tertinggi. [Bloom: C4]
+}
+
+::Soal 69 - C1:: Apa perbedaan utama antara "Internal Audit" dan "External Audit"? {
+    =A. Internal audit melapor kepada manajemen/komite audit; External audit melapor kepada pemegang saham/publik
+    ~B. Internal audit gratis; External audit sangat mahal
+    ~C. Internal audit hanya memeriksa sampah; External audit memeriksa uang
+    ~D. Tidak ada perbedaan sama sekali
+    #### Feedback: Perbedaan utama terletak pada tujuan pelaporan dan kepada siapa tanggung jawab utama diberikan. [Bloom: C1]
+}
+
+::Soal 70 - C2:: Manakah yang paling tepat menggambarkan "IT Governance"? {
+    ~A. Memastikan semua karyawan memiliki laptop terbaru
+    =B. Memastikan TI mendukung tujuan bisnis dan risiko TI dikelola dengan baik
+    ~C. Memastikan kecepatan internet adalah yang tercepat di dunia
+    ~D. Memastikan tidak ada karyawan yang membuka media sosial
+    #### Feedback: Tata kelola TI mencakup keselarasan strategis, manajemen risiko, pengiriman nilai, dan manajemen sumber daya TI. [Bloom: C2]
+}
+
+::Soal 71 - C3:: Manakah dari kontrol berikut yang paling efektif mencegah "SQL Injection" pada aplikasi web? {
+    ~A. Menggunakan antivirus pada server
+    =B. Validasi input dan Parameterized Queries
+    ~C. Mengganti password admin setiap minggu
+    ~D. Menambah kapasitas RAM server
+    #### Feedback: Validasi input dan penggunaan query berparameter adalah kontrol preventif teknis terbaik melawan SQL Injection. [Bloom: C3]
+}
+
+::Soal 72 - C1:: Apa fungsi utama dari "Compliance Testing"? {
+    ~A. Memastikan bahwa perusahaan mendapatkan diskon dari vendor
+    ~B. Memastikan bahwa semua komputer memiliki stiker aset
+    =C. Memastikan bahwa kontrol internal beroperasi sesuai dengan yang dirancang
+    ~D. Memastikan bahwa karyawan tidak datang terlambat
+    #### Feedback: Uji kepatuhan (test of control) bertujuan memverifikasi apakah kontrol yang ada telah dijalankan secara efektif. [Bloom: C1]
+}
+
+::Soal 73 - C2:: Mengapa "Independent Review" atas log sistem itu penting? {
+    ~A. Agar administrator merasa diperhatikan oleh perusahaan
+    =B. Agar aktivitas administrator yang tidak sah dapat dideteksi oleh pihak lain
+    ~C. Untuk mengurangi beban kerja administrator
+    ~D. Untuk memastikan log tidak menghabiskan ruang disk
+    #### Feedback: Peninjauan independen mencegah administrator menyembunyikan aktivitas mencurigakan yang mereka lakukan sendiri. [Bloom: C2]
+}
+
+::Soal 74 - C4:: Auditor ditemukan bahwa tim TI sering melewati prosedur manajemen perubahan saat terjadi insiden darurat. Apa rekomendasi terbaik? {
+    =A. Mengimplementasikan proses "Emergency Change" yang tetap terdokumentasi dan disetujui pasca-kejadian
+    ~B. Melarang semua perubahan darurat sama sekali
+    ~C. Membiarkan hal tersebut karena insiden darurat lebih penting daripada prosedur
+    ~D. Meminta tim TI berhenti menggunakan sistem tersebut
+    #### Feedback: Prosedur perubahan darurat memastikan kecepatan penanganan insiden tanpa mengorbankan akuntabilitas dan jejak audit. [Bloom: C4]
+}
+
+::Soal 75 - C1:: Apa yang dimaksud dengan "Risk Mitigation"? {
+    ~A. Menghapus risiko sepenuhnya dari muka bumi
+    =B. Mengurangi kemungkinan atau dampak dari suatu risiko melalui kontrol
+    ~C. Mengabaikan risiko dan berharap tidak terjadi apa-apa
+    ~D. Menyerahkan semua risiko kepada auditor
+    #### Feedback: Mitigasi risiko bertujuan menurunkan tingkat risiko hingga mencapai level yang dapat diterima organisasi. [Bloom: C1]
+}
+
+::Soal 76 - C3:: Auditor SI ingin mengidentifikasi peluang perbaikan pada kebijakan TI. Langkah pertama adalah: {
+    =A. Membandingkan kebijakan saat ini dengan standar industri dan kebutuhan bisnis
+    ~B. Menghapus semua kebijakan yang ada dan mulai dari nol
+    ~C. Membeli kebijakan dari perusahaan pesaing
+    ~D. Menanyakan kepada staf yang paling baru tentang pendapat mereka
+    #### Feedback: Benchmarking kebijakan terhadap standar industri membantu mengidentifikasi celah yang perlu ditingkatkan. [Bloom: C3]
+}
+
+::Soal 77 - C2:: Apa manfaat dari "Data Classification" bagi proses audit? {
+    =A. Membantu auditor memfokuskan pengujian pada data yang paling sensitif dan kritis
+    ~B. Membantu auditor menghitung jumlah file di server
+    ~C. Membantu auditor memilih warna folder untuk kertas kerja
+    ~D. Membantu auditor membedakan antara file musik dan file kerja
+    #### Feedback: Klasifikasi data memastikan sumber daya audit dan kontrol difokuskan pada data yang paling bernilai bagi organisasi. [Bloom: C2]
+}
+
+::Soal 78 - C4:: Seorang auditor ditemukan bahwa departemen audit internal tidak memiliki personil dengan keahlian cloud, padahal perusahaan sudah migrasi ke cloud. Apa tindakan paling tepat? {
+    ~A. Menunda audit cloud sampai 10 tahun lagi
+    ~B. Melakukan audit cloud seadanya menggunakan checklist umum
+    =C. Menggunakan ahli dari luar (Subject Matter Expert) atau memberikan pelatihan kepada staf audit
+    ~D. Mengabaikan area cloud dan hanya mengaudit area fisik
+    #### Feedback: Auditor harus memiliki kompetensi memadai atau mencari bantuan ahli eksternal guna mengaudit area teknis yang kompleks. [Bloom: C4]
+}
+
+::Soal 79 - C1:: Apa yang dimaksud dengan "System Development Life Cycle" (SDLC)? {
+    ~A. Waktu hidup baterai laptop
+    =B. Metodologi terstruktur untuk mengembangkan sistem informasi
+    ~C. Waktu yang dibutuhkan untuk menyalakan komputer
+    ~D. Siklus pergantian keyboard kantor
+    #### Feedback: SDLC adalah kerangka kerja yang digunakan untuk merancang, mengembangkan, dan menguji sistem informasi berkualitas. [Bloom: C1]
+}
+
+::Soal 80 - C2:: Apa risiko utama dari penggunaan "Shadow IT"? {
+    =A. Data mungkin tidak diamankan, tidak dibackup, dan melanggar kebijakan kepatuhan
+    ~B. Kecepatan internet perusahaan akan meningkat drastis
+    ~C. Karyawan akan menjadi terlalu pintar dalam teknologi
+    ~D. Biaya listrik akan menurun
+    #### Feedback: Shadow IT berada di luar kontrol resmi organisasi sehingga menciptakan celah keamanan yang tidak terpantau oleh manajemen. [Bloom: C2]
+}
+
+::Soal 81 - C3:: Manakah dari berikut ini yang merupakan contoh pemanfaatan data analytics untuk mendeteksi fraud? {
+    ~A. Menghitung jumlah total karyawan di perusahaan
+    =B. Mencari transaksi dengan nilai yang tepat di bawah ambang batas persetujuan manajer
+    ~C. Melihat jadwal rapat dewan direksi
+    ~D. Mengukur suhu di dalam data center
+    #### Feedback: Analisis anomali pada nilai transaksi sering kali mengungkap upaya sistematis untuk menghindari batas kontrol persetujuan. [Bloom: C3]
+}
+
+::Soal 82 - C1:: Apa yang dimaksud dengan "Independence" auditor? {
+    =A. Kebebasan dari kondisi yang mengancam kemampuan auditor untuk objektif
+    ~B. Keinginan auditor untuk bekerja sendirian di ruangan gelap
+    ~C. Kemampuan auditor untuk membayar biaya perjalanannya sendiri
+    ~D. Ketidakmauan auditor untuk berbicara dengan siapapun
+    #### Feedback: Independensi memastikan auditor memberikan pendapat yang jujur dan tidak memihak kepada pihak mana pun. [Bloom: C1]
+}
+
+::Soal 83 - C2:: Apa perbedaan antara "Black Box Testing" dan "White Box Testing"? {
+    ~A. Black box dilakukan malam hari; White box dilakukan siang hari
+    ~B. Black box hanya untuk hacker; White box untuk karyawan
+    =C. Black box menguji fungsionalitas tanpa melihat kode; White box menguji logika internal dan kode program
+    ~D. Tidak ada perbedaan signifikan
+    #### Feedback: White box testing membutuhkan pemahaman mendalam tentang struktur internal dan alur kode program yang diuji. [Bloom: C2]
+}
+
+::Soal 84 - C4:: Auditor menemukan bahwa manajemen tidak melakukan monitoring atas kontrol TI secara rutin. Apa dampak jangka panjangnya? {
+    =A. Kontrol akan menjadi tidak efektif seiring waktu karena tidak ada perbaikan atas kegagalan
+    ~B. Perusahaan akan menghemat banyak uang
+    ~C. Sistem akan berjalan lebih cepat karena tidak ada beban monitoring
+    ~D. Auditor akan kehilangan pekerjaan
+    #### Feedback: Monitoring yang buruk menyebabkan kegagalan kontrol tidak terdeteksi sehingga risiko organisasi meningkat secara terus-menerus. [Bloom: C4]
+}
+
+::Soal 85 - C1:: Manakah dari berikut ini yang merupakan contoh kontrol fisik? {
+    ~A. Enkripsi email
+    =B. Kunci pintu biometrik pada ruang server
+    ~C. Aturan kompleksitas password
+    ~D. Kebijakan penggunaan internet
+    #### Feedback: Kontrol fisik menggunakan sarana fisik untuk membatasi akses langsung ke area atau aset sensitif. [Bloom: C1]
+}
+
+::Soal 86 - C3:: Auditor SI menemukan bahwa rencana pemulihan bencana (DRP) belum diperbarui setelah ada pergantian server utama. Apa yang harus dilakukan? {
+    =A. Melaporkan hal ini sebagai temuan karena DRP yang ada mungkin tidak lagi valid
+    ~B. Memperbarui sendiri dokumen DRP tersebut untuk manajemen
+    ~C. Menunggu sampai server rusak untuk membuktikannya
+    ~D. Menganggap server baru otomatis tercover oleh DRP lama
+    #### Feedback: DRP harus selalu diperbarui seiring perubahan infrastruktur agar tetap relevan saat terjadi bencana sesungguhnya. [Bloom: C3]
+}
+
+::Soal 87 - C2:: Apa yang dimaksud dengan "Risk Transfer"? {
+    ~A. Memindahkan server ke gedung lain
+    ~B. Meminta auditor yang menanggung semua kerugian perusahaan
+    =C. Menyerahkan dampak finansial risiko kepada pihak lain melalui asuransi
+    ~D. Menghapus risiko dari daftar risiko
+    #### Feedback: Transfer risiko tidak menghilangkan kemungkinan kejadian, melainkan memindahkan beban finansial dampak risikonya. [Bloom: C2]
+}
+
+::Soal 88 - C1:: Apa fungsi utama dari "Quality Assurance" dalam pengembangan perangkat lunak? {
+    =A. Memastikan produk memenuhi standar kualitas dan kebutuhan user sebelum dirilis
+    ~B. Memastikan programmer bekerja 20 jam sehari
+    ~C. Menghapus semua kode program yang sulit dibaca
+    ~D. Menjual produk kepada pelanggan secepat mungkin
+    #### Feedback: QA dalam SDLC memastikan bahwa kontrol dan fungsionalitas yang dibangun telah berjalan sesuai spesifikasi pengguna. [Bloom: C1]
+}
+
+::Soal 89 - C4:: Manakah dari temuan berikut yang paling menunjukkan kelemahan tata kelola (governance) TI? {
+    ~A. Satu komputer tidak memiliki antivirus
+    =B. Tidak adanya keselarasan antara strategi TI dengan strategi bisnis organisasi
+    ~C. Keyboard di ruang resepsionis berdebu
+    ~D. Printer kehabisan tinta saat audit berlangsung
+    #### Feedback: Kegagalan menyelaraskan TI dengan bisnis adalah isu tata kelola tingkat tinggi yang sangat krusial. [Bloom: C4]
+}
+
+::Soal 90 - C2:: Apa yang dimaksud dengan "Reasonable Assurance"? {
+    =A. Tingkat keyakinan yang tinggi tetapi bukan mutlak
+    ~B. Jaminan 100% bahwa tidak ada kesalahan
+    ~C. Janji auditor bahwa perusahaan akan selalu untung
+    ~D. Tebakan auditor yang masuk akal
+    #### Feedback: Karena keterbatasan sampling dan kontrol, auditor hanya memberikan keyakinan yang memadai, bukan jaminan tanpa cela. [Bloom: C2]
+}
+
+::Soal 91 - C3:: Seorang auditor ingin memastikan bahwa hanya user sah yang dapat mengakses gedung data center. Prosedur audit paling efektif adalah: {
+    ~A. Membaca brosur tentang keamanan gedung
+    ~B. Menanyakan kepada satpam apakah mereka merasa aman
+    =C. Melakukan observasi fisik dan meninjau log akses kartu pintu masuk
+    ~D. Melihat foto gedung dari internet
+    #### Feedback: Kombinasi observasi langsung dan bukti dokumentasi (log) memberikan keyakinan kuat atas efektivitas kontrol akses fisik. [Bloom: C3]
+}
+
+::Soal 92 - C1:: Apa yang dimaksud dengan "Audit Scope"? {
+    =A. Batasan atau ruang lingkup dari aktivitas audit (sistem, unit, periode waktu)
+    ~B. Mikroskop yang digunakan oleh auditor
+    ~C. Jumlah uang yang dibayarkan kepada auditor
+    ~D. Daftar nama semua karyawan auditee
+    #### Feedback: Penentuan ruang lingkup audit memastikan bahwa pengujian tetap fokus pada area yang telah disetujui. [Bloom: C1]
+}
+
+::Soal 93 - C2:: Mengapa "Separation of Duties" (SoD) sangat penting dalam sistem keuangan? {
+    ~A. Untuk memastikan semua orang memiliki pekerjaan
+    =B. Untuk mencegah satu orang melakukan dan menyembunyikan kesalahan atau kecurangan
+    ~C. Untuk meningkatkan biaya operasional perusahaan
+    ~D. Untuk memudahkan auditor memecat karyawan
+    #### Feedback: SoD adalah kontrol preventif utama guna menjaga integritas transaksi dengan membagi tanggung jawab kritis. [Bloom: C2]
+}
+
+::Soal 94 - C4:: Auditor ditemukan bahwa manajer TI memiliki akses untuk mengubah kode program dan merilisnya ke produksi. Risiko utamanya adalah: {
+    =A. Manajer dapat memasukkan kode berbahaya tanpa ada tinjauan independen
+    ~B. Manajer akan menjadi terlalu lelah bekerja
+    ~C. Server produksi akan berjalan terlalu cepat
+    ~D. Programmer lain akan merasa iri
+    #### Feedback: Penggabungan fungsi pengembangan dan operasional pada satu orang menciptakan risiko modifikasi kode yang tidak sah. [Bloom: C4]
+}
+
+::Soal 95 - C1:: Apa tujuan utama dari "Information Systems Audit Standards"? {
+    ~A. Memberikan daftar harga hardware terbaru
+    =B. Memberikan persyaratan minimum untuk perilaku profesional dan kinerja auditor
+    ~C. Memberikan petunjuk cara meretas website
+    ~D. Memberikan tips agar auditor cepat kaya
+    #### Feedback: Standar audit memastikan konsistensi kualitas dan profesionalisme dalam pelaksanaan penugasan audit SI. [Bloom: C1]
+}
+
+::Soal 96 - C3:: Manakah dari berikut ini yang merupakan contoh kontrol detektif pada jaringan? {
+    ~A. Firewall yang memblokir port 80
+    =B. Intrusion Detection System (IDS)
+    ~C. Kebijakan penggunaan VPN
+    ~D. Router yang mati
+    #### Feedback: IDS memantau lalu lintas jaringan dan memberikan peringatan jika mendeteksi pola aktivitas yang mencurigakan. [Bloom: C3]
+}
+
+::Soal 97 - C2:: Apa yang dimaksud dengan "Risk Acceptance"? {
+    ~A. Ketidakmampuan auditor untuk menemukan risiko
+    ~B. Menyerah pada nasib dan tidak melakukan apa-apa
+    ~C. Membayar orang lain untuk menanggung risiko
+    =D. Keputusan manajemen untuk menanggung risiko karena biaya mitigasi terlalu mahal
+    #### Feedback: Penerimaan risiko dilakukan secara sadar oleh manajemen apabila dampak risiko dianggap dapat dikelola. [Bloom: C2]
+}
+
+::Soal 98 - C4:: Auditor ditemukan database tidak dienkripsi, namun server database berada di ruangan yang sangat aman. Ini disebut: {
+    ~A. Pelanggaran berat yang harus dilaporkan ke polisi
+    =B. Penilaian kontrol kompensasi (Compensating Control)
+    ~C. Keberuntungan bagi perusahaan
+    ~D. Kesalahan desain audit
+    #### Feedback: Kontrol kompensasi adalah pengendalian yang menggantikan kelemahan kontrol lain guna mencapai tingkat keamanan yang diinginkan. [Bloom: C4]
+}
+
+::Soal 99 - C1:: Apa fungsi utama dari "Follow-up Audit"? {
+    =A. Memastikan manajemen telah mengambil tindakan perbaikan yang tepat atas temuan sebelumnya
+    ~B. Memberikan tagihan biaya tambahan kepada auditee
+    ~C. Mengajak auditee makan siang setelah audit selesai
+    ~D. Mencari kesalahan baru yang tidak ada sebelumnya
+    #### Feedback: Audit tindak lanjut bertujuan memverifikasi penyelesaian isu risiko yang telah ditemukan pada audit sebelumnya. [Bloom: C1]
+}
+
+::Soal 100 - C3:: Manakah dari tindakan berikut yang paling tepat untuk meningkatkan kualitas proses audit? {
+    ~A. Menghapus semua temuan yang membuat manajemen marah
+    ~B. Mengurangi jumlah auditor agar proses lebih cepat
+    ~C. Tidak pernah mengubah prosedur audit selama 20 tahun
+    =D. Melakukan survei kepuasan auditee dan self-assessment internal tim audit secara rutin
+    #### Feedback: Penilaian berkelanjutan dan umpan balik sangat penting untuk memastikan fungsi audit terus memberikan nilai tambah. [Bloom: C3]
+}
