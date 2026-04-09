@@ -1,0 +1,799 @@
+::Soal 1 - C1:: Apa tujuan utama dari kontrol akses logis? {
+    ~A. Menjamin keamanan fisik gedung data center.
+    =B. Membatasi akses pengguna ke sistem dan data secara digital.
+    ~C. Mempercepat koneksi internet bagi seluruh karyawan.
+    ~D. Mengurangi biaya operasional pemeliharaan server.
+    #### Feedback: Kontrol akses logis menggunakan mekanisme sistem untuk melindungi kerahasiaan dan integritas informasi di dalam sistem.
+}
+
+::Soal 2 - C2:: Mengapa prinsip hak akses minimum (Least Privilege) sangat penting dalam pengelolaan identitas? {
+    ~A. Untuk mempermudah staf TI mengingat password mereka.
+    =B. Untuk membatasi potensi kerusakan jika suatu akun berhasil disalahgunakan.
+    ~C. Untuk mengurangi biaya pembelian lisensi perangkat lunak.
+    ~D. Untuk mempercepat proses login pengguna ke dalam sistem.
+    #### Feedback: Dengan membatasi akses hanya pada hal yang diperlukan, risiko penyalahgunaan data atau kerusakan sistem dapat diminimalkan.
+}
+
+::Soal 3 - C3:: Jika seorang karyawan mengundurkan diri, tindakan keamanan apa yang harus segera dilakukan oleh admin? {
+    ~A. Memberikan hadiah kenang-kenangan dan ucapan selamat.
+    =B. Menonaktifkan seluruh akses akun sistem dan fisik milik karyawan tersebut.
+    ~C. Meminta karyawan tersebut untuk melatih penggantinya selama sebulan.
+    ~D. Menghapus seluruh riwayat email yang pernah dikirim oleh karyawan tersebut.
+    #### Feedback: Penonaktifan akun segera mencegah risiko akses tidak sah pasca-masa kerja oleh mantan karyawan yang mungkin memiliki niat buruk.
+}
+
+::Soal 4 - C4:: Jika auditor menemukan log firewall menunjukkan lonjakan trafik keluar yang masif ke alamat IP asing yang tidak dikenal, tindakan analisis pertama adalah: {
+    ~A. Mematikan seluruh firewall agar trafik kembali normal.
+    =B. Menyelidiki potensi kebocoran data (data exfiltration) atau infeksi malware.
+    ~C. Menambah kapasitas bandwidth internet agar trafik tidak terhambat.
+    ~D. Menghapus log tersebut agar ruang penyimpanan tidak penuh.
+    #### Feedback: Anomali trafik keluar sering kali menjadi tanda bahwa sistem internal telah dikompromi dan sedang mengirimkan data sensitif ke luar.
+}
+
+::Soal 5 - C1:: Apa yang dimaksud dengan integritas dalam triad CIA? {
+    ~A. Menjamin data selalu tersedia saat dibutuhkan oleh user.
+    ~B. Menjamin data hanya bisa dilihat oleh pihak yang berhak saja.
+    =C. Menjamin data akurat, lengkap, dan tidak diubah tanpa izin sah.
+    ~D. Menjamin data disimpan di lokasi yang memiliki suhu udara rendah.
+    #### Feedback: Integritas berfokus pada keaslian informasi dan perlindungan terhadap modifikasi yang tidak terorisasi.
+}
+
+::Soal 6 - C2:: Mengapa enkripsi at-rest diperlukan meskipun database berada di server yang aman? {
+    ~A. Agar database tersebut terlihat lebih profesional saat diaudit.
+    =B. Melindungi data jika media penyimpanan dicuri secara fisik atau diakses ilegal.
+    ~C. Untuk menghilangkan kebutuhan akan password saat pengguna melakukan login.
+    ~D. Agar ukuran file database menjadi sepuluh kali lipat lebih kecil.
+    #### Feedback: Enkripsi at-rest menjamin data tetap tidak terbaca meskipun lapisan keamanan fisik atau akses sistem berhasil ditembus.
+}
+
+::Soal 7 - C1:: Manakah yang merupakan contoh otentikasi biometrik? {
+    ~A. Penggunaan kartu pintar atau RFID card.
+    ~B. Penggunaan kata sandi satu kali (OTP) via SMS.
+    =C. Pemindaian pola iris mata atau sidik jari tangan.
+    ~D. Menggunakan kunci gembok fisik yang sangat kuat.
+    #### Feedback: Otentikasi biometrik menggunakan karakteristik biologis unik individu untuk memverifikasi identitas pengguna.
+}
+
+::Soal 8 - C2:: Mengapa Public Key Infrastructure (PKI) menggunakan pasangan kunci asimetris? {
+    ~A. Agar proses enkripsi data menjadi sepuluh kali lebih cepat.
+    =B. Untuk mempermudah distribusi kunci publik tanpa membahayakan kunci pribadi.
+    ~C. Agar perusahaan tidak perlu lagi membeli sertifikat digital.
+    ~D. Untuk mengurangi penggunaan daya listrik pada proses komputasi.
+    #### Feedback: Kriptografi asimetris memecahkan masalah distribusi kunci rahasia dengan memisahkan kunci publik dan kunci pribadi.
+}
+
+::Soal 9 - C3:: Jika auditor menemukan staf pengembang menggunakan password yang sama untuk semua server pengujian, saran perbaikannya adalah: {
+    ~A. Meminta staf tersebut untuk menulis password di buku catatan pribadi.
+    =B. Mewajibkan penggunaan password unik dan sistem manajemen kredensial.
+    ~C. Memberikan hadiah kepada staf tersebut karena rajin bekerja.
+    ~D. Membiarkan hal tersebut agar proses pengembangan berjalan sangat cepat.
+    #### Feedback: Penggunaan password yang sama (reused passwords) menciptakan risiko sistemik di mana satu kegagalan keamanan membahayakan seluruh aset.
+}
+
+::Soal 10 - C1:: Apa fungsi utama dari Digital Signature? {
+    ~A. Mengenkripsi isi dokumen agar tidak bisa dibaca oleh siapapun.
+    =B. Menjamin integritas pesan dan keaslian pengirim (non-repudiation).
+    ~C. Memberikan hiasan gambar menarik pada bagian bawah email.
+    ~D. Menghapus virus secara otomatis dari file lampiran yang dikirim.
+    #### Feedback: Tanda tangan digital membuktikan bahwa pesan benar berasal dari pengirim dan belum diubah selama proses transmisi.
+}
+
+::Soal 11 - C4:: Jika auditor mengamati bahwa "Data Classification" hanya dilakukan untuk file excel, risiko tata kelola yang muncul adalah: {
+    ~A. File excel tersebut akan menjadi lebih lambat saat dibuka.
+    =B. Perlindungan tidak konsisten pada aset informasi sensitif di media lain.
+    ~C. Karyawan akan berhenti menggunakan aplikasi selain Microsoft Excel.
+    ~D. Biaya lisensi perangkat lunak perkantoran akan meningkat drastis.
+    #### Feedback: Klasifikasi data harus mencakup seluruh bentuk informasi (dokumen, database, email) untuk menjamin keamanan yang merata.
+}
+
+::Soal 12 - C2:: Mengapa sistem pemadam kebakaran gas lebih disukai untuk ruang server daripada air? {
+    ~A. Karena harga gas di pasaran jauh lebih murah daripada harga air.
+    =B. Karena gas tidak konduktif dan tidak merusak peralatan elektronik sensitif.
+    ~C. Karena gas dapat mendinginkan server dengan lebih cepat saat terjadi panas.
+    ~D. Karena tabung gas terlihat lebih modern dibandingkan selang air.
+    #### Feedback: Media pemadam gas (clean agent) mematikan api dengan cepat tanpa meninggalkan residu cair yang merusak hardware.
+}
+
+::Soal 13 - C1:: Manakah yang merupakan contoh serangan rekayasa sosial (Social Engineering)? {
+    ~A. Merusak hardware server menggunakan palu godam.
+    ~B. Membanjiri jaringan perusahaan dengan trafik sampah massal.
+    =C. Menipu karyawan via telepon untuk mendapatkan kredensial login.
+    ~D. Mencuri laptop dari dalam mobil milik direktur perusahaan.
+    #### Feedback: Social engineering memanfaatkan manipulasi psikologis manusia untuk mendapatkan informasi rahasia atau akses sistem.
+}
+
+::Soal 14 - C3:: Jika sebuah organisasi ingin menerapkan "Zero Trust", prinsip dasarnya adalah: {
+    ~A. Memberikan kepercayaan penuh kepada semua karyawan yang sudah lama bekerja.
+    =B. Selalu verifikasi setiap permintaan akses, tidak peduli dari mana asalnya.
+    ~C. Menghapus seluruh firewall karena sudah tidak lagi dibutuhkan.
+    ~D. Mempercayai seluruh trafik yang berasal dari dalam kantor fisik.
+    #### Feedback: Zero Trust mengasumsikan bahwa ancaman bisa datang dari dalam maupun luar, sehingga verifikasi ketat wajib dilakukan terus-menerus.
+}
+
+::Soal 15 - C1:: Apa yang dimaksud dengan "Honeytoken" dalam keamanan database? {
+    ~A. Koin digital yang diberikan sebagai bonus bagi admin database.
+    =B. Data palsu yang sengaja diletakkan untuk mendeteksi akses tidak sah.
+    ~C. Software untuk mengukur tingkat kecepatan query database.
+    ~D. Alat untuk membersihkan cache database secara otomatis setiap jam.
+    #### Feedback: Honeytoken berfungsi sebagai alarm; jika data palsu tersebut diakses, itu berarti telah terjadi pelanggaran keamanan.
+}
+
+::Soal 16 - C2:: Mengapa protokol HTTPS lebih aman dibandingkan protokol HTTP standar? {
+    ~A. Karena HTTPS membuat gambar di website terlihat lebih tajam.
+    =B. Karena HTTPS mengenkripsi data yang dikirim antara browser dan server.
+    ~C. Karena HTTPS hanya bisa diakses menggunakan komputer dengan harga mahal.
+    ~D. Karena HTTPS secara otomatis menghapus file sampah di komputer user.
+    #### Feedback: Enkripsi SSL/TLS pada HTTPS melindungi kerahasiaan data pengguna dari penyadapan di tengah jalur komunikasi.
+}
+
+::Soal 17 - C4:: Jika auditor menemukan bukti bahwa backup log audit disimpan di folder yang dapat dimodifikasi oleh admin sistem, risikonya: {
+    ~A. Aplikasi admin akan berjalan jauh lebih cepat dari biasanya.
+    =B. Admin dapat menghapus jejak aktivitas ilegal tanpa terdeteksi.
+    ~C. Kapasitas hard disk server akan menjadi sangat penuh oleh log.
+    ~D. Pengguna tidak akan bisa melakukan login ke sistem tersebut.
+    #### Feedback: Integritas log sangat krusial; log harus disimpan di lokasi yang aman (read-only atau server log terpisah) untuk akuntabilitas.
+}
+
+::Soal 18 - C1:: Manakah yang merupakan tugas utama dari Certificate Authority (CA)? {
+    ~A. Memasang kabel jaringan di gedung pusat data.
+    =B. Memverifikasi identitas dan menerbitkan sertifikat digital pengguna.
+    ~C. Menangkap peretas siber yang menggunakan identitas palsu.
+    ~D. Memperbaiki printer yang rusak di departemen keamanan TI.
+    #### Feedback: CA bertindak sebagai pihak ketiga terpercaya yang menjamin bahwa kunci publik benar-benar milik entitas yang diklaim.
+}
+
+::Soal 19 - C2:: Mengapa pemisahan tugas (Segregation of Duties) sangat penting dalam administrasi keamanan? {
+    ~A. Agar staf TI tidak merasa bosan dengan satu pekerjaan saja.
+    =B. Mencegah satu individu melakukan tindakan ilegal dan menyembunyikannya.
+    ~C. Untuk mengurangi jumlah total karyawan yang dibutuhkan perusahaan.
+    ~D. Memudahkan auditor dalam mencetak laporan harian operasional.
+    #### Feedback: Pemisahan tugas memastikan adanya check and balance sehingga risiko kecurangan internal dapat dimitigasi.
+}
+
+::Soal 20 - C3:: Jika terjadi insiden malware Ransomware, tindakan pemulihan yang paling andal bagi perusahaan adalah: {
+    ~A. Membayar uang tebusan segera agar data kembali normal.
+    =B. Memulihkan sistem dari backup terakhir yang disimpan secara offline.
+    ~C. Membeli lisensi antivirus baru untuk menghapus enkripsi data.
+    ~D. Menghapus seluruh data yang ada dan mulai bekerja dari nol.
+    #### Feedback: Backup offline adalah satu-satunya jaminan pemulihan karena tidak ikut terinfeksi saat malware menyebar di jaringan.
+}
+
+::Soal 21 - C1:: Apa fokus utama dari manajemen insiden keamanan informasi? {
+    ~A. Mencari siapa yang paling bersalah saat terjadi serangan siber.
+    =B. Memulihkan layanan ke kondisi normal secepat mungkin setelah insiden.
+    ~C. Membeli hardware baru untuk menggantikan server yang diserang.
+    ~D. Menutup seluruh akses internet perusahaan secara permanen agar aman.
+    #### Feedback: Manajemen insiden bertujuan meminimalkan dampak negatif terhadap operasional bisnis melalui respon yang terukur.
+}
+
+::Soal 22 - C2:: Mengapa "Least Privilege" dianggap sebagai kontrol keamanan yang sangat efektif? {
+    ~A. Karena membatasi jumlah klik yang dilakukan oleh pengguna aplikasi.
+    =B. Karena meminimalkan dampak jika sebuah akun berhasil dikompromi peretas.
+    ~C. Karena membuat pekerjaan administrator sistem menjadi lebih mudah.
+    ~D. Karena dapat meningkatkan kecepatan prosesor komputer secara signifikan.
+    #### Feedback: Dengan hak akses terbatas, penyerang yang menguasai satu akun tidak akan bisa mengakses area sensitif lainnya.
+}
+
+::Soal 23 - C1:: Manakah yang merupakan contoh kontrol otentikasi sesuatu yang anda adalah? {
+    ~A. Penggunaan kartu identitas magnetik.
+    =B. Pemindaian biometrik sidik jari.
+    ~C. Kata sandi yang terdiri dari sepuluh karakter.
+    ~D. Jawaban rahasia atas pertanyaan keamanan.
+    #### Feedback: Otentikasi "something you are" menggunakan ciri fisik biologis manusia yang unik sebagai bukti identitas.
+}
+
+::Soal 24 - C2:: Mengapa organisasi harus menggunakan VPN (Virtual Private Network)? {
+    ~A. Untuk menggantikan seluruh penyedia layanan internet (ISP) lokal.
+    =B. Menyediakan terowongan aman terenkripsi saat melintasi jaringan publik.
+    ~C. Agar baterai laptop karyawan menjadi lebih awet saat digunakan.
+    ~D. Untuk meningkatkan resolusi monitor saat melakukan meeting online.
+    #### Feedback: VPN melindungi kerahasiaan data perusahaan saat staf mengakses sumber daya internal melalui internet yang tidak aman.
+}
+
+::Soal 25 - C4:: Jika auditor menemukan firewall diatur ke "Permit Any" pada aturan trafik keluar (outbound), dampaknya: {
+    ~A. Jaringan akan menjadi sangat aman karena semua trafik lancar.
+    =B. Risiko data sensitif dikirim ke luar oleh malware tanpa hambatan.
+    ~C. Kecepatan pengunduhan file akan meningkat secara drastis.
+    ~D. Router firewall akan menjadi lebih awet karena tidak perlu memfilter.
+    #### Feedback: Aturan "Permit Any" outbound sangat berbahaya karena memfasilitasi aktivitas command-and-control oleh malware.
+}
+
+::Soal 26 - C1:: Apa yang dimaksud dengan serangan "Phishing"? {
+    ~A. Teknik memancing di danau menggunakan jaring digital.
+    =B. Email palsu yang menipu korban agar memberikan informasi sensitif.
+    ~C. Proses mempercepat putaran kipas di dalam server database.
+    ~D. Cara menghapus jejak kaki peretas di dalam log sistem.
+    #### Feedback: Phishing adalah bentuk social engineering melalui media elektronik yang menyamar sebagai entitas terpercaya.
+}
+
+::Soal 27 - C2:: Mengapa redundansi pada kontrol lingkungan (seperti dual AC) sangat krusial? {
+    ~A. Agar tagihan listrik bulanan perusahaan menjadi lebih merata.
+    =B. Menjamin ketersediaan sistem jika salah satu komponen kontrol gagal.
+    ~C. Agar tampilan ruangan server terlihat lebih simetris dan rapi.
+    ~D. Untuk memenuhi standar estetika desain ruangan data center terbaru.
+    #### Feedback: Redundansi mencegah kegagalan tunggal (single point of failure) yang dapat menyebabkan server mati akibat panas berlebih.
+}
+
+::Soal 28 - C3:: Jika auditor menemukan staf TI sering membawa pulang kaset backup tanpa enkripsi, risikonya: {
+    ~A. Kaset backup tersebut akan cepat rusak karena suhu di rumah berbeda.
+    =B. Risiko kebocoran data massal jika kaset tersebut hilang atau dicuri.
+    ~C. Kecepatan internet di kantor akan menurun secara otomatis.
+    ~D. Auditor akan memberikan sertifikat kerajinan kepada staf TI tersebut.
+    #### Feedback: Media fisik yang berisi data sensitif wajib dienkripsi saat dipindahkan ke luar lokasi aman perusahaan.
+}
+
+::Soal 29 - C1:: Apa fungsi utama dari Intrusion Prevention System (IPS)? {
+    ~A. Memberikan laporan harian tentang jumlah tamu yang datang ke kantor.
+    =B. Mendeteksi dan secara otomatis memblokir trafik jaringan berbahaya.
+    ~C. Menghitung jumlah file yang dikirim oleh karyawan setiap harinya.
+    ~D. Mengganti password administrator yang sudah kadaluwarsa otomatis.
+    #### Feedback: Berbeda dengan IDS yang hanya memberi peringatan, IPS bertindak proaktif untuk menghentikan serangan secara real-time.
+}
+
+::Soal 30 - C2:: Mengapa "Default Password" pada perangkat jaringan baru harus segera diubah? {
+    ~A. Karena password default biasanya terlalu panjang untuk dihafalkan.
+    =B. Karena password tersebut diketahui umum dan menjadi sasaran peretas.
+    ~C. Agar perangkat tersebut bisa terhubung ke internet dengan lebih cepat.
+    ~D. Untuk memperpanjang masa garansi perangkat dari vendor terkait.
+    #### Feedback: Password pabrikan adalah informasi publik yang sering digunakan peretas dalam serangan otomatis ke perangkat baru.
+}
+
+::Soal 31 - C1:: Manakah yang merupakan contoh dari Logical Access Control? {
+    ~A. Gembok besi yang terpasang pada lemari arsip dokumen.
+    =B. Daftar Kendali Akses (Access Control List) pada sistem operasi.
+    ~C. Satpam yang berjaga di depan pintu masuk lobi kantor pusat.
+    ~D. Pagar kawat berduri yang dipasang di sekeliling gedung data center.
+    #### Feedback: Kontrol logis adalah mekanisme berbasis software yang mengatur izin akses ke sumber daya informasi digital.
+}
+
+::Soal 32 - C2:: Mengapa enkripsi simetris dianggap lebih efisien untuk mengenkripsi database besar? {
+    ~A. Karena enkripsi simetris tidak memerlukan penggunaan kunci apapun.
+    =B. Karena kecepatan proses komputasinya jauh lebih cepat daripada asimetris.
+    ~C. Karena kunci simetris dapat disebarkan ke semua orang secara bebas.
+    ~D. Karena enkripsi simetris dapat memperbaiki data yang rusak otomatis.
+    #### Feedback: Algoritma simetris lebih sederhana secara matematis, sehingga memproses data volume besar dengan beban kerja CPU minimum.
+}
+
+::Soal 33 - C3:: Jika auditor menemukan bukti serangan "SQL Injection" pada aplikasi web, perbaikan utamanya adalah: {
+    ~A. Menambah kapasitas memori RAM pada server web tersebut.
+    =B. Mengimplementasikan validasi input dan query berparameter (prepared statements).
+    ~C. Mengganti warna tampilan antarmuka aplikasi menjadi lebih gelap.
+    ~D. Meminta semua pengguna untuk tidak menggunakan karakter khusus saat mengetik.
+    #### Feedback: SQLi dicegah dengan memastikan input pengguna tidak pernah dieksekusi langsung sebagai perintah database.
+}
+
+::Soal 34 - C1:: Apa yang dimaksud dengan "Shoulder Surfing"? {
+    ~A. Olahraga air yang dilakukan di atas server yang memiliki suhu dingin.
+    =B. Mengintip informasi sensitif di layar atau keyboard user secara langsung.
+    ~C. Proses pembersihan debu pada bahu karyawan sebelum masuk kantor.
+    ~D. Teknik memperbaiki kabel yang putus di bagian atas rak server.
+    #### Feedback: Shoulder surfing adalah ancaman fisik sederhana di mana pelaku mengamati masukan password atau data di layar monitor.
+}
+
+::Soal 35 - C1:: Manakah yang merupakan ancaman utama bagi keamanan perangkat Internet of Things (IoT)? {
+    ~A. Perangkat IoT memiliki ukuran fisik yang terlalu kecil bagi manusia.
+    =B. Kurangnya standar keamanan yang ketat dan sulit dilakukan pembaruan.
+    ~C. Perangkat IoT akan mengonsumsi terlalu banyak air di dalam kantor.
+    ~D. Karyawan akan terlalu sering bermain dengan perangkat IoT tersebut.
+    #### Feedback: Banyak perangkat IoT dirancang tanpa fitur keamanan memadai, menjadikannya titik lemah dalam jaringan organisasi.
+}
+
+::Soal 36 - C2:: Mengapa "Data Retention Policy" sangat penting bagi kepatuhan privasi data? {
+    ~A. Agar perusahaan bisa menyimpan seluruh data selamanya tanpa batas.
+    =B. Menjamin data dihapus saat sudah tidak dibutuhkan untuk meminimalkan risiko.
+    ~C. Supaya auditor tidak bisa menemukan kesalahan yang dilakukan di masa lalu.
+    ~D. Agar penggunaan kertas di kantor menjadi lebih hemat dan efisien.
+    #### Feedback: Menyimpan data lebih lama dari yang dibutuhkan meningkatkan eksposur risiko jika terjadi kebocoran data.
+}
+
+::Soal 37 - C4:: Jika auditor menemukan bahwa kunci enkripsi database disimpan di file teks biasa di server yang sama, risikonya: {
+    ~A. File teks tersebut akan memakan banyak ruang penyimpanan hard disk.
+    =B. Enkripsi menjadi tidak berguna karena peretas dapat membuka data dengan mudah.
+    ~C. Database akan berjalan sangat lambat karena kunci sering dibaca.
+    ~D. Monitor server akan menampilkan kode rahasia secara terus-menerus.
+    #### Feedback: Kunci enkripsi harus dilindungi dengan tingkat keamanan yang sama atau lebih tinggi dari data yang dilindunginya.
+}
+
+::Soal 38 - C1:: Apa fungsi utama dari "DLP" (Data Loss Prevention)? {
+    ~A. Membantu staf TI dalam mencari kunci lemari yang hilang secara fisik.
+    =B. Mendeteksi dan mencegah pengiriman data sensitif ke luar jaringan secara ilegal.
+    ~C. Memastikan tidak ada data yang terhapus secara tidak sengaja oleh user.
+    ~D. Menghitung jumlah kerugian finansial perusahaan akibat kerusakan data.
+    #### Feedback: DLP memantau konten trafik keluar (email, USB, upload cloud) untuk melindungi kekayaan intelektual perusahaan.
+}
+
+::Soal 39 - C2:: Mengapa prosedur "Chain of Custody" sangat vital dalam forensik digital? {
+    ~A. Agar auditor sistem informasi bisa mendapatkan komisi tambahan.
+    =B. Untuk menjamin integritas dan keabsahan bukti digital di mata hukum.
+    ~C. Untuk memastikan bukti digital tersebut tidak terkena debu ruangan.
+    ~D. Supaya petugas kepolisian bisa menangkap pelaku dengan lebih cepat.
+    #### Feedback: Rantai pengawasan membuktikan bahwa bukti tidak dimanipulasi sejak disita hingga dipresentasikan di pengadilan.
+}
+
+::Soal 40 - C3:: Jika auditor menemukan log login menunjukkan banyak percobaan gagal dalam waktu singkat dari satu IP, serangan ini adalah: {
+    ~A. Serangan DDoS skala besar pada jaringan.
+    =B. Serangan Brute Force atau Password Guessing.
+    ~C. Serangan virus yang menyebar melalui lampiran email.
+    ~D. Serangan terhadap sistem kelistrikan gedung kantor.
+    #### Feedback: Percobaan login berulang secara cepat merupakan indikasi upaya penebakan kredensial menggunakan alat otomatis.
+}
+
+::Soal 41 - C1:: Apa yang dimaksud dengan "Zombie Computer" dalam jaringan botnet? {
+    ~A. Komputer yang sudah rusak total tetapi masih bisa diperbaiki teknisi.
+    =B. Komputer yang dikendalikan peretas secara jarak jauh untuk menyerang target lain.
+    ~C. Perangkat keras yang memiliki tampilan casing bergambar menyeramkan.
+    ~D. Software antivirus yang masa berlakunya sudah habis sejak lama.
+    #### Feedback: Zombie atau bot adalah bagian dari jaringan mesin terinfeksi yang digunakan untuk serangan massal tanpa sepengetahuan pemiliknya.
+}
+
+::Soal 42 - C2:: Mengapa otentikasi dua faktor (2FA) jauh lebih aman daripada password tunggal? {
+    ~A. Karena pengguna akan memiliki dua password yang berbeda untuk dihafal.
+    =B. Karena peretas harus mengompromikan dua jenis bukti identitas yang berbeda.
+    ~C. Karena proses login akan memakan waktu dua kali lebih lama dari biasanya.
+    ~D. Karena 2FA dapat meningkatkan kecepatan akses internet bagi pengguna.
+    #### Feedback: 2FA menggabungkan faktor pengetahuan (password) dan kepemilikan (token/SMS) sehingga lebih sulit dibobol.
+}
+
+::Soal 43 - C1:: Manakah yang merupakan contoh kontrol fisik untuk perlindungan aset TI? {
+    ~A. Penggunaan algoritma enkripsi terbaru pada database.
+    ~B. Kebijakan pelatihan kesadaran keamanan informasi bagi staf.
+    =C. Pemasangan kamera CCTV dan detektor gerakan di data center.
+    ~D. Aturan penggantian kata sandi setiap sembilan puluh hari sekali.
+    #### Feedback: Kontrol fisik menggunakan sarana fisik nyata untuk membatasi akses langsung ke perangkat keras dan fasilitas sensitif.
+}
+
+::Soal 44 - C2:: Mengapa "War Driving" dianggap sebagai ancaman bagi keamanan Wi-Fi kantor? {
+    ~A. Karena dapat menyebabkan kemacetan lalu lintas di depan gedung kantor.
+    =B. Penyerang mencari dan memetakan jaringan nirkabel yang tidak aman dari mobil.
+    ~C. Karena dapat merusak ban kendaraan milik seluruh staf departemen TI.
+    ~D. Karena proses ini akan menghabiskan kuota data internet milik perusahaan.
+    #### Feedback: War driving bertujuan mencari titik akses nirkabel yang lemah atau tanpa enkripsi untuk disusupi.
+}
+
+::Soal 45 - C3:: Jika auditor menemukan perusahaan menggunakan enkripsi WEP pada Wi-Fi mereka, risiko terbesarnya: {
+    ~A. Koneksi Wi-Fi akan menjadi lebih lambat daripada menggunakan kabel.
+    =B. Enkripsi WEP sangat mudah dibobol dalam waktu hitungan menit saja.
+    ~C. Karyawan akan diminta membayar biaya tambahan saat menggunakan Wi-Fi.
+    ~D. Baterai laptop karyawan akan cepat panas saat terhubung ke Wi-Fi.
+    #### Feedback: WEP adalah standar lama yang sudah tidak aman; organisasi harus bermigrasi ke WPA2 atau WPA3.
+}
+
+::Soal 46 - C1:: Apa tujuan utama dari kegiatan "Vulnerability Assessment"? {
+    ~A. Memberikan hukuman berat kepada staf TI yang membuat kode salah.
+    =B. Mengidentifikasi kelemahan keamanan yang ada pada sistem secara sistematis.
+    ~C. Menghitung jumlah total klik mouse yang dilakukan karyawan setiap jam.
+    ~D. Membeli software keamanan tercanggih berdasarkan tren pasar terbaru.
+    #### Feedback: Penilaian kerentanan memberikan daftar celah keamanan yang perlu diperbaiki sebelum dieksploitasi oleh pihak luar.
+}
+
+::Soal 47 - C2:: Mengapa log keamanan harus dilindungi dengan fungsi hashing? {
+    ~A. Agar log tersebut terlihat lebih menarik bagi para auditor sistem.
+    =B. Untuk mendeteksi jika terjadi modifikasi pada log oleh penyerang.
+    ~C. Supaya ukuran file log menjadi sepuluh kali lipat lebih kecil.
+    ~D. Karena regulasi pemerintah mewajibkan penggunaan warna pada file log.
+    #### Feedback: Hashing menjamin integritas log sehingga bukti aktivitas di dalam sistem tidak dapat diubah tanpa terdeteksi.
+}
+
+::Soal 48 - C1:: Apa yang dimaksud dengan "Smishing"? {
+    ~A. Teknik membersihkan layar monitor menggunakan cairan pembersih khusus.
+    =B. Serangan phishing yang dilakukan melalui pesan singkat (SMS) atau WhatsApp.
+    ~C. Proses mengecilkan ukuran file gambar secara otomatis di server file.
+    ~D. Cara mematikan server dengan menekan tombol secara bersamaan.
+    #### Feedback: Smishing memanfaatkan rasa percaya pengguna terhadap pesan teks untuk mencuri informasi atau menyebarkan malware.
+}
+
+::Soal 49 - C2:: Mengapa penggunaan protokol Telnet sangat dilarang untuk administrasi server? {
+    ~A. Karena Telnet adalah software yang harganya sangat mahal bagi perusahaan.
+    =B. Karena Telnet mengirimkan password dalam bentuk teks biasa (plain text).
+    ~C. Karena Telnet hanya bisa dijalankan pada sistem operasi komputer yang lama.
+    ~D. Karena penggunaan Telnet dapat menyebabkan kabel jaringan menjadi cepat panas.
+    #### Feedback: Telnet tidak memiliki enkripsi, sehingga peretas dapat menyadap kredensial login dengan teknik sniffing sederhana.
+}
+
+::Soal 50 - C4:: Jika organisasi mendeteksi adanya serangan "Pharming", bagian infrastruktur mana yang kemungkinan besar dikompromi? {
+    ~A. Kabel listrik utama yang menyuplai daya ke gedung pusat data.
+    =B. Server DNS atau file host pada komputer pengguna akhir (endpoint).
+    ~C. Monitor yang digunakan oleh staf administrasi bagian keuangan.
+    ~D. Meja kerja yang digunakan oleh manajer departemen pemasaran.
+    #### Feedback: Pharming mengalihkan trafik website ke situs palsu dengan memanipulasi resolusi nama domain (DNS).
+}
+
+::Soal 51 - C1:: Apa fokus utama dari kegiatan forensik digital? {
+    ~A. Menghapus virus dari komputer agar bisa segera digunakan kembali.
+    =B. Mengumpulkan dan menjaga integritas bukti digital untuk keperluan hukum.
+    ~C. Membeli perangkat keras komputer baru dari pasar barang bekas.
+    ~D. Membuat animasi digital tentang kejadian kecelakaan mobil di kantor.
+    #### Feedback: Forensik digital berfokus pada rekonstruksi kejadian dan penyediaan bukti sah bagi otoritas hukum.
+}
+
+::Soal 52 - C2:: Mengapa "Data Owner" harus bertanggung jawab menentukan klasifikasi data? {
+    ~A. Karena mereka memiliki gaji paling tinggi di departemen tersebut.
+    =B. Karena mereka yang paling memahami nilai bisnis dan risiko data tersebut.
+    ~C. Agar tim IT tidak perlu melakukan pekerjaan administratif yang membosankan.
+    ~D. Karena standar audit mewajibkan pemilik data untuk menulis kebijakan.
+    #### Feedback: Pemilik data bisnis memiliki akuntabilitas tertinggi atas penggunaan dan perlindungan aset informasi mereka sendiri.
+}
+
+::Soal 53 - C1:: Apa yang dimaksud dengan "Rootkit"? {
+    ~A. Alat khusus untuk merawat akar tanaman di taman gedung kantor pusat.
+    =B. Malware yang bersembunyi di level terdalam sistem operasi untuk kontrol penuh.
+    ~C. Software untuk menghitung jumlah total folder di dalam komputer pengguna.
+    ~D. Paket instalasi sistem operasi khusus bagi para pengguna pemula.
+    #### Feedback: Rootkit sangat berbahaya karena seringkali tidak terdeteksi oleh perangkat lunak antivirus standar di level aplikasi.
+}
+
+::Soal 54 - C2:: Mengapa enkripsi "Full Disk" lebih baik untuk laptop daripada enkripsi per file? {
+    ~A. Karena enkripsi full disk tidak membutuhkan penggunaan password sama sekali.
+    =B. Karena melindungi seluruh file sementara dan sistem operasi secara otomatis.
+    ~C. Agar laptop tersebut tidak bisa dicuri secara fisik oleh orang lain.
+    ~D. Karena proses enkripsi full disk akan membuat baterai laptop menjadi lebih awet.
+    #### Feedback: Full disk encryption mencegah kelalaian manusia di mana pengguna mungkin lupa mengenkripsi satu file sensitif secara manual.
+}
+
+::Soal 55 - C3:: Jika auditor mengamati staf TI membuang kaset tape backup rusak langsung ke tempat sampah, risikonya: {
+    ~A. Tempat sampah tersebut akan menjadi sangat penuh dan berat bagi petugas.
+    =B. Data sensitif di dalam kaset dapat dipulihkan oleh pihak luar secara ilegal.
+    ~C. Kaset tersebut akan mengalami jamur karena udara yang sangat lembap.
+    ~D. Auditor akan memberikan nilai sempurna pada laporan manajemen aset TI.
+    #### Feedback: Media penyimpanan harus dihancurkan secara fisik (degaussing/shredding) untuk mencegah pemulihan data setelah dibuang.
+}
+
+::Soal 56 - C1:: Apa fungsi utama dari "Digital Watermarking"? {
+    ~A. Memberikan hiasan gambar air pada dokumen agar terlihat cantik.
+    =B. Melindungi hak cipta dengan menanamkan informasi identitas ke data digital.
+    ~C. Mendinginkan suhu prosesor server menggunakan air secara otomatis.
+    ~D. Menghapus noda air pada monitor komputer secara digital.
+    #### Feedback: Watermarking membantu pelacakan sumber kebocoran data dan membuktikan kepemilikan aset intelektual secara digital.
+}
+
+::Soal 57 - C2:: Mengapa "Stateful Inspection" firewall dianggap lebih aman daripada "Packet Filtering"? {
+    ~A. Karena harganya di pasaran jauh lebih murah dan terjangkau bagi UKM.
+    =B. Karena memantau status koneksi dan memahami konteks percakapan jaringan.
+    ~C. Agar firewall tersebut tidak perlu menggunakan kapasitas memori RAM besar.
+    ~D. Karena firewall jenis ini hanya bekerja pada komputer dengan merk lama saja.
+    #### Feedback: Stateful firewall memverifikasi bahwa paket data adalah bagian dari sesi komunikasi sah yang sudah terjalin sebelumnya.
+}
+
+::Soal 58 - C1:: Apa yang dimaksud dengan "Piggybacking" dalam akses fisik? {
+    ~A. Membawa hewan peliharaan babi ke dalam kantor tanpa seizin manajer.
+    =B. Mengikuti orang sah masuk melalui pintu tanpa menggunakan kartu akses sendiri.
+    ~C. Menempelkan stiker gambar babi di pintu masuk ruangan server utama.
+    ~D. Menggunakan komputer rekan kerja untuk bermain game saat istirahat.
+    #### Feedback: Piggybacking (atau tailgating) adalah pelanggaran kontrol akses yang mengeksploitasi kesantunan atau kelalaian orang lain.
+}
+
+::Soal 59 - C2:: Mengapa penggunaan "Biometric" dianggap lebih aman daripada sekadar password? {
+    ~A. Karena sensor biometrik memiliki harga yang sangat mahal di pasaran.
+    =B. Karena sulit dipindahtangankan atau dicuri seperti benda fisik dan teks.
+    ~C. Karena biometrik tidak membutuhkan energi listrik untuk bisa berfungsi.
+    ~D. Agar tampilan sistem login perusahaan terlihat sangat futuristik bagi tamu.
+    #### Feedback: Biometrik menghubungkan identitas digital secara langsung dengan atribut biologis unik yang melekat pada tubuh manusia.
+}
+
+::Soal 60 - C3:: Jika organisasi menerapkan "Automatic Lockout" setelah tiga kali salah password, serangan yang dimitigasi adalah: {
+    ~A. Serangan phishing email yang masuk ke dalam kotak masuk (inbox).
+    =B. Serangan Brute Force atau penebakan kredensial secara berulang.
+    ~C. Serangan fisik berupa pencurian perangkat keras komputer dari kantor.
+    ~D. Serangan virus malware yang menyebar melalui jaringan lokal (LAN).
+    #### Feedback: Lockout memaksa penyerang berhenti menebak dan memberikan waktu bagi tim keamanan untuk mendeteksi adanya aktivitas anomali.
+}
+
+::Soal 61 - C1:: Apa tujuan dari "Security Awareness Training"? {
+    ~A. Melatih seluruh karyawan agar bisa menjadi peretas siber profesional.
+    =B. Meningkatkan kewaspadaan karyawan terhadap risiko dan tanggung jawab keamanan.
+    ~C. Memberikan kursus cara memperbaiki komputer yang rusak secara fisik sendiri.
+    ~D. Melatih staf departemen TI agar bisa mengetik dengan kecepatan sangat tinggi.
+    #### Feedback: Edukasi keamanan sangat penting karena kelalaian manusia sering menjadi penyebab utama terjadinya insiden keamanan informasi.
+}
+
+::Soal 62 - C2:: Mengapa log audit harus disimpan di server yang terpisah dari aplikasi? {
+    ~A. Agar aplikasi tersebut bisa berjalan dengan kecepatan sepuluh kali lebih cepat.
+    =B. Mencegah penyerang menghapus log setelah mereka berhasil membobol aplikasi.
+    ~C. Supaya server log tersebut tidak perlu menggunakan alamat IP internal.
+    ~D. Karena standar audit mewajibkan server log diletakkan di lantai yang berbeda.
+    #### Feedback: Centralized logging menjamin integritas bukti aktivitas tetap terjaga meskipun server aplikasi telah dikompromi oleh peretas.
+}
+
+::Soal 63 - C1:: Manakah yang merupakan contoh otentikasi "Something You Have"? {
+    ~A. Nomor PIN rahasia milik pengguna.
+    =B. Token perangkat keras (Hardware Token).
+    ~C. Pola sidik jari jempol tangan kanan.
+    ~D. Nama lengkap ibu kandung pengguna.
+    #### Feedback: Faktor kepemilikan melibatkan objek fisik unik yang dipegang oleh pengguna sah sebagai alat pembuktian identitas.
+}
+
+::Soal 64 - C2:: Mengapa enkripsi asimetris lebih lambat kinerjanya dibandingkan enkripsi simetris? {
+    ~A. Karena enkripsi asimetris menggunakan kabel jaringan yang jauh lebih panjang.
+    =B. Karena proses matematisnya jauh lebih kompleks bagi unit pemrosesan pusat.
+    ~C. Karena enkripsi asimetris hanya bisa dijalankan pada saat malam hari saja.
+    ~D. Karena asimetris membutuhkan daya listrik yang sangat besar untuk berfungsi.
+    #### Feedback: Perhitungan kunci publik-pribadi melibatkan bilangan prima besar yang memakan lebih banyak sumber daya komputasi dibandingkan kunci simetris.
+}
+
+::Soal 65 - C4:: Jika seorang administrator database memiliki akses penuh untuk mematikan log audit, kontrol kompensasi terbaik adalah: {
+    ~A. Meminta administrator untuk berjanji tidak akan mematikan log audit.
+    =B. Mengirim log secara real-time ke server log eksternal yang tidak dikelola admin tersebut.
+    ~C. Menghapus akun administratif tersebut dan menggantinya dengan akun biasa.
+    ~D. Memberikan gaji tambahan agar administrator merasa dihargai oleh perusahaan.
+    #### Feedback: Prinsip "check and balance" mengharuskan adanya pemantauan independen atas aktivitas pengguna yang memiliki hak akses tinggi.
+}
+
+::Soal 66 - C1:: Apa yang dimaksud dengan "Least Privilege"? {
+    ~A. Memberikan hak akses penuh kepada seluruh karyawan tanpa terkecuali.
+    =B. Memberikan hak akses minimum yang diperlukan untuk menjalankan tugas pekerjaan.
+    ~C. Melarang akses ke sistem bagi karyawan yang belum memiliki masa kerja satu tahun.
+    ~D. Memberikan akses administratif hanya kepada direktur utama perusahaan saja.
+    #### Feedback: Hak akses minimum membatasi ruang gerak penyerang atau kesalahan pengguna sehingga tidak berdampak luas pada sistem lainnya.
+}
+
+::Soal 67 - C2:: Mengapa auditor harus meninjau "Identity Lifecycle Management"? {
+    ~A. Untuk menghitung jumlah total karyawan baru yang masuk setiap bulannya.
+    =B. Memastikan akses diberikan, diubah, dan dicabut secara tepat waktu dan akurat.
+    ~C. Agar perusahaan tahu berapa banyak komputer yang harus dibeli tahun depan.
+    ~D. Supaya tim SDM bisa menentukan siapa karyawan yang paling rajin masuk kerja.
+    #### Feedback: Pengelolaan siklus hidup identitas menjamin bahwa hanya orang yang berwenang yang memiliki akses aktif ke aset informasi.
+}
+
+::Soal 68 - C1:: Manakah yang merupakan fungsi dari Uninterruptible Power Supply (UPS)? {
+    ~A. Meningkatkan kecepatan transfer data internet di seluruh area gedung kantor.
+    =B. Menyediakan daya cadangan sementara agar sistem dapat dimatikan secara aman.
+    ~C. Menghapus virus secara otomatis dari memori RAM komputer setiap satu jam sekali.
+    ~D. Mengubah arus AC menjadi DC agar tagihan listrik perusahaan menjadi lebih murah.
+    #### Feedback: UPS menjaga ketersediaan sistem dari gangguan listrik mendadak dan melindungi hardware dari kerusakan fisik akibat lonjakan daya.
+}
+
+::Soal 69 - C2:: Mengapa "Social Engineering" seringkali berhasil melewati sistem keamanan teknis yang canggih? {
+    ~A. Karena sistem keamanan teknis biasanya memiliki harga yang terlalu murah.
+    =B. Karena serangan ini mengeksploitasi sifat psikologis manusia seperti rasa percaya.
+    ~C. Karena peretas menggunakan komputer yang lebih cepat daripada komputer kantor.
+    ~D. Karena sistem keamanan teknis hanya bekerja pada siang hari saat jam sibuk.
+    #### Feedback: Teknologi tidak dapat melindungi dari kelalaian manusia; peretas menipu staf untuk secara sukarela membocorkan rahasia perusahaan.
+}
+
+::Soal 70 - C3:: Jika organisasi ingin melindungi laptop dari pencurian data secara visual di tempat umum, alat apa yang digunakan? {
+    ~A. Tas laptop yang memiliki bahan anti peluru.
+    =B. Filter privasi layar (Privacy Screen Filter).
+    ~C. Menggunakan kacamata hitam saat menggunakan laptop.
+    ~D. Mengurangi tingkat kecerahan layar monitor hingga nol.
+    #### Feedback: Filter privasi membatasi sudut pandang layar sehingga orang di samping pengguna tidak dapat melihat informasi yang ditampilkan.
+}
+
+::Soal 71 - C1:: Apa tujuan utama dari "Data Masking"? {
+    ~A. Memberikan masker kesehatan fisik kepada seluruh administrator sistem.
+    =B. Menyembunyikan bagian data sensitif agar tidak terlihat utuh oleh pengguna.
+    ~C. Menghapus seluruh data pelanggan yang sudah tidak aktif selama dua tahun.
+    ~D. Mengubah seluruh warna teks di dalam database agar sulit dibaca oleh orang asing.
+    #### Feedback: Masking melindungi privasi data (seperti nomor kartu kredit) dalam lingkungan pengujian atau layanan pelanggan.
+}
+
+::Soal 72 - C2:: Mengapa "Penetration Testing" harus dilakukan dengan izin tertulis (rules of engagement)? {
+    ~A. Agar auditor bisa mendapatkan uang tambahan dari biaya administrasi dokumen.
+    =B. Untuk menghindari dampak hukum dan meminimalkan risiko gangguan operasional.
+    ~C. Agar peretas di seluruh dunia tahu kapan perusahaan akan melakukan pengujian.
+    ~D. Supaya kecepatan server meningkat saat pengujian keamanan sedang berlangsung.
+    #### Feedback: Izin tertulis menetapkan batas area yang boleh diuji dan melindungi penguji dari tuduhan aktivitas ilegal.
+}
+
+::Soal 73 - C1:: Apa yang dimaksud dengan "Pharming"? {
+    ~A. Kegiatan bercocok tanam secara digital yang dilakukan oleh staf departemen TI.
+    =B. Mengalihkan trafik website ke situs palsu dengan memanipulasi DNS.
+    ~C. Proses mempercepat pertumbuhan kapasitas penyimpanan hard disk secara otomatis.
+    ~D. Teknik mencuci server pusat data agar tetap terlihat bersih dan mengkilap.
+    #### Feedback: Pharming lebih berbahaya dari phishing karena pengguna tetap mengetik URL yang benar namun diarahkan ke alamat IP penipu.
+}
+
+::Soal 74 - C2:: Mengapa "Data Retention Policy" harus mencakup cara penghapusan data yang aman? {
+    ~A. Agar perusahaan tidak perlu lagi membeli rak penyimpanan arsip yang baru.
+    =B. Menghindari pemulihan data sensitif dari media yang sudah tidak digunakan lagi.
+    ~C. Supaya karyawan bisa menggunakan media penyimpanan lama untuk kepentingan pribadi.
+    ~D. Agar kaset backup lama bisa dijual kembali dengan harga tinggi di pasar loak.
+    #### Feedback: Penghapusan yang tidak aman dapat menyebabkan kebocoran data (data leakage) dari hard disk atau kaset tape bekas.
+}
+
+::Soal 75 - C3:: Jika auditor menemukan perusahaan tidak melakukan review akses berkala, risiko utamanya adalah: {
+    ~A. Karyawan akan sering mengeluh karena akses sistem terlalu cepat.
+    =B. Akumulasi hak akses berlebih seiring perpindahan jabatan (privilege creep).
+    ~C. Seluruh printer di kantor akan mengalami kemacetan kertas secara serentak.
+    ~D. Harga saham perusahaan akan menurun drastis di bursa efek internasional.
+    #### Feedback: Tanpa review rutin, karyawan mungkin tetap memiliki akses ke departemen lamanya meskipun sudah pindah tugas.
+}
+
+::Soal 76 - C1:: Manakah yang merupakan contoh dari "Endpoint Security"? {
+    ~A. Membangun tembok beton di sekeliling area gedung kantor pusat.
+    =B. Penggunaan software antivirus dan firewall pada laptop masing-masing staf.
+    ~C. Memberikan seragam kantor yang seragam bagi seluruh karyawan perusahaan.
+    ~D. Mengatur jadwal pintu masuk bagi karyawan yang datang terlambat setiap hari.
+    #### Feedback: Keamanan endpoint berfokus pada perlindungan perangkat individual yang terhubung ke jaringan organisasi.
+}
+
+::Soal 77 - C2:: Mengapa "Audit Trail" sangat penting bagi pemenuhan standar kepatuhan (compliance)? {
+    ~A. Agar staf TI memiliki alasan untuk bekerja lembur setiap akhir pekan.
+    =B. Menyediakan bukti akuntabilitas atas setiap transaksi dan aktivitas sistem.
+    ~C. Untuk menghitung berapa banyak karyawan yang menggunakan password yang sama.
+    ~D. Supaya departemen TI bisa menagih biaya tambahan kepada departemen pengguna.
+    #### Feedback: Jejak audit merupakan bukti kronologis yang diperlukan untuk verifikasi kepatuhan terhadap kebijakan dan regulasi.
+}
+
+::Soal 78 - C1:: Apa yang dimaksud dengan "Sniffing" dalam keamanan jaringan? {
+    ~A. Proses mencium aroma server yang sedang mengalami panas berlebih secara fisik.
+    =B. Menangkap dan membaca paket data yang melintasi jaringan tanpa enkripsi.
+    ~C. Teknik membersihkan debu pada kabel jaringan menggunakan peralatan khusus.
+    ~D. Mencari lokasi fisik router Wi-Fi tersembunyi menggunakan sensor deteksi bau.
+    #### Feedback: Penyadapan paket (sniffing) memungkinkan peretas melihat informasi sensitif yang dikirim secara terbuka di jaringan LAN atau Wi-Fi.
+}
+
+::Soal 79 - C2:: Mengapa penggunaan protokol Telnet sangat dilarang untuk administrasi server jarak jauh? {
+    ~A. Karena Telnet adalah perangkat lunak yang harganya sangat mahal bagi organisasi.
+    =B. Karena Telnet mengirimkan kredensial login dalam bentuk teks biasa (plain text).
+    ~C. Karena Telnet hanya bisa dijalankan pada sistem operasi komputer yang sudah tua.
+    ~D. Karena penggunaan Telnet dapat menyebabkan kabel jaringan menjadi cepat panas.
+    #### Feedback: Tanpa enkripsi, kredensial administratif yang dikirim via Telnet dapat dengan mudah dicuri oleh siapapun di jalur jaringan.
+}
+
+::Soal 80 - C4:: Jika auditor menemukan bukti penggunaan "Rootkit" pada server utama perusahaan, konsekuensi teknisnya: {
+    ~A. Server akan bekerja sepuluh kali lebih cepat karena kinerjanya dioptimalkan.
+    =B. Peretas memiliki kontrol penuh atas sistem tanpa terdeteksi oleh antivirus standar.
+    ~C. Seluruh data di server tersebut akan terhapus secara otomatis dalam satu jam.
+    ~D. Layar monitor server akan selalu menampilkan gambar akar pohon yang besar.
+    #### Feedback: Rootkit beroperasi di level kernel sistem operasi, sehingga mampu menyembunyikan eksistensinya dari alat deteksi biasa.
+}
+
+::Soal 81 - C1:: Apa fungsi utama dari "DLP" (Data Loss Prevention) di level gateway? {
+    ~A. Mempercepat akses download file berukuran besar bagi seluruh pengguna kantor.
+    =B. Memindai konten email dan unggahan file untuk mendeteksi data sensitif keluar.
+    ~C. Mengatur jadwal pintu masuk bagi karyawan yang datang terlambat setiap hari.
+    ~D. Menghubungkan seluruh printer nirkabel ke dalam jaringan internal perusahaan.
+    #### Feedback: DLP di gateway bertindak sebagai filter akhir untuk mencegah informasi rahasia meninggalkan batas jaringan organisasi.
+}
+
+::Soal 82 - C2:: Mengapa audit terhadap "Mobile Device Management" (MDM) sangat penting bagi privasi? {
+    ~A. Agar perusahaan tahu lokasi liburan setiap karyawan mereka saat akhir pekan.
+    =B. Memastikan data perusahaan di perangkat seluler terproteksi dan bisa dihapus remote.
+    ~C. Untuk menghitung berapa kali karyawan menggunakan aplikasi media sosial pribadinya.
+    ~D. Agar daya tahan baterai smartphone milik perusahaan tidak cepat mengalami kerusakan.
+    #### Feedback: MDM memberikan kendali atas data bisnis di perangkat mobile, termasuk kemampuan "Remote Wipe" jika perangkat tersebut hilang.
+}
+
+::Soal 83 - C1:: Manakah yang merupakan contoh kontrol "Detective" untuk perlindungan informasi? {
+    ~A. Pemasangan pagar kawat berduri setinggi tiga meter di sekeliling kantor.
+    =B. Peninjauan harian terhadap log aktivitas sistem oleh supervisor keamanan.
+    ~C. Kewajiban penggunaan kata sandi yang mengandung kombinasi angka dan simbol.
+    ~D. Penggunaan rompi antipeluru bagi seluruh petugas keamanan fisik gedung.
+    #### Feedback: Kontrol detektif berfungsi mengidentifikasi adanya pelanggaran keamanan setelah kejadian tersebut berlangsung.
+}
+
+::Soal 84 - C2:: Mengapa enkripsi "Asymmetric" sering disebut sebagai infrastruktur kunci publik? {
+    ~A. Karena kunci tersebut bisa dibeli oleh masyarakat publik di toko perangkat keras.
+    =B. Karena menggunakan kunci yang salah satunya dapat disebarkan secara bebas.
+    ~C. Karena jenis enkripsi ini hanya boleh digunakan oleh lembaga pemerintah saja.
+    ~D. Agar masyarakat publik bisa membantu perusahaan dalam menjaga keamanan datanya.
+    #### Feedback: Pasangan kunci publik dan pribadi memungkinkan siapapun mengirim pesan aman tanpa perlu berbagi kunci rahasia terlebih dahulu.
+}
+
+::Soal 85 - C3:: Jika terjadi kebocoran data akibat staf mengklik link di pesan WhatsApp, kontrol terbaik adalah: {
+    ~A. Menempelkan isolasi kertas pada seluruh port USB yang ada di meja karyawan.
+    =B. Edukasi rutin mengenai bahaya serangan manipulasi psikologis (Smishing).
+    ~C. Mempekerjakan staf keamanan khusus untuk berdiri di samping setiap karyawan.
+    ~D. Memberikan denda finansial yang sangat besar bagi karyawan yang berani tersenyum.
+    #### Feedback: Serangan berbasis sosial hanya bisa dilawan dengan meningkatkan kewaspadaan dan pengetahuan individu (kesadaran keamanan).
+}
+
+::Soal 86 - C1:: Apa fokus utama dari kegiatan "Vulnerability Scanning" otomatis? {
+    ~A. Menghapus seluruh file sampah di dalam komputer secara otomatis setiap hari.
+    =B. Mencari kelemahan sistem yang sudah memiliki tanda tangan kerentanan resmi.
+    ~C. Menghitung jumlah total peretas yang mencoba masuk ke jaringan setiap jamnya.
+    ~D. Membeli lisensi perangkat lunak terbaru berdasarkan rekomendasi media sosial.
+    #### Feedback: Scanner otomatis mendeteksi celah keamanan yang sudah terdaftar dalam database kerentanan (seperti CVE) secara cepat.
+}
+
+::Soal 87 - C2:: Mengapa "Digital Forensics" melarang penggunaan komputer asli untuk analisis bukti? {
+    ~A. Karena komputer asli tersebut harganya sangat mahal dan mudah sekali pecah.
+    =B. Untuk mencegah perubahan metadata file yang dapat membatalkan keabsahan bukti.
+    ~C. Agar kapasitas penyimpanan di media tersebut tidak cepat habis digunakan audit.
+    ~D. Supaya peretas tidak bisa mengetahui lokasi fisik media penyimpanan tersebut.
+    #### Feedback: Analisis harus dilakukan pada citra bit-stream (image) dari media asli menggunakan write-blocker untuk menjaga integritas asli.
+}
+
+::Soal 88 - C1:: Manakah yang merupakan contoh otentikasi "Something You Do"? {
+    ~A. Mengetik kata sandi yang sangat panjang pada layar komputer masuk.
+    =B. Pola dinamika ketukan keyboard atau gaya penandatanganan digital unik.
+    ~C. Memegang token perangkat keras khusus di tangan kanan saat melakukan login.
+    ~D. Memiliki warna iris mata yang sangat unik bagi setiap individu manusia.
+    #### Feedback: Faktor perilaku (behavioral) memverifikasi identitas berdasarkan pola unik seseorang saat melakukan aksi tertentu.
+}
+
+::Soal 89 - C2:: Mengapa firewall "Application Level" (Proxy) dianggap memberikan perlindungan paling detail? {
+    ~A. Karena harga jualnya paling mahal dibandingkan jenis firewall lainnya di pasar.
+    =B. Karena memeriksa isi paket data hingga ke lapisan aplikasi (Layer 7).
+    ~C. Karena firewall ini tidak memerlukan pembaruan software selama sepuluh tahun.
+    ~D. Agar administrator jaringan bisa lebih santai dalam melakukan pekerjaan harian.
+    #### Feedback: Proxy firewall memahami protokol aplikasi secara spesifik, sehingga dapat memblokir perintah berbahaya di dalam trafik yang sah.
+}
+
+::Soal 90 - C3:: Jika auditor menemukan staf menggunakan Wi-Fi publik bandara tanpa VPN, saran utamanya: {
+    ~A. Memberikan bonus pulsa data agar staf tidak perlu lagi menggunakan Wi-Fi gratis.
+    =B. Mewajibkan enkripsi trafik melalui VPN saat bekerja di luar jaringan kantor.
+    ~C. Melarang staf membawa laptop keluar dari area kantor fisik perusahaan selamanya.
+    ~D. Mengganti semua laptop staf dengan komputer desktop yang sangat berat dan besar.
+    #### Feedback: Jaringan publik adalah area rawan penyadapan (sniffing), sehingga enkripsi tambahan melalui VPN sangat krusial.
+}
+
+::Soal 91 - C1:: Apa yang dimaksud dengan "Cold Site" dalam pemulihan bencana sistem informasi? {
+    ~A. Pusat data cadangan yang berada di wilayah kutub utara agar suhu selalu dingin.
+    =B. Lokasi pemulihan yang hanya menyediakan infrastruktur dasar tanpa hardware TI.
+    ~C. Ruangan khusus di kantor pusat untuk menyimpan mayat peretas yang tertangkap.
+    ~D. Website cadangan yang hanya berisi informasi tentang jadwal hari libur karyawan.
+    #### Feedback: Cold site adalah opsi paling ekonomis namun membutuhkan waktu paling lama (RTO tinggi) untuk diaktifkan saat terjadi krisis.
+}
+
+::Soal 92 - C2:: Mengapa audit terhadap "Identity Management" harus dilakukan secara rutin dan mendalam? {
+    ~A. Agar tim IT memiliki alasan yang kuat untuk bekerja lembur setiap akhir pekan.
+    =B. Memastikan akses pengguna tetap selaras dengan peran pekerjaan saat ini.
+    ~C. Untuk menghitung berapa banyak karyawan yang sudah menggunakan password lama.
+    ~D. Supaya departemen IT bisa menagih biaya tambahan kepada departemen pengguna.
+    #### Feedback: Tinjauan rutin mencegah penyalahgunaan akun yang tidak lagi diperlukan atau hak akses yang berlebihan pasca-mutasi karyawan.
+}
+
+::Soal 93 - C1:: Manakah yang merupakan contoh kontrol "Detective" untuk pemantauan akses fisik? {
+    ~A. Pagar kawat berduri yang dialiri oleh arus listrik tegangan tinggi searah.
+    =B. Peninjauan log akses kartu pintu dan rekaman video kamera pengawas (CCTV).
+    ~C. Kewajiban bagi setiap tamu untuk menggunakan kalung identitas berwarna cerah.
+    ~D. Pemasangan pintu baja yang sangat tebal di ruangan pusat data utama perusahaan.
+    #### Feedback: Dokumentasi log dan video memberikan bukti forensik mengenai siapa yang masuk dan kapan mereka berada di area sensitif.
+}
+
+::Soal 94 - C2:: Mengapa "Data Custodian" berbeda tanggung jawabnya dengan "Data Owner"? {
+    ~A. Custodian memiliki gaji yang jauh lebih rendah daripada gaji yang diterima Owner.
+    =B. Custodian fokus pada implementasi teknis, sedangkan Owner fokus pada nilai bisnis.
+    ~C. Owner hanya bekerja pada siang hari, sedangkan Custodian hanya bekerja malam hari.
+    ~D. Custodian selalu dari pihak vendor luar, sedangkan Owner adalah karyawan internal.
+    #### Feedback: Data Owner menetapkan aturan perlindungan, sementara Custodian (TI) menjalankan aturan tersebut dalam sistem nyata.
+}
+
+::Soal 95 - C3:: Jika terjadi insiden pencurian data melalui port USB, kontrol teknis yang harus diperkuat: {
+    ~A. Menempelkan isolasi kertas pada seluruh port USB yang ada di komputer kantor.
+    =B. Implementasi solusi Endpoint Security untuk memblokir media penyimpanan luar.
+    ~C. Mempekerjakan staf keamanan khusus untuk mengawasi setiap meja kerja karyawan.
+    ~D. Memberikan denda finansial yang sangat besar bagi karyawan yang berani tersenyum.
+    #### Feedback: Kontrol teknis berbasis software (seperti DLP) lebih efektif dan konsisten dalam mematikan port USB dibandingkan kontrol manual.
+}
+
+::Soal 96 - C4:: Jika auditor menemukan server web perusahaan masih menggunakan sertifikat digital yang sudah kadaluwarsa, risikonya: {
+    ~A. Website akan memuat gambar dengan resolusi yang jauh lebih rendah dari aslinya.
+    =B. Pengguna akan melihat peringatan keamanan dan trafik data dapat disadap pihak lain.
+    ~C. Biaya sewa domain website akan meningkat secara otomatis sebesar sepuluh persen.
+    ~D. Administrator jaringan akan secara otomatis kehilangan akses ke dalam server web.
+    #### Feedback: Sertifikat yang kadaluwarsa merusak kepercayaan pengguna dan dapat membatalkan perlindungan enkripsi SSL/TLS pada trafik web.
+}
+
+::Soal 97 - C2:: Mengapa enkripsi data di dalam database sangat penting bagi kepatuhan regulasi privasi? {
+    ~A. Untuk membuat tampilan database terlihat lebih keren dan modern saat diaudit.
+    =B. Melindungi kerahasiaan data pribadi meskipun file database tersebut berhasil dicuri.
+    ~C. Agar database tersebut tidak memakan banyak ruang penyimpanan di dalam hard disk.
+    ~D. Untuk mencegah karyawan departemen lain melihat jumlah gaji manajer TI perusahaan.
+    #### Feedback: Enkripsi adalah "safe harbor" dalam banyak aturan privasi; jika data terenkripsi dicuri, itu sering tidak dianggap sebagai kebocoran data.
+}
+
+::Soal 98 - C1:: Manakah yang merupakan contoh serangan "Malware" tipe Worm? {
+    ~A. Program yang hanya menyerang komputer yang memiliki kabel berwarna merah.
+    =B. Program jahat yang mampu mereplikasi dirinya sendiri secara otomatis di jaringan.
+    ~C. Teknik penipuan menggunakan suara manusia yang dirubah menggunakan mesin khusus.
+    ~D. Alat untuk menghapus seluruh jejak audit yang ada di dalam server log pusat.
+    #### Feedback: Worm berbeda dengan virus karena ia tidak membutuhkan inang (file) dan menyebar secara mandiri melalui koneksi jaringan.
+}
+
+::Soal 99 - C2:: Mengapa "Incident Response Plan" harus mencakup tahap pembersihan (Eradication)? {
+    ~A. Agar tim TI bisa mendapatkan uang bonus tambahan dari manajemen perusahaan.
+    =B. Untuk memastikan semua sisa malware dan pintu belakang dihapus sepenuhnya.
+    ~C. Karena auditor sistem informasi akan marah jika tidak ada tahap pembersihan data.
+    ~D. Supaya monitor komputer yang terkena virus bisa kembali menampilkan gambar tajam.
+    #### Feedback: Tanpa pembersihan menyeluruh, penyerang dapat masuk kembali ke sistem menggunakan sisa-sisa eksploitasi yang tertinggal.
+}
+
+::Soal 100 - C3:: Jika auditor menemukan staf menggunakan "USB Drive" yang ditemukan di parkiran kantor, risiko serangan ini: {
+    ~A. Serangan DDoS massal yang ditargetkan langsung pada website utama perusahaan.
+    =B. Serangan Malicious Media (Social Engineering) untuk menginfeksi jaringan dalam.
+    ~C. Serangan penipuan berupa panggilan telepon palsu yang ditujukan bagi staf admin.
+    ~D. Serangan fisik yang bertujuan merusak kapasitas daya listrik di kantor pusat.
+    #### Feedback: Teknik "Drop baiting" memanfaatkan rasa penasaran manusia agar malware masuk ke sistem melalui media fisik yang seolah-olah hilang.
+}
