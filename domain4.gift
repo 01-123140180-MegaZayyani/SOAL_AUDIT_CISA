@@ -1,0 +1,799 @@
+::Soal 1 - C1:: Manakah dari berikut ini yang merupakan tujuan utama dari Business Impact Analysis (BIA)? {
+    ~A. Menentukan lokasi geografis terbaik untuk pusat data cadangan.
+    =B. Mengidentifikasi proses bisnis kritis dan tingkat kerugian jika terjadi gangguan.
+    ~C. Menghitung total biaya pengadaan perangkat keras baru.
+    ~D. Melakukan instalasi patch keamanan pada server produksi.
+    #### Feedback: BIA digunakan untuk menentukan prioritas pemulihan dengan menganalisis dampak operasional dan finansial dari gangguan pada proses bisnis.
+}
+
+::Soal 2 - C2:: Apa perbedaan utama antara Manajemen Insiden dan Manajemen Problem? {
+    ~A. Insiden menangani masalah perangkat lunak, sedangkan problem menangani perangkat keras.
+    =B. Insiden berfokus pada pemulihan layanan secepat mungkin, sedangkan problem mencari akar penyebab gangguan.
+    ~C. Insiden hanya dilakukan oleh help desk, sedangkan problem hanya dilakukan oleh auditor.
+    ~D. Tidak ada perbedaan nyata karena keduanya bertujuan memperbaiki sistem yang rusak.
+    #### Feedback: Manajemen insiden bersifat reaktif untuk mengembalikan layanan, sedangkan manajemen problem bertujuan mencegah insiden berulang dengan mengidentifikasi penyebab dasarnya.
+}
+
+::Soal 3 - C3:: Seorang auditor SI menemukan bahwa pengguna akhir mengembangkan aplikasi database sendiri (End-User Computing) tanpa pengawasan TI. Risiko terbesar adalah: {
+    ~A. Biaya listrik di departemen tersebut akan meningkat.
+    ~B. Kecepatan internet di kantor akan melambat drastis.
+    =C. Kurangnya integritas data dan tidak adanya backup yang sistematis.
+    ~D. Monitor komputer pengguna akan cepat mengalami kerusakan.
+    #### Feedback: Aplikasi yang dikembangkan pengguna di luar kontrol TI (EUC) sering kali tidak memiliki standar dokumentasi, keamanan, dan prosedur backup yang memadai.
+}
+
+::Soal 4 - C4:: Dalam mengevaluasi kapasitas sistem (Performance Management), auditor menemukan penggunaan CPU rata-rata adalah 95%. Rekomendasi terbaik adalah: {
+    ~A. Segera mematikan server agar tidak terjadi kebakaran.
+    =B. Melakukan analisis kebutuhan kapasitas dan merencanakan upgrade atau optimasi beban kerja.
+    ~C. Menghapus seluruh log audit agar beban CPU berkurang.
+    ~D. Meminta seluruh karyawan untuk berhenti menggunakan aplikasi sementara.
+    #### Feedback: Penggunaan sumber daya yang mendekati kapasitas maksimal menunjukkan perlunya perencanaan kapasitas (capacity planning) untuk menjamin ketersediaan layanan.
+}
+
+::Soal 5 - C1:: Apa yang dimaksud dengan Recovery Time Objective (RTO)? {
+    =A. Target durasi waktu di mana proses bisnis harus dipulihkan setelah terjadi gangguan.
+    ~B. Target jumlah data maksimal yang boleh hilang dalam satuan waktu.
+    ~C. Waktu yang dibutuhkan untuk menulis laporan audit.
+    ~D. Durasi waktu yang dibutuhkan untuk membeli server baru dari vendor.
+    #### Feedback: RTO berfokus pada durasi waktu pemulihan layanan agar dampak gangguan tidak melampaui batas yang dapat diterima.
+}
+
+::Soal 6 - C2:: Manakah dari kontrol berikut yang paling efektif untuk memitigasi risiko kesalahan saat pemrosesan batch (Job Scheduling)? {
+    ~A. Memberikan akses administratif kepada seluruh staf TI.
+    =B. Melakukan otomatisasi jadwal kerja dan meninjau laporan pengecualian (exception reports).
+    ~C. Menjalankan proses batch pada jam sibuk bisnis.
+    ~D. Menghapus jejak audit segera setelah proses batch selesai.
+    #### Feedback: Otomatisasi mengurangi kesalahan manusia, dan peninjauan laporan pengecualian memastikan kegagalan terdeteksi secara tepat waktu.
+}
+
+::Soal 7 - C3:: Seorang auditor sedang meninjau manajemen aset TI. Langkah pertama yang paling tepat adalah: {
+    ~A. Membeli software inventaris terbaru.
+    =B. Memverifikasi akurasi daftar inventaris aset dengan melakukan pengecekan fisik secara sampling.
+    ~C. Menjual aset lama yang sudah tidak digunakan.
+    ~D. Meminta manajer TI untuk membuat kebijakan baru.
+    #### Feedback: Verifikasi inventaris aset sangat penting untuk memastikan akuntabilitas dan efektivitas pengelolaan siklus hidup aset.
+}
+
+::Soal 8 - C4:: Selama audit database, ditemukan bahwa log transaksi tidak diaktifkan. Risiko utamanya adalah: {
+    ~A. Ukuran database akan menjadi terlalu kecil.
+    =B. Ketidakmampuan untuk melakukan pemulihan data ke titik waktu tertentu (point-in-time recovery).
+    ~C. Database tidak akan bisa menerima input data baru.
+    ~D. Kecepatan query database akan meningkat secara signifikan.
+    #### Feedback: Log transaksi sangat krusial untuk pemulihan database jika terjadi kegagalan sistem guna menjaga integritas data.
+}
+
+::Soal 9 - C1:: Apa tujuan dari Service Level Agreement (SLA)? {
+    ~A. Menentukan jenis bahasa pemrograman yang harus digunakan vendor.
+    =B. Mendefinisikan tingkat layanan yang diharapkan dan tanggung jawab antara penyedia layanan dan pelanggan.
+    ~C. Memberikan diskon harga kepada pelanggan setiap bulan.
+    ~D. Menghitung jumlah karyawan yang bekerja di perusahaan vendor.
+    #### Feedback: SLA menjadi dasar pengukuran kinerja layanan dan memastikan adanya kesepakatan tertulis mengenai standar layanan yang harus dipenuhi.
+}
+
+::Soal 10 - C3:: Manakah dari berikut ini yang merupakan kontrol terbaik untuk memastikan hanya perubahan terorisasi yang diimplementasikan ke lingkungan produksi? {
+    ~A. Mewajibkan staf operasional memiliki gelar sarjana.
+    ~B. Memberikan password server kepada semua pengembang.
+    =C. Pemisahan tugas yang ketat antara staf pengembang dan staf operasional rilis.
+    ~D. Melakukan perubahan hanya pada hari libur nasional.
+    #### Feedback: Pemisahan tugas mencegah pengembang memodifikasi program di lingkungan produksi tanpa pengawasan dan persetujuan formal.
+}
+
+::Soal 11 - C2:: Dalam konteks Business Continuity Plan (BCP), peran "Crisis Management Team" adalah: {
+    ~A. Menulis kode program untuk sistem cadangan.
+    =B. Memberikan arahan strategis dan komunikasi selama terjadinya bencana.
+    ~C. Memperbaiki kabel jaringan yang putus secara fisik.
+    ~D. Melakukan backup data ke kaset tape secara harian.
+    #### Feedback: Tim manajemen krisis bertanggung jawab atas pengambilan keputusan tingkat tinggi dan koordinasi selama situasi darurat.
+}
+
+::Soal 12 - C1:: Apa yang dimaksud dengan "Cold Site" dalam pemulihan bencana? {
+    ~A. Pusat data yang sudah dilengkapi dengan hardware dan data terbaru.
+    =B. Ruangan pusat data yang memiliki fasilitas pendukung dasar tetapi tanpa peralatan komputer.
+    ~C. Ruangan yang memiliki suhu udara sangat dingin untuk penyimpanan server.
+    ~D. Lokasi kerja sementara yang berada di luar negeri.
+    #### Feedback: Cold site adalah opsi pemulihan termurah tetapi membutuhkan waktu paling lama karena peralatan harus dipasang terlebih dahulu sebelum digunakan.
+}
+
+::Soal 13 - C4:: Auditor menemukan bahwa backup data disimpan di ruangan yang sama dengan server utama. Risiko terbesar yang dihadapi adalah: {
+    ~A. Data backup akan tercampur dengan data asli.
+    =B. Bencana fisik seperti kebakaran dapat menghancurkan data utama dan backup sekaligus.
+    ~C. Biaya listrik untuk ruangan tersebut akan menjadi dua kali lipat.
+    ~D. Karyawan akan kesulitan mencari kaset backup jika dibutuhkan.
+    #### Feedback: Penyimpanan backup di lokasi yang berbeda (off-site storage) adalah syarat mutlak untuk memastikan kelangsungan bisnis jika terjadi bencana lokal.
+}
+
+::Soal 14 - C3:: Manakah tindakan pertama yang harus dilakukan saat mendeteksi adanya intrusi keamanan pada server produksi? {
+    ~A. Menghapus log keamanan agar tidak penuh.
+    =B. Mengikuti prosedur respons insiden yang telah ditetapkan.
+    ~C. Langsung mematikan seluruh aliran listrik di gedung.
+    ~D. Mencari siapa yang melakukan intrusi melalui media sosial.
+    #### Feedback: Prosedur respons insiden memastikan penanganan masalah dilakukan secara terstruktur untuk meminimalkan dampak dan menjaga bukti.
+}
+
+::Soal 15 - C2:: Apa fungsi dari "Database Checkpoint"? {
+    ~A. Mengunci database agar tidak bisa diakses oleh siapapun.
+    =B. Menulis semua data di memori ke dalam disk untuk meminimalkan waktu pemulihan saat crash.
+    ~C. Menghitung jumlah pengguna yang sedang login ke database.
+    ~D. Memberikan password baru kepada database administrator secara otomatis.
+    #### Feedback: Checkpoint membantu mempercepat proses pemulihan database dengan menandai titik di mana data sudah tersimpan aman di media penyimpanan fisik.
+}
+
+::Soal 16 - C1:: Komponen utama dalam Enterprise Architecture yang berkaitan dengan alur kerja organisasi disebut: {
+    ~A. Arsitektur Teknologi.
+    =B. Arsitektur Bisnis.
+    ~C. Arsitektur Jaringan.
+    ~D. Arsitektur Aplikasi.
+    #### Feedback: Arsitektur bisnis mendefinisikan strategi, tata kelola, organisasi, dan proses bisnis utama di perusahaan.
+}
+
+::Soal 17 - C3:: Auditor menemukan bahwa jadwal backup (Job Scheduling) sering gagal tanpa ada notifikasi. Rekomendasi terbaik adalah: {
+    ~A. Menghentikan proses backup karena tidak berguna.
+    =B. Mengimplementasikan sistem pemantauan dan peringatan (alerting) otomatis atas kegagalan job.
+    ~C. Meminta staf IT untuk berjaga di depan monitor selama 24 jam.
+    ~D. Menambah kapasitas server backup segera.
+    #### Feedback: Notifikasi otomatis memastikan kegagalan operasional segera diketahui dan ditindaklanjuti sebelum berdampak lebih besar.
+}
+
+::Soal 18 - C4:: Dalam audit pengelolaan patch, ditemukan bahwa server lama tidak bisa di-patch karena OS sudah tidak didukung (End-of-Life). Rekomendasi auditor: {
+    ~A. Mengabaikan risiko selama server tersebut masih menyala.
+    =B. Menerapkan kontrol kompensasi atau merencanakan migrasi ke sistem yang didukung.
+    ~C. Memaksa vendor untuk memberikan patch secara gratis selamanya.
+    ~D. Menghapus sistem operasi tersebut tanpa cadangan.
+    #### Feedback: Sistem yang tidak lagi mendapatkan pembaruan keamanan memiliki risiko tinggi, sehingga membutuhkan perlindungan tambahan atau penggantian.
+}
+
+::Soal 19 - C2:: Apa yang dimaksud dengan Recovery Point Objective (RPO)? {
+    ~A. Target waktu untuk memperbaiki perangkat keras yang rusak.
+    =B. Target batas maksimal kehilangan data yang dapat ditoleransi (berdasarkan waktu backup terakhir).
+    ~C. Target jumlah karyawan yang harus masuk kerja setelah bencana.
+    ~D. Target keuntungan perusahaan setelah sistem pulih.
+    #### Feedback: RPO menentukan seberapa sering backup harus dilakukan untuk meminimalkan kehilangan data saat terjadi gangguan.
+}
+
+::Soal 20 - C3:: Manakah dari berikut ini yang merupakan kontrol administratif untuk manajemen aset TI? {
+    ~A. Pemasangan GPS pada setiap laptop perusahaan.
+    =B. Kebijakan penggunaan aset yang harus ditandatangani oleh karyawan.
+    ~C. Penggunaan kabel pengunci fisik pada komputer di kantor.
+    ~D. Enkripsi hard drive secara otomatis pada semua aset.
+    #### Feedback: Kebijakan adalah bentuk kontrol administratif yang menetapkan aturan dan tanggung jawab pengguna terhadap aset organisasi.
+}
+
+::Soal 21 - C1:: Apa fungsi utama dari Configuration Management Database (CMDB)? {
+    ~A. Menyimpan password semua pengguna sistem.
+    =B. Menyimpan informasi tentang item konfigurasi dan hubungan antar komponen TI.
+    ~C. Menghitung total gaji staf di departemen operasional.
+    ~D. Menghapus file sampah di server secara otomatis setiap malam.
+    #### Feedback: CMDB memberikan pandangan komprehensif tentang infrastruktur TI yang mendukung manajemen perubahan dan insiden.
+}
+
+::Soal 22 - C2:: Manakah yang paling tepat menggambarkan konsep "Data Governance"? {
+    ~A. Membeli perangkat keras penyimpanan data dengan kapasitas terbesar.
+    =B. Menetapkan kebijakan, standar, dan akuntabilitas untuk pengelolaan data organisasi.
+    ~C. Melarang semua karyawan untuk mengakses database perusahaan.
+    ~D. Memindahkan seluruh data ke server luar negeri untuk keamanan.
+    #### Feedback: Tata kelola data memastikan data dikelola sebagai aset bisnis yang berharga melalui kepemilikan dan prosedur yang jelas.
+}
+
+::Soal 23 - C3:: Saat mengevaluasi IT Maintenance, auditor menemukan dokumentasi perawatan tidak lengkap. Risiko utamanya: {
+    ~A. Karyawan akan lupa cara menyalakan server.
+    =B. Kesulitan dalam melacak riwayat perbaikan dan potensi kegagalan komponen yang tidak terpantau.
+    ~C. Biaya pemeliharaan akan menjadi nol rupiah.
+    ~D. Printer di kantor tidak akan bisa mencetak laporan maintenance.
+    #### Feedback: Dokumentasi yang baik sangat penting untuk keberlanjutan operasional dan pemecahan masalah yang efektif di masa depan.
+}
+
+::Soal 24 - C4:: Hasil pengujian restorasi backup menunjukkan data tidak dapat dibaca. Langkah auditor yang paling tepat: {
+    ~A. Langsung menghapus seluruh file backup yang ada.
+    =B. Menganalisis penyebab kegagalan dan mengevaluasi efektivitas prosedur backup saat ini.
+    ~C. Menyalahkan staf operasional di depan manajemen senior.
+    ~D. Menganggap sistem backup sudah tidak diperlukan lagi.
+    #### Feedback: Auditor harus mencari akar masalah (root cause) mengapa restorasi gagal agar manajemen dapat memperbaiki proses backup.
+}
+
+::Soal 25 - C1:: Manakah teknologi yang memungkinkan beberapa sistem operasi berjalan pada satu perangkat keras fisik? {
+    ~A. Defragmentasi.
+    =B. Virtualisasi.
+    ~C. Enkripsi.
+    ~D. Kompresi data.
+    #### Feedback: Virtualisasi mengoptimalkan penggunaan perangkat keras dan menyederhanakan manajemen operasional serta pemulihan bencana.
+}
+
+::Soal 26 - C2:: Apa risiko utama dari pengujian BCP yang bersifat "Paper Test" (Desktop Walkthrough)? {
+    ~A. Membutuhkan biaya yang sangat mahal untuk dilakukan.
+    =B. Tidak dapat memverifikasi apakah sistem teknis benar-benar berfungsi saat bencana nyata.
+    ~C. Menyebabkan gangguan besar pada operasional bisnis harian.
+    ~D. Membutuhkan waktu berbulan-bulan untuk menyelesaikannya.
+    #### Feedback: Paper test hanya memvalidasi pemahaman rencana di atas kertas, bukan kesiapan teknis atau infrastruktur pemulihan.
+}
+
+::Soal 27 - C3:: Auditor menemukan bahwa "Change Request" sering kali disetujui melalui lisan tanpa dokumen. Rekomendasi terbaik: {
+    ~A. Memberikan hukuman pecat kepada semua pengembang.
+    =B. Mengimplementasikan sistem manajemen perubahan formal dengan jejak persetujuan terdokumentasi.
+    ~C. Menghentikan semua perubahan sistem selamanya.
+    ~D. Membiarkan hal tersebut selama sistem tidak pernah mengalami error.
+    #### Feedback: Dokumentasi formal sangat penting untuk akuntabilitas, jejak audit, dan analisis jika terjadi kegagalan sistem akibat perubahan.
+}
+
+::Soal 28 - C4:: Sebuah organisasi memiliki banyak "System Interfaces" antar aplikasi yang berbeda. Masalah utama yang harus diaudit adalah: {
+    ~A. Warna latar belakang aplikasi yang tidak seragam.
+    =B. Integritas dan konsistensi data saat berpindah antar sistem.
+    ~C. Merk keyboard yang digunakan oleh pengguna aplikasi tersebut.
+    ~D. Jumlah ikon yang muncul di layar monitor pengguna.
+    #### Feedback: Antarmuka sistem adalah titik kritis terjadinya kesalahan data atau kegagalan sinkronisasi yang dapat merusak kualitas data bisnis.
+}
+
+::Soal 29 - C1:: Apa yang dimaksud dengan "Hot Site"? {
+    ~A. Ruangan server yang memiliki suhu udara sangat panas.
+    =B. Situs pemulihan yang lengkap dengan hardware dan data yang siap digunakan segera.
+    ~C. Lokasi yang digunakan hanya untuk menyimpan arsip kertas.
+    ~D. Website yang paling sering dikunjungi oleh karyawan.
+    #### Feedback: Hot site menawarkan waktu pemulihan (RTO) tercepat karena infrastruktur dan data sudah disinkronkan secara berkala.
+}
+
+::Soal 30 - C2:: Mengapa "Database Normalization" penting dalam pengelolaan database? {
+    ~A. Untuk membuat struktur database menjadi sangat rumit.
+    =B. Untuk meminimalkan redundansi data dan meningkatkan integritas data.
+    ~C. Untuk meningkatkan penggunaan ruang disk secara maksimal.
+    ~D. Untuk memudahkan hacker dalam membaca data perusahaan.
+    #### Feedback: Normalisasi memastikan data disimpan secara efisien dan mengurangi risiko inkonsistensi saat ada pembaruan data.
+}
+
+::Soal 31 - C3:: Manakah kontrol terbaik untuk mencegah instalasi perangkat lunak tidak sah di komputer pengguna (EUC)? {
+    ~A. Menempelkan stiker larangan pada setiap monitor.
+    =B. Mencabut hak administratif pengguna lokal (Standard User) dan menggunakan whitelist aplikasi.
+    ~C. Meminta pengguna untuk berjanji tidak menginstal software bajakan.
+    ~D. Menghapus koneksi internet di seluruh kantor.
+    #### Feedback: Pembatasan hak akses (Privilege Management) adalah kontrol teknis yang paling efektif untuk mencegah perangkat lunak liar masuk ke jaringan.
+}
+
+::Soal 32 - C4:: Selama audit manajemen kapasitas, ditemukan bahwa waktu respons aplikasi melambat secara bertahap. Auditor harus pertama kali meninjau: {
+    ~A. Daftar kehadiran karyawan TI.
+    =B. Laporan performa sistem dan pemanfaatan sumber daya (utilization reports).
+    ~C. Jumlah printer yang terhubung ke jaringan.
+    ~D. Kebijakan seragam kantor bagi staf operasional.
+    #### Feedback: Laporan utilisasi membantu mengidentifikasi bottleneck (hambatan) pada CPU, memori, atau disk yang menyebabkan penurunan performa.
+}
+
+::Soal 33 - C1:: Apa yang dimaksud dengan "Differential Backup"? {
+    ~A. Backup yang menyalin seluruh file di server setiap malam.
+    =B. Backup yang menyalin semua file yang berubah sejak full backup terakhir dilakukan.
+    ~C. Backup yang hanya menyalin data pribadi manajer TI.
+    ~D. Backup yang menghapus data lama secara otomatis.
+    #### Feedback: Differential backup lebih cepat daripada full backup dan membutuhkan waktu restorasi lebih singkat daripada incremental backup.
+}
+
+::Soal 34 - C3:: Auditor menemukan bahwa password database administrator tidak pernah diganti selama setahun. Rekomendasi terbaik: {
+    ~A. Menghapus akun administratif tersebut segera.
+    =B. Mengimplementasikan kebijakan rotasi password secara berkala dan penggunaan MFA.
+    ~C. Meminta admin untuk menulis password di buku saku.
+    ~D. Mengabaikannya selama tidak ada orang luar yang tahu passwordnya.
+    #### Feedback: Perubahan password secara berkala mengurangi risiko penyalahgunaan akses jika kredensial pernah terkompromi.
+}
+
+::Soal 35 - C2:: Apa peran utama dari "Problem Manager" dalam ITIL? {
+    ~A. Membayar gaji karyawan yang mengalami masalah pribadi.
+    =B. Melakukan analisis tren insiden untuk mengidentifikasi dan menghilangkan akar penyebab masalah.
+    ~C. Menghapus log error dari server agar terlihat bersih.
+    ~D. Memaksa pengguna untuk tidak melaporkan insiden kecil.
+    #### Feedback: Fokus utama manajemen problem adalah mengurangi jumlah insiden di masa depan melalui perbaikan yang bersifat permanen.
+}
+
+::Soal 36 - C1:: "Redundant Array of Independent Disks" (RAID) digunakan untuk: {
+    =A. Meningkatkan ketersediaan data dan toleransi kesalahan pada media penyimpanan.
+    ~B. Menghitung jumlah file yang ada di dalam server.
+    ~C. Mengurangi kecepatan akses data agar server tidak panas.
+    ~D. Menghubungkan server ke jaringan satelit luar angkasa.
+    #### Feedback: RAID memungkinkan sistem tetap berjalan meskipun salah satu hard disk mengalami kegagalan fisik.
+}
+
+::Soal 37 - C4:: Dalam evaluasi rilis software, ditemukan rilis dilakukan tanpa persetujuan QA (Quality Assurance). Risikonya: {
+    ~A. Ukuran file aplikasi akan menjadi terlalu besar.
+    =B. Perangkat lunak mungkin mengandung bug kritis yang merusak operasional bisnis.
+    ~C. Pengguna akan merasa terlalu senang karena rilis sangat cepat.
+    ~D. Biaya lisensi tahunan software akan menurun.
+    #### Feedback: Tanpa jaminan kualitas, risiko kegagalan sistem di lingkungan produksi menjadi sangat tinggi dan membahayakan bisnis.
+}
+
+::Soal 38 - C3:: Manakah dari berikut ini yang merupakan indikator efektivitas Manajemen Insiden? {
+    ~A. Jumlah total keyboard yang rusak setiap bulan.
+    =B. Rata-rata waktu untuk memulihkan layanan (Mean Time to Repair/Restore).
+    ~C. Berapa banyak kopi yang dikonsumsi oleh tim help desk.
+    ~D. Jenis merk server yang digunakan di kantor pusat.
+    #### Feedback: Kecepatan pemulihan layanan adalah ukuran kunci keberhasilan penanganan insiden bagi pengguna bisnis.
+}
+
+::Soal 39 - C2:: Apa risiko utama dari penggunaan "Default Password" pada perangkat jaringan baru? {
+    ~A. Perangkat tersebut tidak akan berfungsi sama sekali.
+    =B. Memudahkan akses tidak sah oleh peretas karena password tersebut sudah diketahui umum.
+    ~C. Perangkat akan mengonsumsi daya listrik yang sangat besar.
+    ~D. Kecepatan transfer data akan menjadi sangat lambat.
+    #### Feedback: Mengganti password bawaan pabrik adalah langkah keamanan dasar (hardening) yang wajib dilakukan sebelum perangkat aktif.
+}
+
+::Soal 40 - C1:: Apa yang dimaksud dengan "Asset Life Cycle Management"? {
+    ~A. Proses mencuci server setiap bulan agar tetap bersih.
+    =B. Pengelolaan aset mulai dari perencanaan, pengadaan, operasi, hingga pembuangan/penghapusan.
+    ~C. Proses memberikan asuransi jiwa bagi pemilik perusahaan.
+    ~D. Kegiatan menghitung jumlah monitor di ruangan direktur.
+    #### Feedback: Manajemen siklus hidup aset memastikan efisiensi biaya dan akuntabilitas aset TI di seluruh tahap keberadaannya.
+}
+
+::Soal 41 - C3:: Auditor menemukan bahwa "Incident Log" tidak mencatat waktu resolusi. Dampaknya: {
+    ~A. Monitor help desk akan menunjukkan warna yang salah.
+    =B. Ketidakmampuan untuk mengukur kepatuhan terhadap target SLA.
+    ~C. Biaya internet kantor akan meningkat secara otomatis.
+    ~D. Pengguna tidak akan bisa melakukan login ke komputer.
+    #### Feedback: Tanpa pencatatan waktu resolusi, manajemen tidak dapat menilai kinerja layanan TI terhadap janji layanan (SLA).
+}
+
+::Soal 42 - C4:: Jika hasil audit menunjukkan database tidak memiliki "Concurrency Control", risiko terbesarnya adalah: {
+    ~A. Database akan menjadi sangat lambat bagi semua orang.
+    =B. Kehilangan integritas data karena dua pengguna mengubah data yang sama secara bersamaan (data collision).
+    ~C. Database akan terhapus secara otomatis oleh sistem operasi.
+    ~D. Password seluruh pengguna akan terlihat di layar monitor.
+    #### Feedback: Kontrol konkurensi menjamin bahwa transaksi database yang berjalan bersamaan tidak saling merusak data.
+}
+
+::Soal 43 - C1:: Manakah dari berikut ini yang merupakan contoh teknologi "System Resiliency"? {
+    ~A. Printer yang memiliki banyak baki kertas.
+    =B. Load balancer dan clustering server.
+    ~C. Mouse komputer tanpa kabel (wireless).
+    ~D. Meja kerja yang bisa diatur tingginya.
+    #### Feedback: Load balancing dan clustering memastikan layanan tetap tersedia meskipun salah satu server mengalami gangguan (high availability).
+}
+
+::Soal 44 - C2:: Apa tujuan dari melakukan pengujian pemulihan bencana (DRP Test) secara berkala? {
+    ~A. Untuk memberikan hiburan bagi staf TI di akhir pekan.
+    =B. Memastikan bahwa rencana tersebut berfungsi dan staf memahami peran mereka saat darurat.
+    ~C. Untuk menghabiskan sisa anggaran departemen operasional.
+    ~D. Agar vendor server memberikan hadiah kepada perusahaan.
+    #### Feedback: Pengujian memverifikasi kesiapan teknis dan prosedural untuk menghadapi bencana yang sesungguhnya.
+}
+
+::Soal 45 - C3:: Manakah kontrol terbaik untuk menjaga ketersediaan pusat data terhadap gangguan listrik? {
+    ~A. Membuka seluruh jendela ruangan agar terang.
+    =B. Penggunaan Uninterruptible Power Supply (UPS) dan generator cadangan.
+    ~C. Meminta staf untuk bekerja lebih cepat saat mendung.
+    ~D. Menggunakan lampu senter sebagai cadangan utama.
+    #### Feedback: UPS dan generator menyediakan daya listrik berkelanjutan saat sumber listrik utama dari PLN terputus.
+}
+
+::Soal 46 - C4:: Selama audit BCP, ditemukan bahwa data kontak darurat belum diperbarui selama 2 tahun. Dampaknya: {
+    ~A. Biaya telepon perusahaan akan menjadi lebih murah.
+    =B. Keterlambatan koordinasi dan aktivasi rencana pemulihan saat bencana terjadi.
+    ~C. Seluruh server akan berhenti berfungsi secara otomatis.
+    ~D. Auditor akan menyita seluruh telepon genggam karyawan.
+    #### Feedback: Komunikasi adalah kunci dalam manajemen bencana; kontak yang kadaluwarsa dapat menggagalkan seluruh proses pemulihan.
+}
+
+::Soal 47 - C1:: Apa yang dimaksud dengan "Shadow IT"? {
+    =A. Perangkat keras atau lunak yang digunakan tanpa persetujuan resmi departemen TI.
+    ~B. Server yang diletakkan di dalam ruangan yang gelap dan dingin.
+    ~C. Komputer yang hanya digunakan pada malam hari oleh staf TI.
+    ~D. Sistem keamanan yang memantau pergerakan bayangan di kantor.
+    #### Feedback: Shadow IT menciptakan risiko keamanan dan kepatuhan karena tidak terpantau oleh standar kontrol organisasi.
+}
+
+::Soal 48 - C2:: Dalam manajemen perubahan, peran "Change Advisory Board" (CAB) adalah: {
+    ~A. Menulis kode program untuk perbaikan sistem.
+    =B. Menilai, memprioritaskan, dan memberikan persetujuan atas permintaan perubahan.
+    ~C. Memasang kabel server di dalam data center.
+    ~D. Menghapus log audit yang mencurigakan secara diam-diam.
+    #### Feedback: CAB memastikan setiap perubahan telah dianalisis risikonya dan selaras dengan kebutuhan bisnis sebelum diterapkan.
+}
+
+::Soal 49 - C3:: Auditor SI menemukan bahwa dokumentasi antarmuka (Interface) tidak tersedia. Saran terbaik: {
+    ~A. Menghentikan seluruh pertukaran data antar sistem segera.
+    =B. Mewajibkan pendokumentasian pemetaan data dan protokol komunikasi antar sistem.
+    ~C. Meminta staf TI untuk mengingat alur data di luar kepala.
+    ~D. Menghapus seluruh aplikasi yang saling terhubung.
+    #### Feedback: Dokumentasi antarmuka sangat penting untuk pemeliharaan sistem dan memastikan integritas data dalam ekosistem TI yang kompleks.
+}
+
+::Soal 50 - C4:: Sebuah perusahaan menggunakan "Cloud Storage" untuk backup tetapi tidak pernah menguji restorasi. Risikonya: {
+    ~A. Biaya berlangganan cloud akan meningkat drastis.
+    =B. Tidak ada jaminan data dapat dipulihkan saat dibutuhkan (data corruption atau akses gagal).
+    ~C. Kecepatan internet perusahaan akan menjadi sangat cepat.
+    ~D. Server cloud akan terbakar karena beban data yang terlalu banyak.
+    #### Feedback: Backup tanpa pengujian restorasi memberikan rasa aman palsu dan tidak menjamin kelangsungan bisnis.
+}
+
+::Soal 51 - C1:: Apa yang dimaksud dengan "Incremental Backup"? {
+    ~A. Backup yang menyalin seluruh isi hard disk setiap jam.
+    =B. Backup yang hanya menyalin file yang berubah sejak backup terakhir (apapun jenisnya).
+    ~C. Backup yang menyalin data hanya pada hari libur nasional.
+    ~D. Backup yang dilakukan secara manual oleh direksi perusahaan.
+    #### Feedback: Incremental backup adalah jenis backup tercepat dan menggunakan ruang penyimpanan paling sedikit.
+}
+
+::Soal 52 - C2:: Manakah yang merupakan contoh "Corrective Maintenance" dalam TI? {
+    ~A. Mengganti server sebelum rusak berdasarkan jadwal rutin.
+    =B. Memperbaiki bug aplikasi yang menyebabkan kegagalan transaksi kemarin.
+    ~C. Melakukan pembersihan debu pada komputer setiap bulan.
+    ~D. Membeli lisensi software tambahan untuk tahun depan.
+    #### Feedback: Perawatan korektif dilakukan untuk memperbaiki kerusakan atau kesalahan yang sudah terjadi.
+}
+
+::Soal 53 - C3:: Saat mengevaluasi IT Service Management, auditor menemukan tidak ada Service Catalog. Dampaknya: {
+    ~A. Karyawan tidak akan mendapatkan makanan di kantin.
+    =B. Kurangnya kejelasan bagi pengguna mengenai layanan TI yang tersedia dan ekspektasi layanannya.
+    ~C. Harga perangkat keras TI akan menjadi tidak jelas di pasar.
+    ~D. Staf TI akan memiliki terlalu banyak waktu untuk bermain game.
+    #### Feedback: Katalog layanan mengomunikasikan daftar layanan resmi TI dan membantu manajemen permintaan layanan dari bisnis.
+}
+
+::Soal 54 - C4:: Dalam audit tata kelola data, ditemukan data pribadi disimpan tanpa enkripsi di server file. Tindakan auditor: {
+    ~A. Langsung menghapus seluruh data tersebut agar aman.
+    =B. Melaporkan temuan tersebut dan menyarankan implementasi enkripsi untuk data sensitif (at-rest).
+    ~C. Menyebarkan data tersebut di internet sebagai contoh buruk.
+    ~D. Mengabaikannya jika server file berada di dalam gedung yang terkunci.
+    #### Feedback: Data sensitif harus dilindungi secara teknis untuk memitigasi risiko kebocoran data (data breach).
+}
+
+::Soal 55 - C1:: Apa fungsi utama dari "Job Scheduling" software? {
+    ~A. Memberikan jadwal cuti bagi seluruh karyawan TI.
+    =B. Mengotomatisasi eksekusi tugas-tugas sistem dalam urutan dan waktu yang ditentukan.
+    ~C. Menghitung jumlah klik yang dilakukan pengguna aplikasi.
+    ~D. Mencari lowongan kerja baru di internet untuk staf TI.
+    #### Feedback: Otomatisasi jadwal (scheduling) meningkatkan efisiensi operasional dan mengurangi risiko kelalaian manusia.
+}
+
+::Soal 56 - C2:: Apa risiko utama dari "End-User Computing" (EUC) terkait keamanan? {
+    ~A. Pengguna akan menjadi terlalu pintar dalam menggunakan komputer.
+    =B. Kurangnya kontrol akses dan potensi paparan data sensitif di perangkat yang tidak aman.
+    ~C. Biaya pembelian mouse akan meningkat secara signifikan.
+    ~D. Monitor komputer pengguna akan menampilkan bayangan (shadowing).
+    #### Feedback: EUC sering kali berada di luar kebijakan keamanan standar TI, sehingga rentan terhadap kebocoran atau kehilangan data.
+}
+
+::Soal 57 - C3:: Auditor menemukan banyak "Open Incidents" yang sudah berusia lebih dari 3 bulan. Kesimpulannya adalah: {
+    ~A. Tim help desk adalah tim yang sangat sabar.
+    =B. Proses manajemen insiden tidak efektif dan gagal memenuhi harapan layanan (SLA).
+    ~C. Pengguna sistem sangat jarang melakukan protes.
+    ~D. Sistem TI perusahaan sangat canggih sehingga tidak butuh perbaikan.
+    #### Feedback: Penumpukan insiden yang belum selesai menunjukkan adanya masalah pada sumber daya atau prosedur penanganan masalah.
+}
+
+::Soal 58 - C4:: Sebuah organisasi memiliki rencana BCP tetapi tidak menyertakan "Alternative Processing Site". Risikonya: {
+    ~A. Karyawan akan senang karena bisa libur saat terjadi bencana.
+    =B. Ketidakmampuan untuk melanjutkan operasional TI jika pusat data utama hancur.
+    ~C. Biaya sewa kantor pusat akan menjadi sangat murah.
+    ~D. Auditor tidak akan memiliki ruangan untuk melakukan audit.
+    #### Feedback: Situs cadangan sangat vital untuk memindahkan operasional sistem saat lokasi utama tidak dapat digunakan.
+}
+
+::Soal 59 - C1:: Apa yang dimaksud dengan "Data Dictionary"? {
+    ~A. Buku kamus fisik yang disimpan di rak perpustakaan TI.
+    =B. Repositori metadata yang mendefinisikan struktur, relasi, dan elemen data dalam database.
+    ~C. Daftar nama seluruh administrator database perusahaan.
+    ~D. Tempat penyimpanan log aktivitas media sosial tim data.
+    #### Feedback: Kamus data menjamin konsistensi pemahaman data di seluruh organisasi dan membantu integritas database.
+}
+
+::Soal 60 - C2:: Mengapa "Capacity Management" harus melibatkan manajemen bisnis? {
+    ~A. Agar manajemen bisnis bisa membantu memperbaiki kabel server.
+    =B. Untuk menyelaraskan investasi sumber daya TI dengan proyeksi pertumbuhan bisnis di masa depan.
+    ~C. Supaya manajemen bisnis bisa memberikan hukuman kepada staf TI.
+    ~D. Agar penggunaan internet oleh bisnis dibatasi secara ketat.
+    #### Feedback: Perencanaan kapasitas harus didasarkan pada kebutuhan bisnis agar TI tidak kekurangan sumber daya atau membuang biaya untuk kapasitas berlebih.
+}
+
+::Soal 61 - C3:: Manakah kontrol terbaik untuk mendeteksi perubahan tidak sah pada konfigurasi server (Configuration Management)? {
+    ~A. Memasang kamera CCTV di depan server setiap hari.
+    =B. Implementasi alat pemantauan integritas file (File Integrity Monitoring/FIM).
+    ~C. Meminta admin untuk berjanji tidak akan mengubah konfigurasi secara diam-diam.
+    ~D. Mengunci ruangan server dengan gembok manual yang besar.
+    #### Feedback: FIM secara otomatis mendeteksi dan melaporkan setiap perubahan pada file konfigurasi sistem yang kritis.
+}
+
+::Soal 62 - C4:: Dalam audit pemeliharaan sistem, ditemukan tidak ada prosedur "Back-out" dalam rencana perubahan. Dampaknya: {
+    ~A. Perubahan sistem akan berjalan lebih lancar tanpa beban rencana cadangan.
+    =B. Risiko downtime yang lama jika perubahan baru menyebabkan kegagalan sistem produksi.
+    ~C. Biaya pengerjaan perubahan sistem akan menjadi nol.
+    ~D. Administrator sistem akan merasa sangat percaya diri.
+    #### Feedback: Rencana back-out (rollback) wajib ada untuk mengembalikan sistem ke kondisi stabil semula jika perubahan gagal.
+}
+
+::Soal 63 - C1:: Apa fungsi utama dari "Inventory Management" dalam IT operasional? {
+    ~A. Membeli barang sesuka hati tanpa persetujuan.
+    =B. Memastikan akurasi catatan aset untuk perencanaan, asuransi, dan manajemen siklus hidup.
+    ~C. Memberikan hadiah kepada staf yang paling rajin mengumpulkan barang.
+    ~D. Menghitung jumlah debu yang ada di gudang penyimpanan.
+    #### Feedback: Inventarisasi aset yang akurat adalah pondasi bagi seluruh proses manajemen TI dan keamanan.
+}
+
+::Soal 64 - C2:: Apa risiko terbesar dari penggabungan fungsi "Application Support" dan "Application Development"? {
+    ~A. Staf akan merasa terlalu sibuk setiap harinya.
+    =B. Potensi pelanggaran pemisahan tugas (SoD) dan modifikasi data produksi secara langsung.
+    ~C. Gaji staf akan menjadi dua kali lipat lebih besar.
+    ~D. Aplikasi akan menjadi terlalu cepat karena dikelola satu tim.
+    #### Feedback: Pengembang tidak boleh memiliki akses untuk mengelola operasional harian guna mencegah perubahan tidak sah atau penghapusan jejak kesalahan.
+}
+
+::Soal 65 - C3:: Auditor menemukan bahwa backup "Off-site" dilakukan setahun sekali. Rekomendasi terbaik: {
+    ~A. Menghentikan backup off-site sepenuhnya karena tidak efektif.
+    =B. Meningkatkan frekuensi backup off-site sesuai dengan Recovery Point Objective (RPO) bisnis.
+    ~C. Mengabaikannya selama backup lokal dilakukan setiap hari.
+    ~D. Meminta manajer TI untuk membawa kaset backup ke rumah setiap hari.
+    #### Feedback: Frekuensi backup off-site harus menjamin data yang selamat sesuai dengan ambang toleransi kehilangan data organisasi.
+}
+
+::Soal 66 - C4:: Auditor menemukan bahwa log database administrator (DBA) tidak ditinjau secara independen. Risikonya: {
+    ~A. DBA akan merasa tidak dipercaya oleh organisasi.
+    =B. Aktivitas tidak sah atau manipulasi data oleh DBA tidak akan terdeteksi.
+    ~C. Database akan berjalan sangat lambat saat log penuh.
+    ~D. Monitor DBA akan menampilkan peringatan keamanan terus-menerus.
+    #### Feedback: Pengguna dengan hak akses tinggi (privileged users) harus dipantau secara independen untuk mencegah penyalahgunaan kekuasaan.
+}
+
+::Soal 67 - C1:: Apa yang dimaksud dengan "IT Asset Disposal"? {
+    ~A. Membeli aset TI baru dengan harga yang lebih murah dari sebelumnya.
+    =B. Proses pembuangan atau penghapusan aset TI secara aman, termasuk penghapusan data sensitif.
+    ~C. Memberikan komputer lama kepada kompetitor secara gratis.
+    ~D. Meletakkan server yang rusak di pinggir jalan raya.
+    #### Feedback: Pembuangan aset harus dilakukan secara bertanggung jawab untuk mencegah kebocoran data dari media penyimpanan lama.
+}
+
+::Soal 68 - C2:: Mengapa auditor harus meninjau "Problem Management" setelah terjadi insiden besar (Major Incident)? {
+    ~A. Untuk menyalahkan staf yang bertugas saat kejadian.
+    =B. Memastikan bahwa akar penyebab insiden telah diidentifikasi dan tindakan pencegahan permanen telah dilakukan.
+    ~C. Untuk menghitung kerugian finansial perusahaan secara detail.
+    ~D. Agar tim help desk mendapatkan waktu istirahat tambahan.
+    #### Feedback: Audit atas manajemen problem memastikan organisasi belajar dari insiden dan memperkuat ketahanan sistemnya.
+}
+
+::Soal 69 - C3:: Manakah dari berikut ini yang merupakan kontrol fisik untuk pusat data? {
+    ~A. Kebijakan penggunaan internet bagi seluruh staf.
+    =B. Sistem pemadam kebakaran gas (seperti FM-200) dan sensor air.
+    ~C. Aturan kompleksitas password bagi seluruh administrator.
+    ~D. Penggunaan enkripsi data pada seluruh database.
+    #### Feedback: Kontrol fisik melindungi infrastruktur pusat data dari ancaman lingkungan seperti api dan banjir.
+}
+
+::Soal 70 - C4:: Dalam audit pengelolaan vendor, ditemukan bahwa SLA tidak mencakup pinalti atas kegagalan layanan. Risikonya: {
+    ~A. Vendor akan memberikan hadiah tambahan sebagai ganti rugi.
+    =B. Kurangnya insentif bagi vendor untuk memenuhi standar layanan dan risiko kerugian bisnis tanpa kompensasi.
+    ~C. Biaya tagihan vendor akan otomatis menjadi nol rupiah.
+    ~D. Auditor akan menyita seluruh aset milik vendor tersebut.
+    #### Feedback: Pinalti dalam SLA memberikan perlindungan finansial bagi organisasi dan mendorong vendor untuk patuh pada kontrak.
+}
+
+::Soal 71 - C1:: Apa yang dimaksud dengan "High Availability" (HA)? {
+    ~A. Harga jual perangkat keras TI yang sangat mahal di pasar.
+    =B. Karakteristik sistem yang dirancang untuk beroperasi secara terus-menerus tanpa gangguan dalam waktu lama.
+    ~C. Kondisi di mana seluruh karyawan TI harus selalu hadir di kantor.
+    ~D. Kecepatan transfer data yang melebihi batas normal kabel.
+    #### Feedback: HA dicapai melalui redundansi komponen agar tidak ada titik kegagalan tunggal (single point of failure).
+}
+
+::Soal 72 - C2:: Apa fungsi dari "Post-Implementation Review" (PIR) dalam operasional? {
+    ~A. Untuk memulai kembali proyek dari awal.
+    =B. Mengevaluasi apakah hasil proyek telah memenuhi tujuan bisnis dan beroperasi dengan kontrol yang tepat.
+    ~C. Untuk merayakan kesuksesan tim proyek dengan makan malam bersama.
+    ~D. Menghapus semua dokumentasi teknis yang dibuat selama pengembangan.
+    #### Feedback: PIR memberikan umpan balik berharga bagi operasional dan pembelajaran untuk proyek di masa mendatang.
+}
+
+::Soal 73 - C3:: Auditor menemukan bahwa banyak patch sistem operasi tidak diuji di lingkungan test (staging) sebelum dipasang. Rekomendasi terbaik: {
+    ~A. Melarang semua kegiatan patching selamanya.
+    =B. Mewajibkan pengujian patch di lingkungan non-produksi untuk meminimalkan risiko kegagalan operasional.
+    ~C. Meminta vendor sistem operasi untuk menjamin patch 100% aman.
+    ~D. Melakukan patching hanya pada komputer yang sedang tidak digunakan.
+    #### Feedback: Pengujian sebelum rilis ke produksi sangat krusial untuk mencegah gangguan layanan akibat konflik sistem.
+}
+
+::Soal 74 - C4:: Sebuah organisasi memiliki situs cadangan tetapi tidak memiliki "Data Replication" secara real-time. Dampaknya: {
+    ~A. Biaya berlangganan internet cadangan akan menjadi nol.
+    =B. Potensi kehilangan data yang signifikan (RPO tinggi) jika terjadi bencana mendadak.
+    ~C. Seluruh data di situs cadangan akan terhapus secara otomatis.
+    ~D. Auditor akan memberikan sertifikat penghargaan kepada manajer TI.
+    #### Feedback: Tanpa replikasi data yang cepat, data di situs cadangan akan tertinggal jauh di belakang data produksi.
+}
+
+::Soal 75 - C1:: Apa yang dimaksud dengan "Disaster Recovery Plan" (DRP)? {
+    ~A. Rencana untuk memecat seluruh karyawan saat perusahaan bangkrut.
+    =B. Dokumen teknis terperinci untuk memulihkan infrastruktur TI setelah terjadi bencana.
+    ~C. Rencana untuk membeli gedung baru di tengah kota besar.
+    ~D. Daftar nama-nama orang yang selamat dari bencana alam.
+    #### Feedback: DRP berfokus pada pemulihan sistem dan teknologi informasi agar dapat mendukung proses bisnis kembali.
+}
+
+::Soal 76 - C2:: Mengapa "Data Archiving" berbeda dari "Data Backup"? {
+    ~A. Archiving adalah proses menghapus data, sedangkan backup menyimpannya.
+    =B. Archiving menyimpan data jangka panjang untuk tujuan kepatuhan, sedangkan backup untuk pemulihan operasional.
+    ~C. Archiving dilakukan setiap jam, sedangkan backup dilakukan setahun sekali.
+    ~D. Archiving hanya untuk file gambar, sedangkan backup untuk database.
+    #### Feedback: Pengarsipan (archiving) berfokus pada retensi data historis, sementara backup berfokus pada pemulihan cepat saat terjadi kegagalan.
+}
+
+::Soal 77 - C3:: Manakah kontrol terbaik untuk mencegah "Database Administrator" (DBA) mengubah log audit miliknya sendiri? {
+    ~A. Meminta DBA untuk jujur dalam setiap pekerjaannya.
+    =B. Mengirimkan log audit secara real-time ke server log terpusat yang tidak dapat diakses oleh DBA.
+    ~C. Mengunci monitor DBA setiap kali ia meninggalkan meja kerja.
+    ~D. Menghapus fitur log audit agar tidak bisa diubah oleh siapapun.
+    #### Feedback: Pengiriman log ke sistem eksternal (centralized logging) menjaga integritas bukti aktivitas privileged user.
+}
+
+::Soal 78 - C4:: Auditor menemukan bahwa organisasi tidak memiliki "Business Continuity Plan" (BCP) yang terdokumentasi. Risiko terbesarnya: {
+    ~A. Perusahaan tidak akan bisa mendapatkan asuransi gedung.
+    =B. Ketidakmampuan untuk merespons gangguan bisnis secara efektif dan risiko kebangkrutan pasca-bencana.
+    ~C. Karyawan akan sering datang terlambat ke kantor.
+    ~D. Printer perusahaan akan sering kehabisan kertas saat dibutuhkan.
+    #### Feedback: BCP adalah rencana strategis kelangsungan hidup organisasi; tanpa rencana ini, organisasi sangat rentan terhadap krisis.
+}
+
+::Soal 79 - C1:: Apa fungsi utama dari "Performance Monitoring" tools? {
+    ~A. Memberikan skor nilai rapor bagi seluruh karyawan setiap bulan.
+    =B. Memberikan visibilitas terhadap kesehatan sistem dan mendeteksi anomali performa secara dini.
+    ~C. Menghitung jumlah uang yang ada di kas perusahaan.
+    ~D. Mengawasi aktivitas media sosial pribadi seluruh staf TI.
+    #### Feedback: Pemantauan performa memungkinkan pencegahan masalah sebelum pengguna merasakan dampak penurunan layanan.
+}
+
+::Soal 80 - C2:: Dalam Arsitektur Perusahaan, "Data Architecture" berfokus pada: {
+    ~A. Desain fisik kabel jaringan di dalam pusat data.
+    =B. Model data, standar, dan integrasi aset data di seluruh organisasi.
+    ~C. Nama-nama vendor yang menjual database kepada perusahaan.
+    ~D. Kecepatan mengetik staf administrasi database.
+    #### Feedback: Arsitektur data memastikan aset informasi organisasi terorganisir dengan baik untuk mendukung kebutuhan bisnis.
+}
+
+::Soal 81 - C3:: Seorang auditor menemukan bahwa rilis software dilakukan pada hari Jumat sore (Weekend Release). Saran terbaik: {
+    ~A. Menyarankan agar rilis dilakukan setiap hari Senin pagi saja.
+    =B. Mengevaluasi apakah ketersediaan staf pendukung memadai jika terjadi masalah pasca-rilis di akhir pekan.
+    ~C. Melarang semua kegiatan rilis di hari Jumat selamanya.
+    ~D. Mengabaikannya selama tidak ada laporan komplain dari pelanggan.
+    #### Feedback: Waktu rilis harus mempertimbangkan risiko operasional dan ketersediaan sumber daya untuk penanganan insiden.
+}
+
+::Soal 82 - C4:: Jika hasil audit menunjukkan "Backup Restoration Test" hanya dilakukan pada data berukuran kecil. Kesimpulannya: {
+    ~A. Sistem backup sudah terbukti sangat andal untuk semua jenis data.
+    =B. Belum ada jaminan bahwa restorasi database skala besar akan berhasil dalam batas waktu RTO.
+    ~C. Perusahaan sudah menghemat banyak waktu staf operasional.
+    ~D. Auditor harus memberikan laporan nilai "A" untuk manajemen backup.
+    #### Feedback: Pengujian harus mencerminkan skenario pemulihan yang nyata, termasuk volume data yang besar dan kompleksitas sistem.
+}
+
+::Soal 83 - C1:: Apa yang dimaksud dengan "Mean Time Between Failures" (MTBF)? {
+    ~A. Waktu yang dibutuhkan untuk memecat staf yang melakukan kesalahan.
+    =B. Indikator keandalan yang menunjukkan rata-rata waktu operasional sistem sebelum mengalami kegagalan.
+    ~C. Jarak waktu rata-rata antara jam makan siang dan jam pulang kantor.
+    ~D. Biaya rata-rata untuk membeli server baru setelah server lama rusak.
+    #### Feedback: MTBF yang tinggi menunjukkan bahwa sistem tersebut memiliki tingkat keandalan yang baik.
+}
+
+::Soal 84 - C3:: Manakah dari berikut ini yang merupakan kontrol detektif dalam operasi TI? {
+    ~A. Penggunaan password yang sangat kompleks oleh seluruh staf.
+    =B. Peninjauan harian terhadap laporan aktivitas sistem dan log pengecualian.
+    ~C. Pelatihan kesadaran keamanan bagi seluruh pengguna akhir.
+    ~D. Pemasangan firewall di setiap pintu masuk gedung kantor.
+    #### Feedback: Peninjauan log adalah aktivitas detektif untuk menemukan kejadian anomali atau tidak sah yang telah terjadi.
+}
+
+::Soal 85 - C2:: Apa peran "Quality Management" dalam operasional sistem informasi? {
+    ~A. Mencari kesalahan staf TI agar mereka bisa diberikan sanksi.
+    =B. Memastikan bahwa layanan dan operasional TI secara konsisten memenuhi persyaratan standar kualitas.
+    ~C. Menghapus log error dari server agar laporan terlihat bagus.
+    ~D. Memberikan piala penghargaan kepada departemen TI setiap tahun.
+    #### Feedback: Manajemen kualitas berfokus pada kepuasan pelanggan dan perbaikan berkelanjutan atas proses operasional.
+}
+
+::Soal 86 - C1:: Manakah dari berikut ini yang merupakan media penyimpanan "Off-line"? {
+    ~A. Hard disk internal yang terpasang di dalam server.
+    =B. Kaset Tape atau hard disk eksternal yang disimpan di dalam brankas.
+    ~C. Layanan penyimpanan data di cloud internasional.
+    ~D. Memori RAM yang ada di dalam komputer pengguna.
+    #### Feedback: Media off-line tidak terhubung ke jaringan secara terus-menerus, sehingga terlindungi dari serangan siber seperti ransomware.
+}
+
+::Soal 87 - C4:: Auditor menemukan banyak staf TI memiliki akses "Super User" yang tidak perlu. Risiko utamanya: {
+    ~A. Staf tersebut akan menjadi sangat sombong di kantor.
+    =B. Risiko penyalahgunaan akses dan ketidakmampuan untuk menerapkan akuntabilitas individu.
+    ~C. Biaya lisensi akses administrator akan menjadi sangat mahal.
+    ~D. Kecepatan server akan melambat karena terlalu banyak administrator.
+    #### Feedback: Prinsip 'least privilege' (hak akses minimum) wajib diterapkan untuk membatasi eksposur risiko keamanan.
+}
+
+::Soal 88 - C3:: Manakah kontrol terbaik untuk menjaga ketersediaan sistem saat dilakukan pemeliharaan hardware? {
+    ~A. Mematikan sistem sepenuhnya agar aman dari kerusakan.
+    =B. Penggunaan komponen hot-swappable dan arsitektur failover.
+    ~C. Meminta pengguna untuk tidak melakukan transaksi selama 24 jam.
+    ~D. Melakukan pemeliharaan hanya saat teknisi merasa bersemangat.
+    #### Feedback: Teknologi hot-swappable memungkinkan penggantian komponen tanpa mematikan sistem secara keseluruhan.
+}
+
+::Soal 89 - C2:: Mengapa "Data Retention Policy" sangat penting bagi organisasi? {
+    ~A. Untuk memastikan bahwa seluruh data disimpan selamanya tanpa batas.
+    =B. Menjamin kepatuhan hukum dan mengurangi biaya penyimpanan data yang sudah tidak dibutuhkan.
+    ~C. Agar karyawan tidak dapat menghapus file pribadi mereka dari server.
+    ~D. Untuk memudahkan hacker dalam mencuri data lama perusahaan.
+    #### Feedback: Kebijakan retensi data mengatur berapa lama data harus disimpan dan kapan harus dihapus secara aman.
+}
+
+::Soal 90 - C4:: Auditor menemukan bahwa "Asset Inventory" tidak pernah diperbarui sejak setahun lalu. Risikonya: {
+    ~A. Perusahaan akan mendapatkan hadiah aset tambahan dari pemerintah.
+    =B. Ketidakakuratan dalam perencanaan anggaran, asuransi, dan manajemen keamanan aset.
+    ~C. Seluruh aset fisik akan menghilang secara misterius setiap malam.
+    ~D. Karyawan akan diperbolehkan membawa pulang aset TI secara bebas.
+    #### Feedback: Inventarisasi yang usang menyebabkan organisasi tidak memiliki kendali atas aset yang dimilikinya dan risikonya.
+}
+
+::Soal 91 - C1:: Apa yang dimaksud dengan "UPS" dalam operasional data center? {
+    ~A. Perusahaan pengiriman barang internasional.
+    =B. Perangkat penyedia daya listrik cadangan sementara saat listrik utama padam.
+    ~C. Sistem operasi komputer versi terbaru untuk server.
+    ~D. Alat untuk meningkatkan kecepatan internet di kantor.
+    #### Feedback: UPS memberikan waktu bagi sistem untuk dimatikan secara normal atau bagi generator untuk menyala saat terjadi gangguan listrik.
+}
+
+::Soal 92 - C3:: Auditor menemukan bahwa "Service Level Agreements" (SLA) tidak pernah ditinjau ulang. Saran terbaik: {
+    ~A. Menghapus semua SLA yang ada agar tidak membebani staf TI.
+    =B. Melakukan peninjauan tahunan untuk memastikan SLA tetap selaras dengan kebutuhan bisnis saat ini.
+    ~C. Meminta vendor untuk menaikkan harga layanan secara otomatis.
+    ~D. Melarang pengguna untuk melakukan komplain terhadap layanan TI.
+    #### Feedback: Kebutuhan bisnis berubah seiring waktu, sehingga SLA harus tetap relevan untuk memberikan nilai yang diharapkan.
+}
+
+::Soal 93 - C2:: Apa risiko utama dari "Mirroring" data ke lokasi cadangan? {
+    ~A. Membutuhkan waktu restorasi yang sangat lama.
+    =B. Data yang rusak atau terhapus di lokasi utama akan langsung ikut rusak/terhapus di lokasi cadangan.
+    ~C. Biaya penyimpanan akan menjadi sangat murah.
+    ~D. Data cadangan tidak akan pernah bisa diakses oleh siapapun.
+    #### Feedback: Replikasi instan (mirroring) tidak menggantikan kebutuhan akan backup periodik untuk melindungi dari kesalahan manusia atau virus.
+}
+
+::Soal 94 - C4:: Auditor menemukan bahwa prosedur rilis patch dilakukan secara manual oleh satu orang tanpa verifikasi. Dampaknya: {
+    ~A. Proses rilis patch akan menjadi sangat efisien dan cepat.
+    =B. Risiko kesalahan manusia yang tidak terdeteksi dan potensi gangguan layanan produksi.
+    ~C. Seluruh patch akan menjadi 100% aman karena dikelola satu orang.
+    ~D. Gaji staf tersebut akan diturunkan oleh manajemen.
+    #### Feedback: Kontrol melalui verifikasi (four-eyes principle) sangat penting dalam proses operasional yang berisiko tinggi.
+}
+
+::Soal 95 - C1:: Apa yang dimaksud dengan "RAID 1"? {
+    ~A. Penggabungan data di sepuluh buah hard disk yang berbeda.
+    =B. Teknik pencerminan data (mirroring) di mana data yang sama ditulis ke dua disk atau lebih.
+    ~C. Proses menghapus data secara permanen dari media penyimpanan.
+    ~D. Cara untuk mendinginkan suhu server di dalam pusat data.
+    #### Feedback: RAID 1 memberikan redundansi data penuh dengan menyalin seluruh isi satu disk ke disk lainnya secara real-time.
+}
+
+::Soal 96 - C3:: Manakah kontrol terbaik untuk mencegah kebocoran data saat pengiriman media backup fisik (Tape)? {
+    ~A. Menggunakan jasa pengiriman yang paling murah di pasar.
+    =B. Melakukan enkripsi data pada media backup dan menggunakan wadah terkunci saat pengiriman.
+    ~C. Meminta kurir untuk bersumpah tidak akan membuka paket tersebut.
+    ~D. Menempelkan label "Data Sangat Rahasia" dengan ukuran yang besar.
+    #### Feedback: Enkripsi menjamin data tetap aman meskipun media fisik tersebut hilang atau dicuri selama perjalanan.
+}
+
+::Soal 97 - C2:: Apa peran utama dari "Problem Management" dalam mengurangi insiden? {
+    ~A. Memberikan hukuman kepada staf yang sering membuat kesalahan.
+    =B. Melakukan Root Cause Analysis (RCA) untuk mengeliminasi penyebab gangguan secara permanen.
+    ~C. Menghapus log sistem agar tidak terlihat adanya kesalahan sistem.
+    ~D. Menghindari laporan insiden agar statistik performa TI terlihat bagus.
+    #### Feedback: Manajemen problem berfokus pada pencegahan proaktif dan resolusi permanen untuk meningkatkan stabilitas sistem.
+}
+
+::Soal 98 - C4:: Seorang auditor menemukan bahwa BCP belum pernah diuji selama 5 tahun terakhir. Risiko utamanya: {
+    ~A. Biaya pengujian BCP akan menjadi sangat mahal jika dilakukan sekarang.
+    =B. Rencana tersebut mungkin sudah tidak valid dan gagal total saat dibutuhkan dalam krisis nyata.
+    ~C. Karyawan akan lupa alamat kantor pusat mereka masing-masing.
+    ~D. Auditor tidak akan mendapatkan bonus karena temuan auditnya sedikit.
+    #### Feedback: Lingkungan TI dan proses bisnis berubah cepat; rencana yang tidak diuji sangat mungkin mengandung prosedur yang sudah usang.
+}
+
+::Soal 99 - C1:: Apa yang dimaksud dengan "IT Capacity Planning"? {
+    ~A. Menentukan jumlah meja yang dibutuhkan oleh departemen TI.
+    =B. Proses memprediksi kebutuhan sumber daya TI masa depan berdasarkan profil penggunaan saat ini.
+    ~C. Menghitung jumlah total air minum yang dikonsumsi staf TI.
+    ~D. Mengukur berat fisik seluruh server yang ada di perusahaan.
+    #### Feedback: Perencanaan kapasitas memastikan organisasi memiliki sumber daya yang cukup untuk mendukung pertumbuhan bisnis tanpa pemborosan.
+}
+
+::Soal 100 - C3:: Manakah tindakan terbaik untuk memastikan "Data Integrity" di dalam database operasional? {
+    ~A. Menghapus seluruh data lama setiap akhir bulan secara otomatis.
+    =B. Mengimplementasikan batasan integritas (constraints) dan prosedur validasi input.
+    ~C. Mengizinkan semua pengguna untuk mengubah struktur tabel database.
+    ~D. Menggunakan font yang paling mahal untuk tampilan data di aplikasi.
+    #### Feedback: Constraints seperti primary key dan foreign key memastikan data di dalam database tetap konsisten dan akurat secara logika.
+}
