@@ -1,0 +1,799 @@
+::Soal 1 - C2:: Apa tujuan utama dari pembuatan Business Case dalam sebuah proyek TI? {
+    ~A. Menentukan struktur folder dalam database sistem.
+    ~B. Memilih vendor perangkat keras dengan harga diskon tertinggi.
+    =C. Memberikan pembenaran investasi berdasarkan analisis biaya dan manfaat bisnis.
+    ~D. Menyusun daftar tugas harian bagi staf pengembang.
+    #### Feedback: Business case memastikan investasi TI layak secara ekonomi dan memberikan nilai yang selaras dengan tujuan strategis organisasi.
+}
+
+::Soal 2 - C1:: Dalam manajemen proyek, teknik yang digunakan untuk menentukan durasi terpendek penyelesaian proyek adalah: {
+    ~A. Analisis SWOT.
+    ~B. Diagram Lingkaran.
+    =C. Metode Jalur Kritis (Critical Path Method).
+    ~D. Pengujian Fuzzing.
+    #### Feedback: Metode Jalur Kritis mengidentifikasi urutan aktivitas yang tidak memiliki waktu tenggang (slack) sehingga menentukan durasi total proyek.
+}
+
+::Soal 3 - C3:: Seorang auditor SI mengulas proyek dengan metodologi Agile. Kontrol manakah yang paling krusial untuk dipastikan keberadaannya? {
+    ~A. Dokumentasi spesifikasi setebal mungkin di awal fase.
+    =B. Partisipasi aktif dan berkelanjutan dari pemilik bisnis dalam setiap iterasi.
+    ~C. Penggunaan model sekuensial waterfall untuk tahap testing.
+    ~D. Pembatasan penggunaan perangkat lunak otomatisasi pengujian.
+    #### Feedback: Keberhasilan Agile sangat bergantung pada kolaborasi intensif dengan pengguna untuk memastikan hasil sesuai dengan kebutuhan bisnis yang dinamis.
+}
+
+::Soal 4 - C4:: Jika kebutuhan keamanan tidak disertakan dalam fase analisis persyaratan, risiko jangka panjangnya adalah: {
+    ~A. Sistem akan memproses data terlalu lambat bagi pengguna.
+    =B. Biaya retrofitting kontrol keamanan setelah sistem jadi akan jauh lebih mahal dan kurang efektif.
+    ~C. Pengguna tidak akan mampu mencetak laporan bulanan.
+    ~D. Kapasitas penyimpanan server akan cepat penuh oleh file log.
+    #### Feedback: Mengintegrasikan keamanan sejak awal (Security by Design) lebih efisien dibandingkan menambahkan kontrol setelah sistem selesai dibangun.
+}
+
+::Soal 5 - C2:: Apa perbedaan utama antara pengujian Unit dan pengujian Sistem? {
+    ~A. Unit testing dilakukan oleh pengguna, sedangkan sistem testing oleh tim audit.
+    =B. Unit testing fokus pada logika komponen terkecil, sedangkan sistem testing menguji aplikasi secara menyeluruh.
+    ~C. Sistem testing hanya dilakukan pada perangkat keras fisik server.
+    ~D. Unit testing tidak membutuhkan rencana pengujian formal sama sekali.
+    #### Feedback: Unit testing memvalidasi fungsi di tingkat kode, sementara sistem testing memastikan seluruh komponen bekerja harmonis sesuai spesifikasi.
+}
+
+::Soal 6 - C3:: Selama konversi data, tindakan manakah yang paling efektif untuk menjamin integritas data? {
+    ~A. Menghapus data lama segera setelah sistem baru aktif.
+    =B. Melakukan rekonsiliasi jumlah catatan dan total saldo antara sistem lama dan baru.
+    ~C. Membiarkan pengguna memperbaiki data yang salah saat mereka menemukannya.
+    ~D. Menggunakan jenis huruf yang sama agar data mudah dibaca.
+    #### Feedback: Rekonsiliasi memastikan tidak ada data yang hilang, ganda, atau berubah selama proses pemindahan dari sumber ke tujuan.
+}
+
+::Soal 7 - C1:: Strategi migrasi sistem yang menjalankan sistem lama dan baru secara bersamaan disebut: {
+    ~A. Abrupt Cutover.
+    =B. Implementasi Paralel.
+    ~C. Big Bang Migration.
+    ~D. Penghentian Bertahap.
+    #### Feedback: Implementasi paralel meminimalkan risiko kegagalan bisnis karena sistem lama tetap tersedia sebagai cadangan dan pembanding hasil.
+}
+
+::Soal 8 - C4:: Mengapa Post-Implementation Review (PIR) harus dilakukan beberapa bulan setelah sistem beroperasi? {
+    ~A. Untuk menentukan siapa yang harus dipecat karena proyek terlambat.
+    =B. Untuk mengevaluasi apakah manfaat bisnis yang dijanjikan benar-benar terealisasi.
+    ~C. Untuk menghapus semua jejak audit selama masa pengembangan.
+    ~D. Untuk mulai mengubah semua kode program agar terlihat lebih baru.
+    #### Feedback: PIR memberikan penilaian objektif mengenai efektivitas sistem dan tingkat kepuasan pengguna setelah sistem berjalan dalam kondisi normal.
+}
+
+::Soal 9 - C2:: Dalam manajemen konfigurasi, kegunaan utama dari sebuah 'Baseline' adalah: {
+    ~A. Menentukan batas kecepatan internet minimum bagi user.
+    =B. Menyediakan titik acuan yang disetujui untuk mengontrol perubahan di masa depan.
+    ~C. Menyimpan daftar nama seluruh keluarga manajer TI.
+    ~D. Menghitung total berat perangkat keras di data center.
+    #### Feedback: Baseline berfungsi sebagai standar yang disetujui sehingga setiap perubahan terhadap sistem dapat dilacak dan dibandingkan dengan kondisi awal.
+}
+
+::Soal 10 - C3:: Mengimplementasikan patch keamanan langsung ke produksi tanpa testing di lingkungan staging berisiko: {
+    ~A. Membuat sistem berjalan terlalu dingin sehingga tidak efisien.
+    =B. Menyebabkan kegagalan sistem akibat konflik dengan aplikasi atau konfigurasi yang sudah ada.
+    ~C. Meningkatkan biaya tagihan listrik di kantor pusat.
+    ~D. Menghapus lisensi perangkat lunak secara otomatis.
+    #### Feedback: Tanpa pengujian memadai, patch baru dapat merusak fungsionalitas yang ada (regresi) dan menyebabkan downtime yang tidak direncanakan.
+}
+
+::Soal 11 - C1:: Metodologi pengembangan yang menggunakan prototipe berulang untuk mempercepat pengiriman disebut: {
+    ~A. Waterfall.
+    =B. Rapid Application Development (RAD).
+    ~C. V-Model.
+    ~D. Cleanroom.
+    #### Feedback: RAD menekankan pada kecepatan pengembangan melalui penggunaan prototipe dan umpan balik pengguna yang intensif.
+}
+
+::Soal 12 - C4:: Apa dampak utama jika aspek kelayakan operasional diabaikan dalam studi kelayakan proyek? {
+    ~A. Proyek tidak akan memiliki dana yang cukup untuk membeli lisensi.
+    =B. Sistem mungkin tidak akan digunakan secara efektif karena tidak sesuai dengan cara kerja organisasi.
+    ~C. Server fisik akan mengalami kerusakan hardware lebih cepat.
+    ~D. Tim pengembang akan kesulitan memahami bahasa pemrograman.
+    #### Feedback: Kelayakan operasional menilai apakah sistem baru dapat diterima dan dioperasikan dengan baik oleh pengguna dalam proses bisnis harian.
+}
+
+::Soal 13 - C2:: Apa tujuan dari User Acceptance Testing (UAT)? {
+    ~A. Menemukan bug teknis di dalam kode sumber program.
+    =B. Mengonfirmasi bahwa sistem telah memenuhi persyaratan bisnis dari sudut pandang pengguna.
+    ~C. Menguji ketahanan fisik kabel jaringan terhadap suhu tinggi.
+    ~D. Melatih administrator sistem cara merestart server produksi.
+    #### Feedback: UAT adalah validasi akhir oleh pemilik proses bisnis untuk memastikan sistem siap digunakan dalam operasional nyata.
+}
+
+::Soal 14 - C3:: Kontrol manakah yang paling efektif untuk mencegah pengembang memasukkan kode berbahaya ke produksi? {
+    ~A. Mewajibkan pengembang menggunakan perangkat komputer yang mahal.
+    =B. Pemisahan tugas antara staf pengembangan dan staf operasional rilis.
+    ~C. Melarang penggunaan akses internet di ruang kerja tim proyek.
+    ~D. Menyimpan dokumentasi proyek di lokasi fisik yang rahasia.
+    #### Feedback: Pemisahan tugas (SoD) memastikan adanya kontrol independen dalam proses pemindahan kode dari lingkungan test ke lingkungan produksi.
+}
+
+::Soal 15 - C2:: Fungsi utama dari Gantt Chart adalah: {
+    ~A. Menghitung total pajak dari pembelian software.
+    =B. Menampilkan jadwal, durasi, dan ketergantungan antar tugas proyek secara visual.
+    ~C. Menyimpan daftar kata sandi administrator database.
+    ~D. Melakukan pengecekan integritas data secara otomatis.
+    #### Feedback: Gantt Chart membantu manajer proyek memantau kemajuan aktivitas terhadap timeline yang sudah direncanakan.
+}
+
+::Soal 16 - C4:: Jika dokumentasi sistem tidak diperbarui setelah perubahan mendesak (emergency change), risikonya adalah: {
+    ~A. Kecepatan printer di departemen TI akan menurun.
+    =B. Kesulitan dalam melakukan troubleshooting dan pemeliharaan di masa depan.
+    ~C. Seluruh data di server akan terhapus secara otomatis.
+    ~D. Biaya sewa gedung kantor akan mengalami kenaikan.
+    #### Feedback: Dokumentasi yang tidak akurat menyebabkan tim pendukung tidak memiliki panduan yang benar saat terjadi masalah pada sistem di kemudian hari.
+}
+
+::Soal 17 - C1:: Pengujian untuk memastikan bahwa perubahan baru tidak merusak fungsionalitas yang sudah ada disebut: {
+    ~A. Stress Testing.
+    =B. Regression Testing.
+    ~C. Alpha Testing.
+    ~D. White Box Testing.
+    #### Feedback: Pengujian regresi dilakukan setelah modifikasi untuk menjamin stabilitas bagian sistem yang tidak diubah.
+}
+
+::Soal 18 - C3:: Auditor menemukan pengembang memiliki akses administratif ke database produksi. Rekomendasi terbaik adalah: {
+    ~A. Memberikan akses tersebut kepada semua karyawan perusahaan agar adil.
+    =B. Membatasi akses pengembang hanya pada lingkungan pengembangan dan pengujian.
+    ~C. Menginstruksikan pengembang untuk tidak menggunakan akses tersebut kecuali darurat.
+    ~D. Membiarkan akses tersebut agar perbaikan bug bisa dilakukan sangat cepat.
+    #### Feedback: Membatasi akses sesuai prinsip 'least privilege' melindungi integritas data produksi dari kesalahan atau manipulasi yang tidak sengaja.
+}
+
+::Soal 19 - C2:: Karakteristik utama dari pengujian White Box adalah: {
+    ~A. Penguji tidak mengetahui struktur internal kode program.
+    =B. Penguji mengevaluasi alur logika dan percabangan di dalam kode sumber.
+    ~C. Hanya dilakukan oleh pengguna akhir sebelum sistem go-live.
+    ~D. Fokus pada ketahanan fisik server terhadap gangguan listrik.
+    #### Feedback: White Box testing membutuhkan pengetahuan teknis tentang struktur kode untuk memastikan semua jalur logika telah diuji.
+}
+
+::Soal 20 - C4:: Selama PIR, kegagalan proyek yang paling fatal ditunjukkan oleh: {
+    ~A. Terjadi keterlambatan penyelesaian proyek selama satu minggu.
+    =B. Sistem yang dihasilkan tidak mencapai tujuan bisnis utama yang ada di Business Case.
+    ~C. Warna antarmuka aplikasi sedikit berbeda dari desain asli.
+    ~D. Tim proyek menggunakan anggaran lebih sedikit dari plafon yang disediakan.
+    #### Feedback: Ukuran keberhasilan tertinggi proyek adalah pencapaian nilai dan tujuan bisnis yang direncanakan di awal investasi.
+}
+
+::Soal 21 - C2:: Apa peran auditor SI saat fase identifikasi kontrol dalam SDLC? {
+    ~A. Menulis kode program untuk enkripsi data.
+    =B. Mengevaluasi apakah kontrol yang memadai telah dirancang untuk memitigasi risiko bisnis.
+    ~C. Memilih vendor penyedia layanan internet untuk tim proyek.
+    ~D. Menyetujui kenaikan gaji bagi manajer proyek TI.
+    #### Feedback: Auditor bertindak sebagai penasihat untuk memastikan pengendalian internal telah 'dibangun di dalam' sistem sejak tahap desain.
+}
+
+::Soal 22 - C1:: Manakah dari berikut ini yang merupakan contoh Non-Functional Requirement? {
+    ~A. Sistem harus bisa menghitung diskon otomatis bagi pelanggan.
+    =B. Sistem harus mampu menangani 500 transaksi per detik.
+    ~C. Sistem harus memiliki fitur pencarian data karyawan.
+    ~D. Sistem harus bisa mencetak faktur dalam format PDF.
+    #### Feedback: Non-functional requirement berkaitan dengan kualitas layanan seperti performa, keamanan, dan ketersediaan, bukan tugas bisnis spesifik.
+}
+
+::Soal 23 - C3:: Saat meninjau manajemen konfigurasi, ditemukan tidak ada kontrol versi kode. Risikonya adalah: {
+    ~A. Memori komputer pengguna akan cepat habis.
+    =B. Ketidakmampuan untuk kembali ke versi stabil sebelumnya jika terjadi kesalahan rilis.
+    ~C. Monitor server akan menampilkan warna yang salah.
+    ~D. Biaya lisensi tahunan software akan meningkat secara otomatis.
+    #### Feedback: Kontrol versi sangat penting untuk melacak sejarah perubahan dan memfasilitasi proses 'rollback' jika diperlukan.
+}
+
+::Soal 24 - C4:: Melewati fase Integration Testing demi mengejar jadwal rilis berisiko tinggi terhadap: {
+    ~A. Karyawan unit bisnis akan merasa bosan dengan tampilan aplikasi.
+    =B. Kesalahan komunikasi data antar modul yang dapat menyebabkan data rusak.
+    ~C. Ukuran file instalasi aplikasi akan menjadi terlalu besar.
+    ~D. Perangkat keras server akan memerlukan pendinginan ekstra.
+    #### Feedback: Integration testing memastikan bahwa komponen-komponen sistem yang dikembangkan terpisah dapat bekerja sama dengan benar.
+}
+
+::Soal 25 - C2:: Apa fokus dari analisis kelayakan ekonomi dalam proyek SI? {
+    ~A. Memastikan pengembang menguasai bahasa pemrograman terbaru.
+    =B. Menilai apakah manfaat finansial sistem melebihi biaya pengembangannya (ROI).
+    ~C. Memeriksa ketersediaan ruangan untuk menempatkan server fisik.
+    ~D. Menghitung jumlah karyawan yang akan pensiun tahun depan.
+    #### Feedback: Kelayakan ekonomi memastikan bahwa organisasi membuat keputusan finansial yang tepat dalam mengalokasikan sumber daya TI.
+}
+
+::Soal 26 - C1:: Dalam SDLC tradisional (Waterfall), fase manakah yang dilakukan setelah Analisis Kebutuhan? {
+    ~A. Pengujian Sistem.
+    =B. Desain Sistem.
+    ~C. Pemeliharaan.
+    ~D. Penutupan Proyek.
+    #### Feedback: Setelah kebutuhan dipahami sepenuhnya dalam fase analisis, langkah selanjutnya adalah merancang arsitektur dan kontrol sistem.
+}
+
+::Soal 27 - C3:: Menggunakan data produksi asli untuk pengujian aplikasi tanpa penyamaran (masking) berisiko: {
+    ~A. Membuat database testing menjadi terlalu cepat.
+    =B. Kebocoran data sensitif karena lingkungan test biasanya tidak seaman produksi.
+    ~C. Merusak data asli yang ada di server produksi secara permanen.
+    ~D. Menyebabkan sistem operasi komputer hang secara mendadak.
+    #### Feedback: Lingkungan testing seringkali memiliki akses yang lebih longgar, sehingga penggunaan data asli melanggar prinsip privasi data.
+}
+
+::Soal 28 - C2:: Tujuan utama dari prosedur Patch Management adalah: {
+    ~A. Mempercantik tampilan grafis dari aplikasi lama.
+    =B. Memperbaiki bug atau kerentanan keamanan secara terkendali.
+    ~C. Menghapus log audit yang sudah berusia lebih dari satu bulan.
+    ~D. Menambah jumlah fitur baru tanpa persetujuan pengguna.
+    #### Feedback: Patch management memastikan pembaruan sistem dilakukan secara sistematis untuk menjaga keamanan dan stabilitas.
+}
+
+::Soal 29 - C4:: Selama PIR, ditemukan bahwa sistem memerlukan banyak perbaikan manual oleh user. Ini indikasi: {
+    ~A. Sistem sangat aman karena membutuhkan campur tangan manusia.
+    =B. Kegagalan sistem dalam mengotomatisasi proses bisnis secara efisien.
+    ~C. Pengguna sistem memiliki waktu luang yang terlalu banyak.
+    ~D. Tim TI telah berhasil melakukan penghematan biaya pengembangan.
+    #### Feedback: Kebutuhan akan perbaikan manual menunjukkan bahwa desain sistem tidak sepenuhnya memenuhi kebutuhan efisiensi operasional.
+}
+
+::Soal 30 - C1:: Kontrol manakah yang dilakukan pada akhir fase implementasi sebelum serah terima? {
+    ~A. Penulisan Visi dan Misi perusahaan.
+    =B. Pelatihan pengguna dan penyelesaian dokumentasi operasional.
+    ~C. Analisis tren pasar teknologi global.
+    ~D. Pemilihan lokasi gedung data center baru.
+    #### Feedback: Pelatihan dan dokumentasi memastikan transisi yang lancar dari tahap pengembangan ke tahap operasional harian.
+}
+
+::Soal 31 - C3:: Seorang auditor menemukan bahwa manajer proyek tidak melaporkan keterlambatan kepada stakeholder. Ini menunjukkan kelemahan dalam: {
+    ~A. Pemilihan merk komputer untuk pengembang.
+    =B. Tata kelola dan pelaporan kemajuan proyek (Project Governance).
+    ~C. Kualitas kabel jaringan yang digunakan di kantor.
+    ~D. Pengetahuan teknis staf entri data.
+    #### Feedback: Transparansi dalam pelaporan kemajuan sangat penting agar stakeholder dapat mengambil keputusan mitigasi risiko tepat waktu.
+}
+
+::Soal 32 - C2:: Apa yang dimaksud dengan Data Mapping dalam proses konversi data? {
+    ~A. Menggambar peta lokasi server di dalam gedung.
+    =B. Menentukan bagaimana kolom data di sistem lama berhubungan dengan sistem baru.
+    ~C. Memberikan label harga pada setiap baris data di database.
+    ~D. Menghapus seluruh data pelanggan yang tidak aktif selama setahun.
+    #### Feedback: Data mapping menjamin data berpindah ke tempat yang benar dan mempertahankan makna bisnisnya di sistem yang baru.
+}
+
+::Soal 33 - C4:: Banyaknya bug yang ditemukan pada tahap UAT biasanya merupakan indikator bahwa: {
+    ~A. Pengguna sistem terlalu malas melakukan pengujian di awal.
+    =B. Fase Unit dan Integration Testing tidak dilakukan secara memadai.
+    ~C. Bahasa pemrograman yang digunakan sudah terlalu kuno.
+    ~D. Tim QA memiliki monitor komputer yang kurang jernih.
+    #### Feedback: Kegagalan mendeteksi bug di tahap awal SDLC menyebabkan penumpukan masalah yang mahal di tahap akhir pengembangan.
+}
+
+::Soal 34 - C1:: Dokumen yang berisi daftar semua komponen sistem yang harus dikendalikan versinya disebut: {
+    ~A. Daftar Hadir Rapat.
+    =B. Configuration Management Database (CMDB).
+    ~C. Brosur Pemasaran Software.
+    ~D. Rencana Liburan Tim Proyek.
+    #### Feedback: CMDB adalah repositori pusat untuk melacak item konfigurasi dan hubungannya sepanjang siklus hidup sistem.
+}
+
+::Soal 35 - C3:: Proyek pengembangan sistem tidak memiliki kriteria penerimaan yang jelas. Hal ini akan menyulitkan: {
+    ~A. Proses pembelian makanan untuk tim pengembang.
+    =B. Penentuan apakah deliverables proyek sudah memenuhi persyaratan user.
+    ~C. Perhitungan kecepatan transfer data internet di kantor.
+    ~D. Penggantian printer yang rusak di departemen administrasi.
+    #### Feedback: Kriteria penerimaan (Acceptance Criteria) memberikan standar objektif untuk menyetujui hasil kerja tim proyek.
+}
+
+::Soal 36 - C2:: Manfaat utama dari pengujian otomatis (Automated Testing) adalah: {
+    ~A. Menghilangkan kebutuhan akan staf ahli di departemen TI.
+    =B. Memungkinkan pengujian regresi dilakukan secara cepat dan konsisten.
+    ~C. Menjamin bahwa perangkat lunak tidak akan pernah mengalami crash.
+    ~D. Mengurangi penggunaan kertas di kantor secara signifikan.
+    #### Feedback: Otomatisasi sangat efektif untuk pengujian yang berulang-ulang guna memastikan perubahan tidak merusak fungsi lama.
+}
+
+::Soal 37 - C4:: Risiko utama dari tidak adanya manajemen perubahan (Change Management) yang formal adalah: {
+    ~A. Karyawan akan sering meminta kenaikan gaji setiap bulan.
+    =B. Terjadinya ketidakstabilan sistem produksi yang sulit dilacak penyebabnya.
+    ~C. Ruang penyimpanan di server akan cepat habis oleh file gambar.
+    ~D. Monitor komputer administrator akan sering mengalami flicker.
+    #### Feedback: Tanpa manajemen perubahan, modifikasi sistem yang tidak terkoordinasi dapat menyebabkan downtime dan kegagalan integritas data.
+}
+
+::Soal 38 - C1:: Audit formal yang dilakukan untuk memastikan sistem memberikan nilai bisnis setelah diimplementasikan disebut: {
+    ~A. Pre-implementation Review.
+    =B. Post-implementation Review (PIR).
+    ~C. Stress Testing.
+    ~D. Unit Testing.
+    #### Feedback: PIR bertujuan menilai apakah investasi sistem telah mencapai tujuan dan manfaat yang direncanakan semula.
+}
+
+::Soal 39 - C3:: Auditor SI meninjau akuisisi perangkat lunak dari pihak ketiga. Dokumen manakah yang paling penting untuk perlindungan hukum jika vendor bangkrut? {
+    ~A. Daftar merk laptop vendor.
+    =B. Perjanjian Software Escrow.
+    ~C. Kwitansi biaya pengiriman software.
+    ~D. Foto kantor pusat vendor.
+    #### Feedback: Software Escrow memastikan organisasi memiliki akses ke kode sumber jika vendor tidak lagi dapat mendukung produk tersebut.
+}
+
+::Soal 40 - C2:: Risiko terbesar dari metode migrasi 'Big Bang' adalah: {
+    ~A. Biaya implementasi yang menjadi terlalu rendah.
+    =B. Tidak ada jalan kembali yang mudah jika sistem baru gagal total saat diaktifkan.
+    ~C. Waktu implementasi yang dirasakan terlalu lama oleh manajemen.
+    ~D. Karyawan akan memiliki terlalu banyak waktu untuk beristirahat.
+    #### Feedback: Big Bang adalah metode 'semua atau tidak sama sekali' yang memiliki eksposur risiko tinggi terhadap kelangsungan operasional.
+}
+
+::Soal 41 - C4:: Feasibility study yang hanya fokus pada biaya lisensi perangkat lunak dianggap lemah karena: {
+    ~A. Lisensi perangkat lunak adalah bagian termurah dari sebuah proyek.
+    =B. Mengabaikan biaya jangka panjang seperti pemeliharaan dan pelatihan (TCO).
+    ~C. Tidak mempertimbangkan warna kemasan produk perangkat lunak tersebut.
+    ~D. Vendor biasanya akan memberikan lisensi secara gratis jika diminta.
+    #### Feedback: Total Cost of Ownership (TCO) harus mencakup biaya akuisisi, implementasi, operasi, dan pemeliharaan jangka panjang.
+}
+
+::Soal 42 - C3:: Saat konversi data, kontrol manakah yang memastikan tidak ada transaksi yang tertinggal? {
+    ~A. Membandingkan nama file di sistem lama dan baru.
+    =B. Rekonsiliasi total jumlah catatan (record counts) antara kedua sistem.
+    ~C. Meminta pengembang untuk bersumpah bahwa data sudah lengkap.
+    ~D. Melakukan backup data setiap sepuluh menit sekali.
+    #### Feedback: Rekonsiliasi jumlah catatan adalah kontrol detektif dasar untuk memastikan kelengkapan data hasil migrasi.
+}
+
+::Soal 43 - C1:: Tujuan dari pengujian beban (Load Testing) adalah: {
+    ~A. Menghitung berat fisik dari server database.
+    =B. Mengevaluasi performa sistem saat diakses oleh banyak pengguna secara bersamaan.
+    ~C. Mengukur durasi baterai laptop manajer proyek.
+    ~D. Mencari kesalahan ketik di manual penggunaan aplikasi.
+    #### Feedback: Load testing memastikan sistem tetap responsif dan stabil di bawah volume transaksi yang diharapkan.
+}
+
+::Soal 44 - C2:: Mengapa 'Requirement Traceability Matrix' penting bagi auditor? {
+    ~A. Untuk mencatat alamat rumah seluruh tim pengembang.
+    =B. Untuk memastikan semua kebutuhan pengguna telah diakomodasi dalam desain dan pengujian.
+    ~C. Untuk menghitung total biaya per baris kode program.
+    ~D. Untuk memilih bahasa pemrograman yang paling mudah dipelajari.
+    #### Feedback: Matriks penelusuran persyaratan menjamin bahwa tidak ada kebutuhan bisnis yang terabaikan selama siklus hidup proyek.
+}
+
+::Soal 45 - C3:: Tidak adanya 'Fallback Plan' dalam rencana rilis sistem baru dapat menyebabkan: {
+    ~A. Proyek selesai lebih cepat dari jadwal.
+    =B. Downtime berkepanjangan jika sistem baru tidak berfungsi di lingkungan produksi.
+    ~C. Biaya lisensi software berkurang secara signifikan.
+    ~D. Pengguna merasa lebih percaya diri menggunakan sistem baru.
+    #### Feedback: Fallback plan (rencana pengunduran diri) sangat krusial sebagai jaring pengaman jika migrasi mengalami kegagalan teknis.
+}
+
+::Soal 46 - C4:: Dampak dari tidak adanya spesifikasi desain teknis yang formal dalam SDLC adalah: {
+    ~A. Tampilan aplikasi akan terlihat lebih artistik bagi pengguna.
+    =B. Kesulitan dalam pemeliharaan sistem dan pengembangan fitur di masa depan.
+    ~C. Kecepatan akses internet di departemen pengembang akan meningkat.
+    ~D. Administrator sistem tidak perlu lagi melakukan pemantauan server.
+    #### Feedback: Tanpa desain formal, pemahaman tentang struktur internal sistem menjadi hilang, menyulitkan perbaikan dan peningkatan sistem.
+}
+
+::Soal 47 - C2:: Apa fokus utama dari Integration Testing? {
+    ~A. Menguji satu tombol pada antarmuka aplikasi.
+    =B. Memastikan modul-modul yang berbeda dapat bertukar data dengan benar.
+    ~C. Memeriksa kualitas fisik dari rak server di data center.
+    ~D. Menghitung jumlah kata dalam dokumen kebijakan TI.
+    #### Feedback: Integration testing memvalidasi antarmuka dan interaksi antar komponen sistem yang terintegrasi.
+}
+
+::Soal 48 - C1:: Tahap mana dalam SDLC yang paling tepat untuk mendefinisikan kontrol input dan output? {
+    ~A. Fase Inisiasi Proyek.
+    =B. Fase Desain Sistem.
+    ~C. Fase Implementasi.
+    ~D. Fase Penghentian Sistem.
+    #### Feedback: Kontrol harus dirancang ke dalam spesifikasi sistem sebelum proses penulisan kode dimulai.
+}
+
+::Soal 49 - C3:: Auditor menemukan bahwa patch kritis belum diinstal selama enam bulan. Saran terbaiknya adalah: {
+    ~A. Mengabaikan patch jika tidak ada keluhan dari pengguna.
+    =B. Menetapkan proses patch management berbasis risiko yang rutin.
+    ~C. Melakukan patching hanya pada akhir tahun fiskal.
+    ~D. Meminta semua pengguna untuk tidak menggunakan sistem sementara.
+    #### Feedback: Patch management yang disiplin sangat penting untuk memitigasi kerentanan keamanan yang diketahui.
+}
+
+::Soal 50 - C2:: Apa keuntungan membeli software paket (COTS) dibandingkan membangun sendiri? {
+    ~A. Organisasi memiliki kendali penuh atas setiap baris kode program.
+    =B. Waktu rilis ke pasar (time-to-market) biasanya lebih cepat.
+    ~C. Tidak perlu melakukan pengujian karena sudah dilakukan oleh vendor.
+    ~D. Biaya awal selalu nol rupiah karena merupakan produk jadi.
+    #### Feedback: Software paket memungkinkan organisasi untuk segera mengimplementasikan solusi yang sudah teruji dan stabil.
+}
+
+::Soal 51 - C4:: Pengguna menolak menggunakan sistem baru dan kembali ke manual. Penyebab paling mungkin adalah: {
+    ~A. Sistem baru memiliki fitur yang terlalu banyak.
+    =B. Kurangnya keterlibatan pengguna dalam desain dan pelatihan yang buruk.
+    ~C. Harga monitor komputer yang digunakan pengguna terlalu mahal.
+    ~D. Tim TI terlalu sering melakukan pembaruan keamanan.
+    #### Feedback: Penerimaan pengguna adalah faktor kunci keberhasilan implementasi; ini membutuhkan partisipasi mereka sejak tahap awal persyaratan.
+}
+
+::Soal 52 - C1:: Setiap komponen sistem seperti kode, dokumentasi, dan server yang dikelola dalam CMDB disebut: {
+    ~A. Item Inventaris.
+    =B. Configuration Item (CI).
+    ~C. Modul Proyek.
+    ~D. Aset Audit.
+    #### Feedback: Configuration Item adalah unit dasar yang dikelola dalam manajemen konfigurasi untuk menjaga integritas sistem.
+}
+
+::Soal 53 - C3:: Kontrol input yang dilakukan di sisi klien (browser) tanpa validasi di sisi server berisiko terhadap: {
+    ~A. Kerusakan fisik pada keyboard komputer.
+    =B. Serangan manipulasi data dan bypass keamanan oleh peretas.
+    ~C. Pengurangan kecepatan mengetik pengguna secara drastis.
+    ~D. Peningkatan penggunaan tinta printer di kantor.
+    #### Feedback: Validasi sisi server wajib dilakukan karena kontrol sisi klien dapat dengan mudah dimodifikasi atau dilewati.
+}
+
+::Soal 54 - C2:: Apa tanggung jawab utama dari Project Steering Committee? {
+    ~A. Menulis kode program harian bersama tim pengembang.
+    =B. Memberikan dukungan strategis, sumber daya, dan persetujuan kebijakan proyek.
+    ~C. Memasang kabel jaringan di ruangan tim pengembang.
+    ~D. Membeli lisensi software secara sembunyi-sembunyi.
+    #### Feedback: Komite Pengarah memastikan proyek tetap selaras dengan arah bisnis dan memiliki dukungan manajemen yang cukup.
+}
+
+::Soal 55 - C4:: Mengaktifkan sistem baru tepat pada jam sibuk tanpa masa transisi adalah contoh dari: {
+    ~A. Keberanian manajemen dalam mengambil risiko bisnis.
+    =B. Perencanaan rilis dan manajemen risiko yang buruk.
+    ~C. Strategi untuk menguji ketahanan mental staf TI.
+    ~D. Cara paling efektif untuk menghemat biaya operasional.
+    #### Feedback: Implementasi sistem (cutover) sebaiknya dilakukan saat beban kerja rendah untuk meminimalkan dampak jika terjadi kegagalan.
+}
+
+::Soal 56 - C1:: Pengujian yang berfokus pada hasil fungsional tanpa melihat cara kerja internal kode disebut: {
+    ~A. White Box Testing.
+    =B. Black Box Testing.
+    ~C. Gray Box Testing.
+    ~D. Logic Testing.
+    #### Feedback: Black Box testing hanya memverifikasi apakah input tertentu menghasilkan output yang benar sesuai persyaratan.
+}
+
+::Soal 57 - C3:: Error handling yang menampilkan rincian database di layar pengguna saat aplikasi crash berisiko: {
+    ~A. Mempercepat proses perbaikan oleh pengguna akhir.
+    =B. Memberikan informasi teknis yang dapat disalahgunakan oleh penyerang.
+    ~C. Mengurangi biaya pemeliharaan sistem jangka panjang.
+    ~D. Membantu pengguna memahami struktur database secara mendalam.
+    #### Feedback: Pesan error harus bersifat umum bagi pengguna agar tidak membocorkan detail sensitif tentang arsitektur sistem.
+}
+
+::Soal 58 - C2:: Studi kelayakan operasional bertujuan untuk memastikan: {
+    ~A. Perusahaan memiliki cukup uang untuk membayar gaji pengembang.
+    =B. Organisasi memiliki kemampuan untuk mendukung dan menggunakan sistem tersebut.
+    ~C. Teknologi yang diusulkan tersedia di pasar lokal.
+    ~D. Seluruh tim proyek sudah mengikuti pelatihan bela diri.
+    #### Feedback: Kelayakan operasional menilai kecocokan sistem dengan budaya dan prosedur kerja organisasi.
+}
+
+::Soal 59 - C4:: Auditor menemukan tim Agile tidak membuat dokumentasi teknis. Sikap auditor yang tepat adalah: {
+    ~A. Mengabaikannya karena Agile memang tidak mengenal dokumentasi.
+    =B. Menyarankan dokumentasi esensial tetap dibuat untuk kesinambungan operasional.
+    ~C. Meminta tim segera mengganti metodologi menjadi Waterfall.
+    ~D. Melaporkan tim proyek ke kepolisian setempat.
+    #### Feedback: Meskipun minimalis, dokumentasi tetap diperlukan agar staf pemeliharaan dapat memahami sistem di masa depan.
+}
+
+::Soal 60 - C1:: Matriks yang menghubungkan persyaratan bisnis dengan kasus uji (test cases) disebut: {
+    ~A. Matriks Risiko.
+    =B. Requirement Traceability Matrix (RTM).
+    ~C. Matriks Akuntabilitas.
+    ~D. Matriks Anggaran.
+    #### Feedback: RTM memastikan bahwa setiap kebutuhan bisnis telah diverifikasi melalui pengujian yang sesuai.
+}
+
+::Soal 61 - C3:: Saat mengevaluasi rilis software, auditor melihat tidak ada bukti persetujuan dari pemilik data. Risikonya: {
+    ~A. Pengembang akan merasa kurang dihargai oleh manajemen.
+    =B. Perubahan yang tidak sesuai dengan kebutuhan bisnis dapat terimplementasi.
+    ~C. Kapasitas memori server akan menurun secara otomatis.
+    ~D. Kecepatan internet di seluruh kantor akan melambat.
+    #### Feedback: Persetujuan formal dari pemilik bisnis (Data Owner) sangat krusial untuk akuntabilitas rilis sistem.
+}
+
+::Soal 62 - C2:: Apa kegunaan utama dari lingkungan Staging (QA)? {
+    ~A. Tempat penyimpanan cadangan (backup) data pribadi karyawan.
+    =B. Tempat untuk menguji sistem dalam kondisi yang menyerupai produksi.
+    ~C. Ruang kerja bagi administrator untuk bermain game saat istirahat.
+    ~D. Lokasi fisik server lama yang sudah tidak digunakan lagi.
+    #### Feedback: Lingkungan staging memungkinkan pengujian akhir yang aman tanpa mengganggu aktivitas bisnis di sistem produksi.
+}
+
+::Soal 63 - C4:: Integrasi tim keamanan dalam fase desain SDLC membantu untuk: {
+    ~A. Menambah durasi proyek agar anggaran perjalanan meningkat.
+    =B. Mengidentifikasi dan merancang kontrol keamanan sejak awal.
+    ~C. Memastikan semua pengembang memiliki sertifikat keamanan fisik.
+    ~D. Mengurangi jumlah pengguna yang boleh mengakses sistem.
+    #### Feedback: Keterlibatan tim keamanan di awal memastikan persyaratan keamanan bukan merupakan tambahan yang dipaksakan di akhir.
+}
+
+::Soal 64 - C1:: Strategi rilis di mana sistem baru diberikan hanya kepada sekelompok kecil pengguna disebut: {
+    ~A. Big Bang Implementation.
+    =B. Pilot Implementation.
+    ~C. Parallel Implementation.
+    ~D. Direct Cutover.
+    #### Feedback: Implementasi Pilot memungkinkan organisasi menguji sistem di lingkungan nyata dengan risiko yang terbatas pada satu area saja.
+}
+
+::Soal 65 - C3:: Auditor menemukan bahwa 'Fallback Plan' belum diuji. Rekomendasi terbaik adalah: {
+    ~A. Mengabaikannya karena rencana cadangan jarang digunakan.
+    =B. Melakukan simulasi atau pengujian prosedur rollback sebelum go-live.
+    ~C. Meminta tim TI untuk tidak melakukan rollback apapun yang terjadi.
+    ~D. Menghapus rencana cadangan agar tim lebih fokus pada keberhasilan.
+    #### Feedback: Rencana cadangan hanya berguna jika terbukti dapat dijalankan saat terjadi kegagalan migrasi yang sesungguhnya.
+}
+
+::Soal 66 - C2:: Apa peran auditor SI dalam peninjauan Business Case? {
+    ~A. Mengambil alih penulisan Business Case dari departemen keuangan.
+    =B. Memverifikasi keandalan data dan kewajaran asumsi yang digunakan.
+    ~C. Membeli lisensi perangkat lunak yang diusulkan.
+    ~D. Menjamin bahwa proyek tersebut pasti akan sukses 100%.
+    #### Feedback: Auditor memastikan bahwa manajemen membuat keputusan berdasarkan informasi biaya dan manfaat yang akurat dan lengkap.
+}
+
+::Soal 67 - C4:: Risiko utama dari penggunaan pengembang pihak ketiga tanpa kontrak NDA (Non-Disclosure Agreement) adalah: {
+    ~A. Pengembang akan bekerja lebih lambat dari jadwal.
+    =B. Potensi pencurian kekayaan intelektual atau rahasia dagang perusahaan.
+    ~C. Vendor akan meminta tambahan biaya untuk makan siang.
+    ~D. Perangkat keras vendor akan cepat mengalami panas berlebih.
+    #### Feedback: NDA secara hukum melindungi informasi sensitif perusahaan agar tidak dibocorkan oleh pihak luar yang memiliki akses.
+}
+
+::Soal 68 - C1:: Pengujian yang dilakukan oleh pengembang di lingkungan mereka sendiri disebut: {
+    ~A. Alpha Testing.
+    =B. Unit Testing.
+    ~C. UAT.
+    ~D. Beta Testing.
+    #### Feedback: Unit testing adalah pengujian tahap awal yang dilakukan oleh pembuat kode untuk memvalidasi fungsi modul terkecil.
+}
+
+::Soal 69 - C3:: Seorang auditor menemukan bahwa perubahan sistem dilakukan langsung di server produksi. Saran auditor: {
+    ~A. Meminta staf TI melakukannya hanya pada malam hari saja.
+    =B. Mewajibkan perubahan melalui lingkungan dev dan test sebelum ke produksi.
+    ~C. Membiarkan hal tersebut selama sistem tidak mati.
+    ~D. Memberikan hadiah kepada staf yang berani melakukan perubahan langsung.
+    #### Feedback: Perubahan langsung di produksi tanpa pengujian sangat berbahaya dan merusak jejak audit serta stabilitas sistem.
+}
+
+::Soal 70 - C2:: Mengapa 'Lessons Learned' penting dalam fase penutupan proyek? {
+    ~A. Untuk menghukum anggota tim yang melakukan kesalahan fatal.
+    =B. Untuk memperbaiki proses manajemen proyek di masa mendatang.
+    ~C. Untuk mengisi waktu luang sebelum proyek baru dimulai.
+    ~D. Untuk menghapus semua dokumentasi yang tidak berguna.
+    #### Feedback: Dokumentasi pengalaman membantu organisasi menghindari kesalahan serupa dan mereplikasi keberhasilan pada proyek berikutnya.
+}
+
+::Soal 71 - C4:: Auditor menemukan bahwa 'User Requirements' bersifat ambigu. Akibatnya adalah: {
+    ~A. Sistem akan memiliki tampilan grafis yang sangat cantik.
+    =B. Deliverables sistem tidak akan sesuai dengan harapan bisnis pengguna.
+    ~C. Kecepatan printer di departemen pengguna akan meningkat.
+    ~D. Pengembang akan menyelesaikan pekerjaan lebih cepat dari rencana.
+    #### Feedback: Persyaratan yang tidak jelas menyebabkan interpretasi yang salah oleh pengembang, berujung pada kegagalan fungsional.
+}
+
+::Soal 72 - C1:: Proses pemindahan data dari format database lama ke format database baru disebut: {
+    ~A. Data Archiving.
+    =B. Data Conversion.
+    ~C. Data Masking.
+    ~D. Data Encryption.
+    #### Feedback: Konversi data adalah langkah kritis dalam migrasi sistem untuk menjamin kelangsungan data historis.
+}
+
+::Soal 73 - C3:: Kontrol manakah yang memastikan bahwa perangkat lunak yang diterima dari vendor bebas dari backdoor? {
+    ~A. Membaca brosur produk vendor dengan teliti.
+    =B. Melakukan peninjauan kode sumber (Source Code Review) atau scanning kerentanan.
+    ~C. Meminta vendor menandatangani pakta integritas saja.
+    ~D. Membayar invoice vendor lebih awal dari jatuh tempo.
+    #### Feedback: Verifikasi teknis melalui review atau scanning diperlukan untuk memastikan integritas keamanan produk dari pihak ketiga.
+}
+
+::Soal 74 - C2:: Apa yang dimaksud dengan 'Software Escrow Agreement'? {
+    ~A. Perjanjian untuk menyewa perangkat lunak dengan harga murah.
+    =B. Pihak ketiga menyimpan kode sumber untuk dilepaskan jika vendor gagal.
+    ~C. Perjanjian untuk memberikan pelatihan software secara gratis.
+    ~D. Perjanjian untuk memecat vendor jika ada bug kecil ditemukan.
+    #### Feedback: Perjanjian ini melindungi investasi organisasi jika vendor perangkat lunak bangkrut atau berhenti beroperasi.
+}
+
+::Soal 75 - C4:: Dampak dari tidak adanya fase pengujian regresi (Regression Testing) adalah: {
+    ~A. Biaya pengujian akan menjadi sangat mahal bagi perusahaan.
+    =B. Perubahan baru mungkin merusak fitur-fitur lama yang sebelumnya stabil.
+    ~C. Pengguna akan merasa lebih senang karena sistem sering berubah.
+    ~D. Administrator sistem tidak perlu lagi melakukan backup data.
+    #### Feedback: Pengujian regresi menjamin bahwa pembaruan atau perbaikan tidak menimbulkan efek samping negatif pada fungsi lain.
+}
+
+::Soal 76 - C1:: Model pengembangan sistem yang mengintegrasikan fase pengembangan dan pengujian secara sejajar adalah: {
+    ~A. Waterfall.
+    =B. V-Model.
+    ~C. Spiral Model.
+    ~D. Prototyping.
+    #### Feedback: V-Model menekankan hubungan antara setiap tingkat pengembangan dengan rencana pengujian yang sesuai di sisi lainnya.
+}
+
+::Soal 77 - C3:: Kontrol terbaik selama migrasi infrastruktur untuk meminimalkan gangguan bisnis adalah: {
+    ~A. Melakukan migrasi secara serentak di seluruh kantor cabang.
+    =B. Melakukan migrasi secara bertahap (Phased) dan di luar jam operasional.
+    ~C. Menonaktifkan seluruh sistem cadangan sebelum migrasi dimulai.
+    ~D. Meminta semua karyawan untuk mengambil cuti selama seminggu.
+    #### Feedback: Pendekatan bertahap di luar jam sibuk memberikan kesempatan untuk memulihkan layanan jika terjadi masalah teknis.
+}
+
+::Soal 78 - C2:: Apa kegunaan utama dari 'Stress Testing'? {
+    ~A. Mengukur tingkat kelelahan mental staf pengembang TI.
+    =B. Mengetahui titik hancur sistem di bawah beban kerja yang ekstrem.
+    ~C. Menentukan berapa banyak kopi yang dibutuhkan saat lembur.
+    ~D. Menghitung jumlah klik mouse yang bisa dilakukan pengguna.
+    #### Feedback: Stress testing membantu menentukan kapasitas maksimal sistem dan cara sistem bereaksi saat kelebihan beban.
+}
+
+::Soal 79 - C4:: Auditor menemukan bahwa 'Functional Testing' hanya dilakukan oleh pengembang. Risikonya: {
+    ~A. Pengujian akan berlangsung terlalu lama dan membosankan.
+    =B. Kurangnya objektivitas dan potensi mengabaikan kesalahan yang dibuat sendiri.
+    ~C. Biaya pengujian akan menurun drastis karena tidak butuh user.
+    ~D. Sistem akan berjalan lebih cepat setelah diimplementasikan.
+    #### Feedback: Pengujian harus melibatkan pihak independen atau pengguna untuk memastikan validitas hasil secara objektif.
+}
+
+::Soal 80 - C1:: Tahap dalam SDLC di mana sistem yang sudah tidak digunakan dihapus secara permanen disebut: {
+    ~A. Fase Implementasi.
+    =B. Fase Penghentian (Retirement/Disposal).
+    ~C. Fase Pemeliharaan.
+    ~D. Fase Desain.
+    #### Feedback: Fase penghentian mencakup pembersihan data sensitif dan penonaktifan aset fisik secara aman.
+}
+
+::Soal 81 - C3:: Seorang auditor mengevaluasi manajemen konfigurasi. Bukti manakah yang menunjukkan kontrol yang baik? {
+    ~A. Adanya stiker merk di setiap komputer karyawan.
+    =B. CMDB yang diperbarui secara otomatis setiap ada perubahan terautorisasi.
+    ~C. Manajer TI menghafal seluruh versi software di luar kepala.
+    ~D. Semua kabel jaringan diikat dengan rapi menggunakan isolasi warna-warni.
+    #### Feedback: Akurasi dan pembaruan CMDB secara real-time memastikan visibilitas terhadap seluruh aset sistem organisasi.
+}
+
+::Soal 82 - C2:: Apa fokus utama dari manajemen rilis (Release Management)? {
+    ~A. Menjual produk perangkat lunak kepada kompetitor.
+    =B. Mengelola pemindahan paket perubahan yang sudah teruji ke produksi.
+    ~C. Menentukan harga jual aplikasi di pasar terbuka.
+    ~D. Memberikan lisensi gratis kepada seluruh keluarga direksi.
+    #### Feedback: Manajemen rilis memastikan bahwa hanya versi sistem yang stabil dan disetujui yang diaktifkan bagi pengguna.
+}
+
+::Soal 83 - C4:: Kurangnya dokumentasi User Manual saat sistem go-live akan berakibat pada: {
+    ~A. Meningkatnya jumlah staf TI yang mengundurkan diri.
+    =B. Beban bantuan help desk yang tinggi dan frustrasi pengguna.
+    ~C. Monitor komputer pengguna akan menampilkan gambar yang buram.
+    ~D. Kecepatan koneksi jaringan lokal akan menurun secara sistemik.
+    #### Feedback: Tanpa panduan, pengguna akan kesulitan mengoperasikan sistem secara mandiri, yang meningkatkan biaya dukungan operasional.
+}
+
+::Soal 84 - C1:: Model SDLC yang paling cocok untuk proyek dengan persyaratan yang tidak pasti dan berubah-ubah adalah: {
+    ~A. Waterfall.
+    =B. Agile / Iterative.
+    ~C. Fixed Sequence.
+    ~D. V-Model.
+    #### Feedback: Metodologi Agile dirancang untuk adaptif terhadap perubahan melalui siklus pengembangan yang singkat dan berulang.
+}
+
+::Soal 85 - C3:: Kontrol manakah yang paling efektif selama fase konversi data untuk mendeteksi manipulasi data? {
+    ~A. Menggunakan algoritma enkripsi terbaru.
+    =B. Melakukan pengecekan hash (checksum) pada file sebelum dan sesudah konversi.
+    ~C. Menyimpan data di dalam brankas fisik yang terkunci.
+    ~D. Mempekerjakan staf tambahan untuk menonton monitor.
+    #### Feedback: Nilai hash yang identik membuktikan bahwa data tidak mengalami perubahan atau manipulasi selama proses pemindahan.
+}
+
+::Soal 86 - C2:: Apa yang dimaksud dengan 'Gap Analysis' dalam implementasi software paket? {
+    ~A. Mengukur jarak fisik antara gedung kantor dan pusat data.
+    =B. Mengevaluasi perbedaan fitur standar produk dengan kebutuhan bisnis.
+    ~C. Menghitung selisih gaji antara manajer proyek dan pengembang.
+    ~D. Menentukan jumlah hari libur yang tersisa bagi tim proyek.
+    #### Feedback: Gap Analysis membantu organisasi menentukan apakah perlu dilakukan kustomisasi atau perubahan proses bisnis untuk menyesuaikan dengan perangkat lunak.
+}
+
+::Soal 87 - C4:: Dampak dari tidak adanya kontrol pemisahan lingkungan (Dev, Test, Prod) adalah: {
+    ~A. Programmer akan bekerja lebih bersemangat karena akses yang luas.
+    =B. Risiko pengujian yang merusak data asli atau kode tidak teruji masuk ke produksi.
+    ~C. Biaya sewa server akan berkurang karena hanya butuh satu lingkungan.
+    ~D. Administrator jaringan tidak perlu lagi membuat aturan firewall.
+    #### Feedback: Pemisahan lingkungan sangat vital untuk menjaga integritas data operasional dan kestabilan sistem produksi.
+}
+
+::Soal 88 - C1:: Pengujian sistem yang dilakukan oleh sekelompok pengguna eksternal pilihan disebut: {
+    ~A. Alpha Testing.
+    =B. Beta Testing.
+    ~C. White Box Testing.
+    ~D. Unit Testing.
+    #### Feedback: Beta testing memberikan kesempatan bagi organisasi untuk mendapatkan umpan balik dari pengguna nyata sebelum rilis resmi.
+}
+
+::Soal 89 - C3:: Saat meninjau rencana proyek, auditor menemukan tidak ada waktu cadangan (buffer). Saran auditor: {
+    ~A. Meminta tim proyek untuk tidak tidur agar jadwal tetap terjaga.
+    =B. Menyarankan penambahan waktu cadangan untuk risiko yang tidak terduga.
+    ~C. Menghapus beberapa fitur keamanan agar proyek lebih cepat selesai.
+    ~D. Melaporkan manajer proyek karena terlalu optimis.
+    #### Feedback: Manajemen proyek yang realistis harus menyertakan kontinjensi waktu untuk menangani hambatan yang tak terduga.
+}
+
+::Soal 90 - C2:: Mengapa audit terhadap 'Configuration Management' penting bagi kepatuhan? {
+    ~A. Untuk memastikan semua komputer memiliki warna casing yang seragam.
+    =B. Untuk memastikan hanya perubahan yang terotorisasi yang ada di sistem.
+    ~C. Untuk menghitung jumlah lisensi software yang bisa dibajak.
+    ~D. Untuk menentukan siapa karyawan yang paling rajin membersihkan server.
+    #### Feedback: Manajemen konfigurasi memberikan bukti akuntabilitas bahwa kondisi sistem saat ini telah melalui proses persetujuan resmi.
+}
+
+::Soal 91 - C4:: Auditor menemukan bahwa 'System Requirements' hanya mencakup aspek fungsional. Risikonya: {
+    ~A. Pengguna akan sangat senang karena aplikasi sangat mudah digunakan.
+    =B. Sistem mungkin tidak aman, tidak stabil, atau memiliki performa buruk.
+    ~C. Biaya pengembangan akan menjadi nol karena fiturnya sedikit.
+    ~D. Server fisik tidak akan memerlukan daya listrik yang besar.
+    #### Feedback: Tanpa persyaratan non-fungsional, sistem yang dihasilkan mungkin gagal dalam aspek keamanan dan keandalan.
+}
+
+::Soal 92 - C1:: Metode untuk memverifikasi fungsionalitas sistem baru dengan menjalankan input yang sama ke sistem lama dan baru disebut: {
+    ~A. Unit Testing.
+    =B. Parallel Testing.
+    ~C. Regression Testing.
+    ~D. White Box Testing.
+    #### Feedback: Parallel testing memberikan keyakinan tertinggi bahwa sistem baru menghasilkan keluaran yang konsisten dengan sistem lama yang terbukti.
+}
+
+::Soal 93 - C3:: Auditor menemukan bahwa pengembang memiliki akses untuk melakukan rilis sendiri ke produksi. Kontrol kompensasi apa yang paling tepat? {
+    ~A. Menghapus seluruh log aktivitas rilis dari server.
+    =B. Peninjauan independen terhadap log rilis dan perubahan secara berkala.
+    ~C. Meminta pengembang berjanji untuk tidak melakukan rilis di hari libur.
+    ~D. Memasang kamera CCTV di depan monitor pengembang.
+    #### Feedback: Jika pemisahan tugas tidak memungkinkan, pemantauan log aktivitas secara independen dapat menjadi kontrol detektif.
+}
+
+::Soal 94 - C2:: Apa tujuan utama dari 'Post-Implementation Review' terkait anggaran? {
+    ~A. Mencari sisa uang proyek untuk dibagikan sebagai bonus.
+    =B. Membandingkan pengeluaran aktual dengan anggaran yang direncanakan.
+    ~C. Meminta tambahan dana kepada manajemen tanpa alasan jelas.
+    ~D. Menghapus catatan biaya agar audit tidak menemukan pemborosan.
+    #### Feedback: PIR membantu manajemen memahami varians biaya dan meningkatkan akurasi estimasi anggaran untuk proyek masa depan.
+}
+
+::Soal 95 - C4:: Jika pengujian keamanan dilakukan hanya pada akhir siklus pengembangan (SDLC), dampaknya adalah: {
+    ~A. Keamanan sistem akan terjamin 100% tanpa celah sama sekali.
+    =B. Perbaikan kerentanan mungkin memerlukan perubahan desain yang mahal atau tertunda.
+    ~C. Pengguna akan merasa lebih aman karena pengujian dilakukan paling akhir.
+    ~D. Administrator sistem tidak perlu lagi mengonfigurasi firewall.
+    #### Feedback: Keamanan harus diuji secara berkelanjutan (Shift Left) agar masalah dapat ditemukan dan diperbaiki lebih awal.
+}
+
+::Soal 96 - C1:: Dokumentasi yang menjelaskan struktur tabel dan relasi antar data di sistem baru disebut: {
+    ~A. Manual Pengguna.
+    =B. Kamus Data (Data Dictionary).
+    ~C. Brosur Vendor.
+    ~D. Rencana Pemasaran.
+    #### Feedback: Kamus data sangat penting bagi pengembang dan auditor untuk memahami integritas dan alur informasi dalam database.
+}
+
+::Soal 97 - C3:: Saat mengaudit proyek yang gagal, auditor menemukan Business Case tidak pernah ditinjau ulang. Saran auditor: {
+    ~A. Menyalahkan dewan direksi karena tidak teliti di awal.
+    =B. Mewajibkan peninjauan berkala kelayakan proyek saat terjadi perubahan besar.
+    ~C. Menghentikan semua proyek TI yang sedang berjalan di perusahaan.
+    ~D. Menyarankan perusahaan untuk tidak lagi menggunakan teknologi digital.
+    #### Feedback: Business Case adalah dokumen hidup; jika kondisi pasar atau biaya berubah drastis, kelayakan proyek harus dinilai kembali.
+}
+
+::Soal 98 - C2:: Apa manfaat utama dari penggunaan metodologi SDLC standar? {
+    ~A. Menghilangkan kebutuhan akan komunikasi antara pengguna dan pengembang.
+    =B. Memberikan pendekatan yang konsisten dan terukur dalam membangun sistem.
+    ~C. Menjamin bahwa proyek tidak akan pernah mengalami keterlambatan.
+    ~D. Mengurangi gaji seluruh anggota tim pengembang proyek.
+    #### Feedback: Metodologi standar meningkatkan peluang keberhasilan proyek melalui fase-fase yang terstruktur dan terdokumentasi.
+}
+
+::Soal 99 - C4:: Kegagalan untuk melakukan pembaruan (patching) pada perangkat lunak infrastruktur akan mengakibatkan: {
+    ~A. Kecepatan internet di kantor akan meningkat secara otomatis.
+    =B. Kerentanan keamanan tetap terbuka dan dapat dieksploitasi oleh peretas.
+    ~C. Biaya lisensi tahunan software akan otomatis hangus.
+    ~D. Pengguna tidak akan mampu mengakses email kantor mereka.
+    #### Feedback: Patching infrastruktur adalah pertahanan dasar untuk melindungi sistem dari serangan siber yang memanfaatkan celah yang sudah diketahui.
+}
+
+::Soal 100 - C3:: Seorang auditor meninjau implementasi sistem ERP baru. Dokumen manakah yang paling menunjukkan kesiapan rilis? {
+    ~A. Daftar merk laptop yang digunakan tim proyek.
+    =B. Laporan hasil pengujian yang ditandatangani dan disetujui (UAT Sign-off).
+    ~C. Kwitansi biaya makan malam perayaan rilis sistem.
+    ~D. Foto-foto kebersamaan tim pengembang saat lembur.
+    #### Feedback: Persetujuan formal UAT (Sign-off) adalah bukti sah bahwa pengguna bisnis telah menerima sistem dan siap untuk mengoperasikannya.
+}
